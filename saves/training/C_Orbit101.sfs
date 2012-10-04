@@ -1,0 +1,1242 @@
+GAME
+{
+	version = 0.17.0
+	Title = Orbiting 101
+	Description = This training scenario covers the basics of flying a spacecraft in orbit: Essential maneuvers like raising and lowering apoapsis and periapsis nodes, and also important concepts, such as what the terms "apoapsis" and "periapsis" mean. You'll start off in a low circular orbit around Kerbin, with the Orbiter 1 training craft ready to go. 
+	Mode = 3
+	scene = 7
+	PARAMETERS
+	{
+		FLIGHT
+		{
+			CanQuickSave = True
+			CanQuickLoad = True
+			CanAutoSave = True
+			CanUseMap = True
+			CanSwitchVesselsNear = False
+			CanSwitchVesselsFar = False
+			CanTimeWarpHigh = True
+			CanTimeWarpLow = True
+			CanEVA = False
+			CanIVA = False
+			CanBoard = False
+			CanRestart = True
+			CanLeaveToEditor = False
+			CanLeaveToTrackingStation = False
+			CanLeaveToSpaceCenter = False
+			CanLeaveToMainMenu = True
+		}	
+		EDITOR
+		{
+			CanSave = False
+			CanLoad = False
+			CanStartNew = False
+			CanLaunch = False
+			CanLeaveToSpaceCenter = False
+			CanLeaveToMainMenu = True
+			startUpMode = 0
+		}
+		TRACKINGSTATION
+		{
+			CanFlyVessel = True
+			CanAbortVessel = True
+			CanSave = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		SPACECENTER
+		{
+			CanSave = True
+			CanGoInVAB = True
+			CanGoInSPH = True
+			CanGoInTrackingStation = True
+			CanLaunchAtPad = True
+			CanLaunchAtRunway = True
+			CanLeaveToMainMenu = True
+		}		
+	}	
+	FLIGHTSTATE
+	{
+		version = 0.17.0
+		UT = 62650.7981692006
+		activeVessel = 0
+		CREW
+		{
+			name = Jebediah Kerman
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			state = 1
+			ToD = 63441.9771250529
+			idx = 0
+		}
+		CREW
+		{
+			name = Bill Kerman
+			brave = 0.5
+			dumb = 0.8
+			badS = False
+			state = 1
+			ToD = 63986.7371128766
+			idx = 1
+		}
+		CREW
+		{
+			name = Bob Kerman
+			brave = 0.3
+			dumb = 0.1
+			badS = False
+			state = 1
+			ToD = 63943.677113839
+			idx = 2
+		}
+		VESSEL
+		{
+			pid = 0407313740cb4c5c8bc6089958476456
+			name = Orbiter 1A
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 866.779889530881
+			lct = 62017.2371121948
+			root = 0
+			lat = -4.94747500298251E-06
+			lon = -96.5261649643752
+			alt = 99643.5639822597
+			hgt = -1
+			nrm = 0.7535442,0.657237,0.01453202
+			rot = 0.2666781,0.6591873,-0.6591996,0.2445628
+			CoM = 7.039983E-05,-2.209796,4.611402E-06
+			stg = 2
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 750020.483469032
+				ECC = 0.1
+				INC = 3.72151304466894E-06
+				LPE = 286.496028657145
+				LAN = 89.4817977836787
+				MNA = 5.3345871726711
+				EPH = 62884.0170017257
+				REF = 1
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4292643846
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 6
+				attN = top, 1
+				mass = 4
+				temp = -160.2446
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 0
+				crew = 1
+				crew = 2
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4292643734
+				parent = 0
+				position = 0,1.19525527954102,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = -160.2141
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292643690
+				parent = 1
+				position = 0,1.31680488586426,0.537204623222351
+				rotation = -0.7071068,0,0,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 2
+				attm = 1
+				sym = 3
+				sym = 4
+				sym = 5
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -159.5034
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292643642
+				parent = 1
+				position = 0.537204742431641,1.31680488586426,-6.70552253723145E-08
+				rotation = -0.4999999,-0.5000001,0.5000001,-0.4999999
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 3
+				attm = 1
+				sym = 2
+				sym = 4
+				sym = 5
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -159.3531
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292643594
+				parent = 1
+				position = -1.04308128356934E-07,1.31680488586426,-0.537204563617706
+				rotation = 0,-0.7071068,0.7071068,0
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 4
+				attm = 1
+				sym = 2
+				sym = 3
+				sym = 5
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -159.2031
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292643546
+				parent = 1
+				position = -0.537204742431641,1.31680488586426,2.98023223876953E-08
+				rotation = -0.5,0.5,-0.5,-0.5
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 5
+				attm = 1
+				sym = 2
+				sym = 3
+				sym = 4
+				srfN = srfAttach, 1
+				mass = 0.05
+				temp = -159.0535
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4292643498
+				parent = 0
+				position = 0,-0.930097579956055,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 7
+				attN = top, 0
+				mass = 0.5
+				temp = -159.9089
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank2-2
+				uid = 4292643464
+				parent = 6
+				position = 0,-2.23306798934937,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 6
+				attN = bottom, 8
+				mass = 9
+				temp = -160.6563
+				expt = 0.9
+				state = 0
+				connected = True
+				attached = True
+				fuel = 1600, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = advSasModule
+				uid = 4292643440
+				parent = 7
+				position = 0,-4.1304497718811,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 7
+				attN = bottom, 9
+				mass = 0.8
+				temp = -160.248
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = RCSFuelTank
+				uid = 4292643410
+				parent = 8
+				position = 0,-4.67564296722412,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = top, 8
+				attN = bottom, 16
+				mass = 0.5
+				temp = -160.8943
+				expt = 0.7
+				state = 0
+				connected = True
+				attached = True
+				qty = 200, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292643380
+				parent = 9
+				position = 0.369614809751511,-4.50108861923218,0.640191793441772
+				rotation = 1.127691E-08,-0.258819,-4.671048E-09,-0.9659259
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 3
+				attm = 1
+				sym = 11
+				sym = 12
+				sym = 13
+				sym = 14
+				sym = 15
+				srfN = srfAttach, 9
+				mass = 0.1
+				temp = -159.7623
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292643306
+				parent = 9
+				position = 0.739229798316956,-4.50108861923218,8.19563865661621E-08
+				rotation = 7.430571E-09,-0.7071068,-9.683704E-09,-0.7071068
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 4
+				attm = 1
+				sym = 10
+				sym = 12
+				sym = 13
+				sym = 14
+				sym = 15
+				srfN = srfAttach, 9
+				mass = 0.1
+				temp = -159.6138
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292643232
+				parent = 9
+				position = 0.369614988565445,-4.50108861923218,-0.640191793441772
+				rotation = 1.593211E-09,-0.9659258,-1.210162E-08,-0.2588191
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 5
+				attm = 1
+				sym = 10
+				sym = 11
+				sym = 13
+				sym = 14
+				sym = 15
+				srfN = srfAttach, 9
+				mass = 0.1
+				temp = -159.4661
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292643158
+				parent = 9
+				position = -0.369614899158478,-4.50108861923218,-0.640191853046417
+				rotation = -4.671048E-09,-0.9659259,-1.127691E-08,0.258819
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 6
+				attm = 1
+				sym = 10
+				sym = 11
+				sym = 12
+				sym = 14
+				sym = 15
+				srfN = srfAttach, 9
+				mass = 0.1
+				temp = -159.3186
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292643084
+				parent = 9
+				position = -0.739229917526245,-4.50108861923218,-2.60770320892334E-07
+				rotation = -9.683703E-09,-0.7071069,-7.430572E-09,0.7071067
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 7
+				attm = 1
+				sym = 10
+				sym = 11
+				sym = 12
+				sym = 13
+				sym = 15
+				srfN = srfAttach, 9
+				mass = 0.1
+				temp = -159.1716
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292643010
+				parent = 9
+				position = -0.369615107774735,-4.50108861923218,0.640191733837128
+				rotation = 1.210162E-08,0.2588191,1.593212E-09,-0.9659258
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 8
+				attm = 1
+				sym = 10
+				sym = 11
+				sym = 12
+				sym = 13
+				sym = 14
+				srfN = srfAttach, 9
+				mass = 0.1
+				temp = -159.0248
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = RCSFuelTank
+				uid = 4292642936
+				parent = 9
+				position = 0,-5.22743082046509,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 9
+				attm = 0
+				srfN = None, -1
+				attN = top, 9
+				attN = None, -1
+				mass = 0.5
+				temp = -159.8898
+				expt = 0.7
+				state = 0
+				connected = True
+				attached = True
+				qty = 200, FLOAT
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292642906
+				parent = 16
+				position = -0.622826993465424,-5.11227560043335,2.98023223876953E-08
+				rotation = 0.5083203,-0.4925863,0.5072734,0.4915719
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 10
+				attm = 1
+				sym = 18
+				sym = 19
+				sym = 20
+				srfN = srfAttach, 16
+				mass = 0.05
+				temp = -159.3865
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292642858
+				parent = 16
+				position = 1.04308128356934E-07,-5.11227560043335,0.622826993465424
+				rotation = 0.7181332,-0.000717296,-0.0007403331,0.695905
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 11
+				attm = 1
+				sym = 17
+				sym = 19
+				sym = 20
+				srfN = srfAttach, 16
+				mass = 0.05
+				temp = -159.2374
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292642810
+				parent = 16
+				position = 0.622826933860779,-5.11227560043335,-8.94069671630859E-08
+				rotation = 0.5072734,0.4915719,-0.5083203,0.4925863
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 12
+				attm = 1
+				sym = 17
+				sym = 18
+				sym = 20
+				srfN = srfAttach, 16
+				mass = 0.05
+				temp = -159.0886
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292642762
+				parent = 16
+				position = -1.04308128356934E-07,-5.11227560043335,-0.622826993465424
+				rotation = 0.0007403018,-0.695905,0.7181332,-0.0007173265
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 13
+				attm = 1
+				sym = 17
+				sym = 18
+				sym = 19
+				srfN = srfAttach, 16
+				mass = 0.05
+				temp = -158.9404
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = tailfin
+				uid = 4292642714
+				parent = 7
+				position = -1.04308128356934E-07,-3.10973691940308,-1.2075502872467
+				rotation = 0,0.7071068,0,0.7071068
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 14
+				attm = 1
+				sym = 29
+				sym = 37
+				srfN = srfAttach, 7
+				mass = 0.02
+				temp = -160.2952
+				expt = 0.1
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = radialEngineBody
+				uid = 4292642684
+				parent = 21
+				position = -0.0215734019875526,-3.54933881759644,-2.05849933624268
+				rotation = -3.960897E-09,0.9998744,-0.01585349,-1.685821E-07
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 15
+				attm = 1
+				sym = 30
+				sym = 38
+				srfN = srfAttach, 21
+				attN = top, 24
+				attN = bottom, 23
+				mass = 0.3
+				temp = -159.8952
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = liquidEngine3
+				uid = 4292642656
+				parent = 22
+				position = -0.0215734019875526,-4.76809883117676,-2.01984238624573
+				rotation = -0.01585349,-5.297096E-12,7.912164E-09,0.9998744
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 16
+				attm = 0
+				sym = 31
+				sym = 39
+				srfN = None, -1
+				attN = top, 22
+				attN = None, -1
+				mass = 0.5
+				temp = -159.3826
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = noseConeAdapter
+				uid = 4292642588
+				parent = 22
+				position = -0.0215734019875526,-2.06258678436279,-2.10565829277039
+				rotation = -0.01585349,-5.297096E-12,6.595075E-09,0.9998744
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 17
+				attm = 0
+				sym = 32
+				sym = 40
+				srfN = None, -1
+				attN = top, 25
+				attN = bottom01, 22
+				mass = 0.3
+				temp = -159.4684
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = standardNoseCone
+				uid = 4292642558
+				parent = 24
+				position = -0.021573394536972,-1.19677257537842,-2.13312125205994
+				rotation = -0.01585349,-5.297096E-12,6.595075E-09,0.9998744
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 18
+				attm = 0
+				sym = 33
+				sym = 41
+				srfN = None, -1
+				attN = bottom01, 24
+				mass = 0.1
+				temp = -159.2274
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = tailfin
+				uid = 4292642528
+				parent = 21
+				position = -0.026755802333355,-3.14709281921387,-1.20262229442596
+				rotation = 0,-0.7071068,0,0.7071068
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 19
+				attm = 1
+				sym = 34
+				sym = 42
+				srfN = srfAttach, 21
+				mass = 0.02
+				temp = -159.3824
+				expt = 0.1
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292642498
+				parent = 21
+				position = -0.0392477139830589,-2.36828994750977,-1.36019134521484
+				rotation = 0.5000002,-0.4999999,0.4999999,0.5000002
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 20
+				attm = 1
+				sym = 35
+				sym = 43
+				srfN = srfAttach, 21
+				mass = 0.05
+				temp = -159.2342
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292642450
+				parent = 21
+				position = 0.0392474979162216,-2.35491895675659,-1.38672935962677
+				rotation = 0.4999999,0.5000002,-0.5000002,0.4999999
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 21
+				attm = 1
+				sym = 36
+				sym = 44
+				srfN = srfAttach, 21
+				mass = 0.05
+				temp = -159.0876
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = tailfin
+				uid = 4292642402
+				parent = 7
+				position = -1.045769572258,-3.10973691940308,0.603775441646576
+				rotation = 0,0.9659259,0,-0.2588191
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 22
+				attm = 1
+				sym = 21
+				sym = 37
+				srfN = srfAttach, 7
+				mass = 0.02
+				temp = -160.2311
+				expt = 0.1
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = radialEngineBody
+				uid = 4292642372
+				parent = 29
+				position = -1.77192652225494,-3.54933881759644,1.04793274402618
+				rotation = -0.01372953,0.4999371,-0.007926741,-0.8659167
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 23
+				attm = 1
+				sym = 22
+				sym = 38
+				srfN = srfAttach, 29
+				attN = top, 32
+				attN = bottom, 31
+				mass = 0.3
+				temp = -159.8794
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = liquidEngine3
+				uid = 4292642344
+				parent = 30
+				position = -1.73844861984253,-4.76809883117676,1.02860379219055
+				rotation = -0.007926738,0.8659167,0.01372953,0.4999372
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 24
+				attm = 0
+				sym = 23
+				sym = 39
+				srfN = None, -1
+				attN = top, 30
+				attN = None, -1
+				mass = 0.5
+				temp = -159.3774
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = noseConeAdapter
+				uid = 4292642276
+				parent = 30
+				position = -1.81276774406433,-2.06258678436279,1.07151174545288
+				rotation = -0.007926742,0.8659167,0.01372953,0.4999372
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 25
+				attm = 0
+				sym = 24
+				sym = 40
+				srfN = None, -1
+				attN = top, 33
+				attN = bottom01, 30
+				mass = 0.3
+				temp = -159.4642
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = standardNoseCone
+				uid = 4292642246
+				parent = 32
+				position = -1.83655059337616,-1.19677257537842,1.0852438211441
+				rotation = -0.007926741,0.8659167,0.01372953,0.4999372
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 26
+				attm = 0
+				sym = 25
+				sym = 41
+				srfN = None, -1
+				attN = bottom01, 32
+				mass = 0.1
+				temp = -159.2262
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = tailfin
+				uid = 4292642216
+				parent = 29
+				position = -1.02812361717224,-3.14709281921387,0.624482214450836
+				rotation = 0,0.2588191,0,0.9659259
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 27
+				attm = 1
+				sym = 26
+				sym = 42
+				srfN = srfAttach, 29
+				mass = 0.02
+				temp = -159.3589
+				expt = 0.1
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292642186
+				parent = 29
+				position = -1.15833628177643,-2.36828994750977,0.714084982872009
+				rotation = 0.6830127,0.1830129,-0.1830129,0.6830127
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 28
+				attm = 1
+				sym = 27
+				sym = 43
+				srfN = srfAttach, 29
+				mass = 0.05
+				temp = -159.2108
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292642138
+				parent = 29
+				position = -1.22056746482849,-2.35491895675659,0.659375309944153
+				rotation = -0.1830129,0.6830127,-0.6830127,-0.1830129
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 29
+				attm = 1
+				sym = 28
+				sym = 44
+				srfN = srfAttach, 29
+				mass = 0.05
+				temp = -159.0643
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = tailfin
+				uid = 4292642090
+				parent = 7
+				position = 1.04576969146729,-3.10973691940308,0.603775322437286
+				rotation = 0,-0.258819,0,0.9659259
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 30
+				attm = 1
+				sym = 21
+				sym = 29
+				srfN = srfAttach, 7
+				mass = 0.02
+				temp = -160.1668
+				expt = 0.1
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = radialEngineBody
+				uid = 4292642060
+				parent = 37
+				position = 1.79349970817566,-3.54933881759644,1.0105676651001
+				rotation = 0.01372952,0.4999373,-0.007926746,0.8659166
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 31
+				attm = 1
+				sym = 22
+				sym = 30
+				srfN = srfAttach, 37
+				attN = top, 40
+				attN = bottom, 39
+				mass = 0.3
+				temp = -159.8634
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = liquidEngine3
+				uid = 4292642032
+				parent = 38
+				position = 1.76002073287964,-4.76809883117676,0.991238653659821
+				rotation = -0.007926749,-0.8659167,-0.01372952,0.4999371
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 32
+				attm = 0
+				sym = 23
+				sym = 31
+				srfN = None, -1
+				attN = top, 38
+				attN = None, -1
+				mass = 0.5
+				temp = -159.3723
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = noseConeAdapter
+				uid = 4292641964
+				parent = 38
+				position = 1.83433961868286,-2.06258678436279,1.03414666652679
+				rotation = -0.00792675,-0.8659167,-0.01372952,0.4999371
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 33
+				attm = 0
+				sym = 24
+				sym = 32
+				srfN = None, -1
+				attN = top, 41
+				attN = bottom01, 38
+				mass = 0.3
+				temp = -159.4602
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = standardNoseCone
+				uid = 4292641934
+				parent = 40
+				position = 1.85812270641327,-1.19677257537842,1.04787766933441
+				rotation = -0.007926752,-0.8659167,-0.01372952,0.4999371
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 34
+				attm = 0
+				sym = 25
+				sym = 33
+				srfN = None, -1
+				attN = bottom01, 40
+				mass = 0.1
+				temp = -159.2249
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = tailfin
+				uid = 4292641904
+				parent = 37
+				position = 1.05487871170044,-3.14709281921387,0.578140139579773
+				rotation = 0,-0.9659259,0,-0.2588191
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 35
+				attm = 1
+				sym = 26
+				sym = 34
+				srfN = srfAttach, 37
+				mass = 0.02
+				temp = -159.335
+				expt = 0.1
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292641874
+				parent = 37
+				position = 1.19758367538452,-2.36828994750977,0.646106004714966
+				rotation = -0.1830126,-0.6830128,0.6830128,-0.1830126
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 36
+				attm = 1
+				sym = 27
+				sym = 35
+				srfN = srfAttach, 37
+				mass = 0.05
+				temp = -159.1875
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = linearRcs
+				uid = 4292641826
+				parent = 37
+				position = 1.18131864070892,-2.35491895675659,0.727354228496552
+				rotation = 0.6830128,-0.1830126,0.1830126,0.6830128
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 37
+				attm = 1
+				sym = 28
+				sym = 36
+				srfN = srfAttach, 37
+				mass = 0.05
+				temp = -159.0412
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+		}		
+	}
+	SCENARIO
+	{
+		name = TutorialOrbit101
+		scene = 7
+	}
+}

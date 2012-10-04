@@ -1,0 +1,6 @@
+MultiMech_JebPod_LockDown, , , 0,0,0, 0,0,0,1, 1,1,1
+lockdown, 0, , 0,0.001751,0, 0,0,0,1, 0.0254,0.0254,0.0254
+lockdown-Pivot, 1, mesh2.msh, 0,7.03079,0, 0,0,0,1, 1,1,1
+node_collider, 0, , 0,0.021,0, 0,0,0,1, 0.016915,0.000172,0.016915
+node_collider-Pivot, 3, mesh4.msh, 0,-6.002507,-1E-06, 0,0,0,1, 1,1,1
+EOF

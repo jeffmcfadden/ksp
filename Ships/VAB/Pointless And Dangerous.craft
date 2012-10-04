@@ -1,0 +1,384 @@
+ship = Pointless And Dangerous
+version = 0.17.0
+type = VAB
+PART
+{
+	part = Mark1-2Pod_4294610048
+	pos = 1.030768E-08,9.293269,9.48244E-07
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = fuelTank2-2_4294594830
+	link = largeAdapter_4294597970
+	attN = bottom, fuelTank2-2_4294594830
+	attN = top, largeAdapter_4294597970
+}
+PART
+{
+	part = fuelTank2-2_4294594830
+	pos = 1.030768E-08,7.876529,9.48244E-07
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = -1
+	attm = 0
+	link = liquidEngine1-2_4294589928
+	link = CanardController_4294556898
+	link = CanardController_4294556854
+	link = CanardController_4294556810
+	link = CanardController_4294556990
+	attN = top, Mark1-2Pod_4294610048
+	attN = bottom, liquidEngine1-2_4294589928
+}
+PART
+{
+	part = liquidEngine1-2_4294589928
+	pos = 1.030768E-08,5.873721,9.48244E-07
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 7
+	sqor = -1
+	attm = 0
+	attN = top, fuelTank2-2_4294594830
+}
+PART
+{
+	part = largeAdapter_4294597970
+	pos = 1.030768E-08,11.23646,9.48244E-07
+	rot = 0,0,1,0
+	attRot = 0,0,0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = launchClamp1_4294592858
+	link = launchClamp1_4294592750
+	link = launchClamp1_4294592642
+	link = launchClamp1_4294593424
+	link = asasmodule1-2_4294572114
+	attN = top, Mark1-2Pod_4294610048
+	attN = bottom, asasmodule1-2_4294572114
+}
+PART
+{
+	part = launchClamp1_4294593424
+	pos = -8.281894E-08,10.06899,-1.309829
+	rot = -0.1909581,4.790621E-08,1.735074E-08,0.9815982
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 3
+	sqor = -1
+	attm = 1
+	sym = launchClamp1_4294592858
+	sym = launchClamp1_4294592750
+	sym = launchClamp1_4294592642
+	srfN = srfAttach, largeAdapter_4294597970
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 4.074507
+		height = 10.28078
+		towerRot = 0.1909581,1.063246E-05,2.063211E-06,0.9815982
+	}
+}
+PART
+{
+	part = launchClamp1_4294592858
+	pos = -1.30983,10.06899,9.632987E-07
+	rot = -0.1350278,0.6940948,0.1350278,0.6940947
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 4
+	sqor = -1
+	attm = 1
+	sym = launchClamp1_4294593424
+	sym = launchClamp1_4294592750
+	sym = launchClamp1_4294592642
+	srfN = srfAttach, largeAdapter_4294597970
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 4.074507
+		height = 10.28078
+		towerRot = 0.1909561,-0.004522956,-0.0008798956,0.9815878
+	}
+}
+PART
+{
+	part = launchClamp1_4294592750
+	pos = 2.179433E-07,10.06899,1.309831
+	rot = 2.569778E-08,0.9815982,0.1909581,-9.081323E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 5
+	sqor = -1
+	attm = 1
+	sym = launchClamp1_4294593424
+	sym = launchClamp1_4294592858
+	sym = launchClamp1_4294592642
+	srfN = srfAttach, largeAdapter_4294597970
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 4.074507
+		height = 10.28078
+		towerRot = 0.1909561,-0.004523084,-0.0008799201,0.9815878
+	}
+}
+PART
+{
+	part = launchClamp1_4294592642
+	pos = 1.30983,10.06899,7.770454E-07
+	rot = 0.1350278,0.6940947,0.1350278,-0.6940948
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 6
+	sqor = -1
+	attm = 1
+	sym = launchClamp1_4294593424
+	sym = launchClamp1_4294592858
+	sym = launchClamp1_4294592750
+	srfN = srfAttach, largeAdapter_4294597970
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 4.074507
+		height = 10.28078
+		towerRot = 0.1909561,-0.004522956,-0.0008798956,0.9815878
+	}
+}
+PART
+{
+	part = asasmodule1-2_4294572114
+	pos = 1.030768E-08,12.24146,9.48244E-07
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 8
+	sqor = -1
+	attm = 0
+	link = largeAdapter_4294569054
+	attN = top, largeAdapter_4294569054
+	attN = bottom, largeAdapter_4294597970
+}
+PART
+{
+	part = largeAdapter_4294569054
+	pos = 1.030768E-08,13.24646,9.48244E-07
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 9
+	sqor = -1
+	attm = 0
+	link = noseCone_4294559200
+	link = AdvancedCanard_4294554934
+	link = AdvancedCanard_4294554894
+	link = AdvancedCanard_4294554854
+	link = AdvancedCanard_4294555224
+	attN = top, noseCone_4294559200
+	attN = bottom, asasmodule1-2_4294572114
+}
+PART
+{
+	part = noseCone_4294559200
+	pos = 1.030768E-08,13.99646,9.48244E-07
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 10
+	sqor = -1
+	attm = 0
+	attN = bottom01, largeAdapter_4294569054
+}
+PART
+{
+	part = CanardController_4294556898
+	pos = -0.8692149,7.686285,0.8692154
+	rot = 1.452682E-07,-0.3826834,5.421455E-07,-0.9238796
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 12
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294556990
+	sym = CanardController_4294556854
+	sym = CanardController_4294556810
+	srfN = srfAttach, fuelTank2-2_4294594830
+}
+PART
+{
+	part = CanardController_4294556854
+	pos = 0.8692147,7.686285,0.8692158
+	rot = 4.860749E-07,-0.9238796,2.806346E-07,-0.3826835
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 13
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294556990
+	sym = CanardController_4294556898
+	sym = CanardController_4294556810
+	srfN = srfAttach, fuelTank2-2_4294594830
+}
+PART
+{
+	part = CanardController_4294556810
+	pos = 0.8692148,7.686285,-0.8692136
+	rot = 5.421455E-07,-0.9238796,-1.452682E-07,0.3826834
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 14
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294556990
+	sym = CanardController_4294556898
+	sym = CanardController_4294556854
+	srfN = srfAttach, fuelTank2-2_4294594830
+}
+PART
+{
+	part = CanardController_4294556990
+	pos = -0.8692146,7.686285,-0.8692139
+	rot = -2.806346E-07,0.3826835,4.860749E-07,-0.9238796
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 11
+	sqor = -1
+	attm = 1
+	sym = CanardController_4294556898
+	sym = CanardController_4294556854
+	sym = CanardController_4294556810
+	srfN = srfAttach, fuelTank2-2_4294594830
+}
+PART
+{
+	part = AdvancedCanard_4294554934
+	pos = -0.9351681,13.19315,9.742587E-07
+	rot = 2.107342E-08,-4.214685E-08,0.190958,-0.9815983
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 16
+	sqor = -1
+	attm = 1
+	sym = AdvancedCanard_4294555224
+	sym = AdvancedCanard_4294554894
+	sym = AdvancedCanard_4294554854
+	srfN = srfAttach, largeAdapter_4294569054
+}
+PART
+{
+	part = AdvancedCanard_4294554894
+	pos = 1.738177E-07,13.19315,0.9351692
+	rot = 0.1350277,-0.6940949,0.1350277,-0.6940947
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 17
+	sqor = -1
+	attm = 1
+	sym = AdvancedCanard_4294555224
+	sym = AdvancedCanard_4294554934
+	sym = AdvancedCanard_4294554854
+	srfN = srfAttach, largeAdapter_4294569054
+}
+PART
+{
+	part = AdvancedCanard_4294554854
+	pos = 0.9351681,13.19315,8.107486E-07
+	rot = 0.190958,-0.9815983,-2.107342E-08,4.214685E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 18
+	sqor = -1
+	attm = 1
+	sym = AdvancedCanard_4294555224
+	sym = AdvancedCanard_4294554934
+	sym = AdvancedCanard_4294554894
+	srfN = srfAttach, largeAdapter_4294569054
+}
+PART
+{
+	part = AdvancedCanard_4294555224
+	pos = -7.144732E-08,13.19315,-0.9351673
+	rot = -0.1350277,0.6940948,0.1350277,-0.6940948
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 15
+	sqor = -1
+	attm = 1
+	sym = AdvancedCanard_4294554934
+	sym = AdvancedCanard_4294554894
+	sym = AdvancedCanard_4294554854
+	srfN = srfAttach, largeAdapter_4294569054
+}

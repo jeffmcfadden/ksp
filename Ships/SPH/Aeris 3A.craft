@@ -1,0 +1,248 @@
+ship = Aeris 3A
+version = 0.16.0
+type = SPH
+PART
+{
+	part = Mark1Cockpit_4292029874
+	pos = -0.3167631,4.906139,3.286992
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = MK1Fuselage_4292029826
+	link = R8winglet_4292029560
+	link = R8winglet_4292029514
+	link = SmallGearBay_4292029468
+	attN = bottom, MK1Fuselage_4292029826
+}
+PART
+{
+	part = MK1Fuselage_4292029826
+	pos = -0.3167631,4.906139,2.086991
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = MK1Fuselage_4292029796
+	link = telescopicLadder_4292029022
+	attN = top, Mark1Cockpit_4292029874
+	attN = bottom, MK1Fuselage_4292029796
+}
+PART
+{
+	part = MK1Fuselage_4292029796
+	pos = -0.3167631,4.906139,0.2119837
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = -1
+	attm = 0
+	link = JetEngine_4292029766
+	link = deltaWing_4292029708
+	link = deltaWing_4292029680
+	attN = top, MK1Fuselage_4292029826
+	attN = bottom, JetEngine_4292029766
+}
+PART
+{
+	part = JetEngine_4292029766
+	pos = -0.3167631,4.906139,-1.704642
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 3
+	sqor = -1
+	attm = 0
+	attN = top, MK1Fuselage_4292029796
+}
+PART
+{
+	part = deltaWing_4292029708
+	pos = 0.183504,4.571623,0.4083393
+	rot = -0.03084426,0.7064337,0.706434,-0.03084442
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 4
+	sqor = -1
+	attm = 1
+	link = R8winglet_4292029652
+	link = SmallGearBay_4292029350
+	link = StandardCtrlSrf_4292029114
+	sym = deltaWing_4292029680
+	srfN = srfAttach, MK1Fuselage_4292029796
+}
+PART
+{
+	part = deltaWing_4292029680
+	pos = -0.8170303,4.571623,0.4083393
+	rot = 0.7064339,-0.03084439,-0.03084422,0.7064337
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 5
+	sqor = -1
+	attm = 1
+	link = R8winglet_4292029606
+	link = SmallGearBay_4292029232
+	link = StandardCtrlSrf_4292029068
+	sym = deltaWing_4292029708
+	srfN = srfAttach, MK1Fuselage_4292029796
+}
+PART
+{
+	part = R8winglet_4292029652
+	pos = 3.658181,5.47434,-0.6069779
+	rot = -0.5213344,0.4777139,0.4777141,-0.5213344
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 6
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4292029606
+	srfN = srfAttach, deltaWing_4292029708
+}
+PART
+{
+	part = R8winglet_4292029606
+	pos = -4.29169,5.47434,-0.6069779
+	rot = -0.4777139,0.5213345,0.5213344,-0.4777139
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 7
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4292029652
+	srfN = srfAttach, deltaWing_4292029680
+}
+PART
+{
+	part = R8winglet_4292029560
+	pos = 0.658361,4.794185,4.001429
+	rot = -0.01810351,0.7287843,0.6680986,0.1489639
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 8
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4292029514
+	srfN = srfAttach, Mark1Cockpit_4292029874
+}
+PART
+{
+	part = R8winglet_4292029514
+	pos = -1.291887,4.794185,4.001429
+	rot = 0.6680984,0.148964,-0.01810352,0.7287844
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 9
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4292029560
+	srfN = srfAttach, Mark1Cockpit_4292029874
+}
+PART
+{
+	part = SmallGearBay_4292029468
+	pos = -0.3167631,4.374431,4.344112
+	rot = -8.573104E-08,0.9936191,-0.1127891,1.287174E-10
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 10
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Mark1Cockpit_4292029874
+}
+PART
+{
+	part = SmallGearBay_4292029350
+	pos = 0.8844973,4.393053,0.421916
+	rot = 8.42937E-08,1.318354E-07,1.001756E-06,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 11
+	sqor = -1
+	attm = 1
+	sym = SmallGearBay_4292029232
+	srfN = srfAttach, deltaWing_4292029708
+}
+PART
+{
+	part = SmallGearBay_4292029232
+	pos = -1.518021,4.393053,0.421916
+	rot = 1.264406E-07,-1.120979E-07,-1.000247E-06,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 12
+	sqor = -1
+	attm = 1
+	sym = SmallGearBay_4292029350
+	srfN = srfAttach, deltaWing_4292029680
+}
+PART
+{
+	part = StandardCtrlSrf_4292029114
+	pos = 1.989262,4.723466,-0.6298623
+	rot = 0.7067223,0.02332492,0.03837012,0.7060648
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 13
+	sqor = -1
+	attm = 1
+	sym = StandardCtrlSrf_4292029068
+	srfN = srfAttach, deltaWing_4292029708
+}
+PART
+{
+	part = StandardCtrlSrf_4292029068
+	pos = -2.622782,4.723466,-0.6298623
+	rot = -0.7067223,0.02332492,0.03837012,-0.7060649
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 14
+	sqor = -1
+	attm = 1
+	sym = StandardCtrlSrf_4292029114
+	srfN = srfAttach, deltaWing_4292029680
+}
+PART
+{
+	part = telescopicLadder_4292029022
+	pos = 0.2686976,5.063013,2.937432
+	rot = 0.1305261,-0.9914449,-4.214685E-08,-1.47514E-07
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 15
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, MK1Fuselage_4292029826
+	MODULE
+	{
+		name = RetractableLadder
+		isEnabled = True
+		StateName = Retracted
+		ladderAnimationRootName = TelusBay
+		ladderColliderName = ladderCollider
+		ladderRetractAnimationName = Retract
+		externalActivationRange = 5
+	}
+}

@@ -1,0 +1,793 @@
+ship = Orbiter 1A
+version = 0.17.0
+type = VAB
+PART
+{
+	part = Mark1-2Pod_4294592934
+	pos = 0.1321263,9.663315,0.06789736
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = parachuteLarge_4294388308
+	link = decoupler1-2_4294344596
+	attN = bottom, decoupler1-2_4294344596
+	attN = top, parachuteLarge_4294388308
+}
+PART
+{
+	part = parachuteLarge_4294388308
+	pos = 0.1321263,10.85857,0.06789736
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = linearRcs_4294356454
+	link = linearRcs_4294356402
+	link = linearRcs_4294356350
+	link = linearRcs_4294357564
+	attN = bottom, Mark1-2Pod_4294592934
+}
+PART
+{
+	part = linearRcs_4294356454
+	pos = 0.1321263,10.98012,0.605102
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 3
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294357564
+	sym = linearRcs_4294356402
+	sym = linearRcs_4294356350
+	srfN = srfAttach, parachuteLarge_4294388308
+}
+PART
+{
+	part = linearRcs_4294356402
+	pos = 0.669331,10.98012,0.06789729
+	rot = -0.5,-0.5000001,0.5000001,-0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 4
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294357564
+	sym = linearRcs_4294356454
+	sym = linearRcs_4294356350
+	srfN = srfAttach, parachuteLarge_4294388308
+}
+PART
+{
+	part = linearRcs_4294356350
+	pos = 0.1321262,10.98012,-0.4693072
+	rot = 0,-0.7071068,0.7071068,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 5
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294357564
+	sym = linearRcs_4294356454
+	sym = linearRcs_4294356402
+	srfN = srfAttach, parachuteLarge_4294388308
+}
+PART
+{
+	part = linearRcs_4294357564
+	pos = -0.4050784,10.98012,0.06789739
+	rot = -0.5,0.5,-0.5,-0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294356454
+	sym = linearRcs_4294356402
+	sym = linearRcs_4294356350
+	srfN = srfAttach, parachuteLarge_4294388308
+}
+PART
+{
+	part = decoupler1-2_4294344596
+	pos = 0.1321263,8.733217,0.06789736
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = fuelTank2-2_4294582472
+	attN = bottom, fuelTank2-2_4294582472
+	attN = top, Mark1-2Pod_4294592934
+}
+PART
+{
+	part = fuelTank2-2_4294582472
+	pos = 0.1321263,7.430247,0.06789736
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = advSasModule_4294461096
+	link = tailfin_4294420034
+	link = tailfin_4294419760
+	link = tailfin_4294510852
+	attN = top, decoupler1-2_4294344596
+	attN = bottom, advSasModule_4294461096
+}
+PART
+{
+	part = advSasModule_4294461096
+	pos = 0.1321263,5.532865,0.06789736
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 4
+	sqor = -1
+	attm = 0
+	link = RCSFuelTank_4294409372
+	attN = top, fuelTank2-2_4294582472
+	attN = bottom, RCSFuelTank_4294409372
+}
+PART
+{
+	part = RCSFuelTank_4294409372
+	pos = 0.1321263,4.987672,0.06789736
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 14
+	sqor = -1
+	attm = 0
+	link = landingLeg1-2_4294364060
+	link = landingLeg1-2_4294363982
+	link = landingLeg1-2_4294363904
+	link = landingLeg1-2_4294363826
+	link = landingLeg1-2_4294363748
+	link = landingLeg1-2_4294370784
+	link = RCSFuelTank_4294361494
+	attN = top, advSasModule_4294461096
+	attN = bottom, RCSFuelTank_4294361494
+}
+PART
+{
+	part = landingLeg1-2_4294370784
+	pos = -0.2374888,5.162226,0.7080891
+	rot = 1.210162E-08,0.2588191,1.593212E-09,-0.9659258
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 21
+	sqor = -1
+	attm = 1
+	sym = landingLeg1-2_4294364060
+	sym = landingLeg1-2_4294363982
+	sym = landingLeg1-2_4294363904
+	sym = landingLeg1-2_4294363826
+	sym = landingLeg1-2_4294363748
+	srfN = srfAttach, RCSFuelTank_4294409372
+}
+PART
+{
+	part = landingLeg1-2_4294364060
+	pos = 0.5017411,5.162226,0.7080892
+	rot = 1.127691E-08,-0.258819,-4.671048E-09,-0.9659259
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 22
+	sqor = -1
+	attm = 1
+	sym = landingLeg1-2_4294370784
+	sym = landingLeg1-2_4294363982
+	sym = landingLeg1-2_4294363904
+	sym = landingLeg1-2_4294363826
+	sym = landingLeg1-2_4294363748
+	srfN = srfAttach, RCSFuelTank_4294409372
+}
+PART
+{
+	part = landingLeg1-2_4294363982
+	pos = 0.8713561,5.162226,0.06789744
+	rot = 7.430571E-09,-0.7071068,-9.683704E-09,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 23
+	sqor = -1
+	attm = 1
+	sym = landingLeg1-2_4294370784
+	sym = landingLeg1-2_4294364060
+	sym = landingLeg1-2_4294363904
+	sym = landingLeg1-2_4294363826
+	sym = landingLeg1-2_4294363748
+	srfN = srfAttach, RCSFuelTank_4294409372
+}
+PART
+{
+	part = landingLeg1-2_4294363904
+	pos = 0.5017413,5.162226,-0.5722944
+	rot = 1.593211E-09,-0.9659258,-1.210162E-08,-0.2588191
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 24
+	sqor = -1
+	attm = 1
+	sym = landingLeg1-2_4294370784
+	sym = landingLeg1-2_4294364060
+	sym = landingLeg1-2_4294363982
+	sym = landingLeg1-2_4294363826
+	sym = landingLeg1-2_4294363748
+	srfN = srfAttach, RCSFuelTank_4294409372
+}
+PART
+{
+	part = landingLeg1-2_4294363826
+	pos = -0.2374886,5.162226,-0.5722945
+	rot = -4.671048E-09,-0.9659259,-1.127691E-08,0.258819
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 25
+	sqor = -1
+	attm = 1
+	sym = landingLeg1-2_4294370784
+	sym = landingLeg1-2_4294364060
+	sym = landingLeg1-2_4294363982
+	sym = landingLeg1-2_4294363904
+	sym = landingLeg1-2_4294363748
+	srfN = srfAttach, RCSFuelTank_4294409372
+}
+PART
+{
+	part = landingLeg1-2_4294363748
+	pos = -0.6071036,5.162226,0.0678971
+	rot = -9.683703E-09,-0.7071069,-7.430572E-09,0.7071067
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 26
+	sqor = -1
+	attm = 1
+	sym = landingLeg1-2_4294370784
+	sym = landingLeg1-2_4294364060
+	sym = landingLeg1-2_4294363982
+	sym = landingLeg1-2_4294363904
+	sym = landingLeg1-2_4294363826
+	srfN = srfAttach, RCSFuelTank_4294409372
+}
+PART
+{
+	part = RCSFuelTank_4294361494
+	pos = 0.1321263,4.435884,0.06789736
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 27
+	sqor = -1
+	attm = 0
+	link = linearRcs_4294352386
+	link = linearRcs_4294352334
+	link = linearRcs_4294352282
+	link = linearRcs_4294355362
+	attN = top, RCSFuelTank_4294409372
+}
+PART
+{
+	part = linearRcs_4294355362
+	pos = 0.1321262,4.551039,-0.5549296
+	rot = 0.0007403019,-0.695905,0.7181332,-0.0007173266
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 28
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294352386
+	sym = linearRcs_4294352334
+	sym = linearRcs_4294352282
+	srfN = srfAttach, RCSFuelTank_4294361494
+}
+PART
+{
+	part = linearRcs_4294352386
+	pos = -0.4907007,4.551039,0.06789739
+	rot = 0.5083203,-0.4925863,0.5072734,0.4915719
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 29
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294355362
+	sym = linearRcs_4294352334
+	sym = linearRcs_4294352282
+	srfN = srfAttach, RCSFuelTank_4294361494
+}
+PART
+{
+	part = linearRcs_4294352334
+	pos = 0.1321264,4.551039,0.6907244
+	rot = 0.7181332,-0.0007172961,-0.0007403332,0.695905
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 30
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294355362
+	sym = linearRcs_4294352386
+	sym = linearRcs_4294352282
+	srfN = srfAttach, RCSFuelTank_4294361494
+}
+PART
+{
+	part = linearRcs_4294352282
+	pos = 0.7549532,4.551039,0.06789727
+	rot = 0.5072734,0.4915719,-0.5083203,0.4925863
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 31
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294355362
+	sym = linearRcs_4294352386
+	sym = linearRcs_4294352334
+	srfN = srfAttach, RCSFuelTank_4294361494
+}
+PART
+{
+	part = tailfin_4294510852
+	pos = 1.177896,6.553578,0.6716727
+	rot = 0,-0.258819,0,0.9659259
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 1
+	sqor = -1
+	attm = 1
+	link = radialEngineBody_4294479036
+	link = tailfin_4294417000
+	link = linearRcs_4294349654
+	link = linearRcs_4294347868
+	sym = tailfin_4294420034
+	sym = tailfin_4294419760
+	srfN = srfAttach, fuelTank2-2_4294582472
+}
+PART
+{
+	part = linearRcs_4294349654
+	pos = 1.32971,7.295025,0.7140034
+	rot = -0.1830126,-0.6830128,0.6830128,-0.1830126
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 33
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294351150
+	sym = linearRcs_4294349602
+	srfN = srfAttach, tailfin_4294510852
+}
+PART
+{
+	part = linearRcs_4294347868
+	pos = 1.313445,7.308396,0.7952516
+	rot = 0.6830128,-0.1830126,0.1830126,0.6830128
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 36
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294348394
+	sym = linearRcs_4294347816
+	srfN = srfAttach, tailfin_4294510852
+}
+PART
+{
+	part = radialEngineBody_4294479036
+	pos = 1.925626,6.113976,1.078465
+	rot = 0.01372952,0.4999373,-0.007926746,0.8659166
+	attRot = 0,-0.9999999,0,0
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 2
+	sqor = -1
+	attm = 1
+	link = liquidEngine3_4294471914
+	link = noseConeAdapter_4294393130
+	sym = radialEngineBody_4294420000
+	sym = radialEngineBody_4294419726
+	srfN = srfAttach, tailfin_4294510852
+	attN = top, noseConeAdapter_4294393130
+	attN = bottom, liquidEngine3_4294471914
+}
+PART
+{
+	part = liquidEngine3_4294471914
+	pos = 1.892147,4.895216,1.059136
+	rot = -0.00792675,-0.8659167,-0.01372952,0.4999371
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 3
+	sqor = -1
+	attm = 0
+	sym = liquidEngine3_4294419990
+	sym = liquidEngine3_4294419716
+	attN = top, radialEngineBody_4294479036
+}
+PART
+{
+	part = noseConeAdapter_4294393130
+	pos = 1.966466,7.600728,1.102044
+	rot = -0.007926751,-0.8659167,-0.01372952,0.4999371
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 16
+	sqor = -1
+	attm = 0
+	link = standardNoseCone_4294393096
+	sym = noseConeAdapter_4294419862
+	sym = noseConeAdapter_4294393062
+	attN = top, standardNoseCone_4294393096
+	attN = bottom01, radialEngineBody_4294479036
+}
+PART
+{
+	part = standardNoseCone_4294393096
+	pos = 1.990249,8.466542,1.115775
+	rot = -0.007926752,-0.8659167,-0.01372952,0.4999371
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 15
+	sqor = -1
+	attm = 0
+	sym = standardNoseCone_4294419828
+	sym = standardNoseCone_4294393028
+	attN = bottom01, noseConeAdapter_4294393130
+}
+PART
+{
+	part = tailfin_4294417000
+	pos = 1.187005,6.516222,0.6460375
+	rot = 0,-0.9659259,0,-0.2588191
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 12
+	sqor = -1
+	attm = 1
+	sym = tailfin_4294419520
+	sym = tailfin_4294416966
+	srfN = srfAttach, tailfin_4294510852
+}
+PART
+{
+	part = tailfin_4294420034
+	pos = 0.1321262,6.553578,-1.139653
+	rot = 0,0.7071069,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 7
+	sqor = -1
+	attm = 1
+	link = radialEngineBody_4294420000
+	link = tailfin_4294416966
+	link = linearRcs_4294351150
+	link = linearRcs_4294348394
+	sym = tailfin_4294510852
+	sym = tailfin_4294419760
+	srfN = srfAttach, fuelTank2-2_4294582472
+}
+PART
+{
+	part = linearRcs_4294351150
+	pos = 0.09287859,7.295025,-1.292294
+	rot = 0.5000002,-0.4999999,0.4999999,0.5000002
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 32
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294349654
+	sym = linearRcs_4294349602
+	srfN = srfAttach, tailfin_4294420034
+}
+PART
+{
+	part = linearRcs_4294348394
+	pos = 0.1713738,7.308396,-1.318832
+	rot = 0.4999999,0.5000002,-0.5000002,0.4999999
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 35
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294347868
+	sym = linearRcs_4294347816
+	srfN = srfAttach, tailfin_4294420034
+}
+PART
+{
+	part = radialEngineBody_4294420000
+	pos = 0.1105529,6.113976,-1.990602
+	rot = -3.970527E-09,0.9998745,-0.01585349,-1.685768E-07
+	attRot = 0,-0.9999999,0,0
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 6
+	sqor = -1
+	attm = 1
+	link = liquidEngine3_4294419990
+	link = noseConeAdapter_4294419862
+	sym = radialEngineBody_4294479036
+	sym = radialEngineBody_4294419726
+	srfN = srfAttach, tailfin_4294420034
+	attN = top, noseConeAdapter_4294419862
+	attN = bottom, liquidEngine3_4294419990
+}
+PART
+{
+	part = liquidEngine3_4294419990
+	pos = 0.1105529,4.895216,-1.951945
+	rot = -0.01585349,-1.059419E-11,7.921795E-09,0.9998745
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 5
+	sqor = -1
+	attm = 0
+	sym = liquidEngine3_4294471914
+	sym = liquidEngine3_4294419716
+	attN = top, radialEngineBody_4294420000
+}
+PART
+{
+	part = noseConeAdapter_4294419862
+	pos = 0.1105529,7.600728,-2.037761
+	rot = -0.01585349,-1.059419E-11,6.604706E-09,0.9998745
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 20
+	sqor = -1
+	attm = 0
+	link = standardNoseCone_4294419828
+	sym = noseConeAdapter_4294393130
+	sym = noseConeAdapter_4294393062
+	attN = top, standardNoseCone_4294419828
+	attN = bottom01, radialEngineBody_4294420000
+}
+PART
+{
+	part = standardNoseCone_4294419828
+	pos = 0.1105529,8.466542,-2.065224
+	rot = -0.01585349,-1.059419E-11,6.604706E-09,0.9998745
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 19
+	sqor = -1
+	attm = 0
+	sym = standardNoseCone_4294393096
+	sym = standardNoseCone_4294393028
+	attN = bottom01, noseConeAdapter_4294419862
+}
+PART
+{
+	part = tailfin_4294416966
+	pos = 0.1053705,6.516222,-1.134725
+	rot = 0,-0.7071068,0,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 13
+	sqor = -1
+	attm = 1
+	sym = tailfin_4294419520
+	sym = tailfin_4294417000
+	srfN = srfAttach, tailfin_4294420034
+}
+PART
+{
+	part = tailfin_4294419760
+	pos = -0.9136433,6.553578,0.6716728
+	rot = 0,0.9659259,0,-0.2588191
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 11
+	sqor = -1
+	attm = 1
+	link = radialEngineBody_4294419726
+	link = tailfin_4294419520
+	link = linearRcs_4294349602
+	link = linearRcs_4294347816
+	sym = tailfin_4294510852
+	sym = tailfin_4294420034
+	srfN = srfAttach, fuelTank2-2_4294582472
+}
+PART
+{
+	part = linearRcs_4294349602
+	pos = -1.02621,7.295025,0.7819823
+	rot = 0.6830127,0.1830129,-0.1830129,0.6830127
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 34
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294351150
+	sym = linearRcs_4294349654
+	srfN = srfAttach, tailfin_4294419760
+}
+PART
+{
+	part = linearRcs_4294347816
+	pos = -1.088441,7.308396,0.7272727
+	rot = -0.1830129,0.6830127,-0.6830127,-0.1830129
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 37
+	sqor = -1
+	attm = 1
+	sym = linearRcs_4294348394
+	sym = linearRcs_4294347868
+	srfN = srfAttach, tailfin_4294419760
+}
+PART
+{
+	part = radialEngineBody_4294419726
+	pos = -1.6398,6.113976,1.11583
+	rot = -0.01372953,0.4999371,-0.007926741,-0.8659167
+	attRot = 0,-0.9999999,0,0
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 10
+	sqor = -1
+	attm = 1
+	link = liquidEngine3_4294419716
+	link = noseConeAdapter_4294393062
+	sym = radialEngineBody_4294479036
+	sym = radialEngineBody_4294420000
+	srfN = srfAttach, tailfin_4294419760
+	attN = top, noseConeAdapter_4294393062
+	attN = bottom, liquidEngine3_4294419716
+}
+PART
+{
+	part = liquidEngine3_4294419716
+	pos = -1.606322,4.895216,1.096501
+	rot = -0.007926738,0.8659167,0.01372953,0.4999372
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 9
+	sqor = -1
+	attm = 0
+	sym = liquidEngine3_4294471914
+	sym = liquidEngine3_4294419990
+	attN = top, radialEngineBody_4294419726
+}
+PART
+{
+	part = noseConeAdapter_4294393062
+	pos = -1.680641,7.600728,1.139409
+	rot = -0.007926742,0.8659167,0.01372953,0.4999372
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 18
+	sqor = -1
+	attm = 0
+	link = standardNoseCone_4294393028
+	sym = noseConeAdapter_4294419862
+	sym = noseConeAdapter_4294393130
+	attN = top, standardNoseCone_4294393028
+	attN = bottom01, radialEngineBody_4294419726
+}
+PART
+{
+	part = standardNoseCone_4294393028
+	pos = -1.704424,8.466542,1.153141
+	rot = -0.007926742,0.8659167,0.01372953,0.4999372
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 17
+	sqor = -1
+	attm = 0
+	sym = standardNoseCone_4294419828
+	sym = standardNoseCone_4294393096
+	attN = bottom01, noseConeAdapter_4294393062
+}
+PART
+{
+	part = tailfin_4294419520
+	pos = -0.8959973,6.516222,0.6923796
+	rot = 0,0.2588191,0,0.9659259
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 8
+	sqor = -1
+	attm = 1
+	sym = tailfin_4294417000
+	sym = tailfin_4294416966
+	srfN = srfAttach, tailfin_4294419760
+}

@@ -1,0 +1,423 @@
+ship = Ravenspear Mk1
+version = 0.16.0
+type = SPH
+PART
+{
+	part = Mark1Cockpit_4285250924
+	pos = 0.3359119,6.979715,3.188066
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = mk2SpacePlaneAdapter_4285250876
+	link = SmallGearBay_4285249964
+	link = R8winglet_4285245152
+	link = R8winglet_4285250338
+	attN = bottom, mk2SpacePlaneAdapter_4285250876
+}
+PART
+{
+	part = mk2SpacePlaneAdapter_4285250876
+	pos = 0.3359119,6.979715,1.969313
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = mk2Fuselage_4285250852
+	link = telescopicLadder_4285249846
+	attN = top, Mark1Cockpit_4285250924
+	attN = bottom, mk2Fuselage_4285250852
+}
+PART
+{
+	part = mk2Fuselage_4285250852
+	pos = 0.3359119,6.979715,-0.9119451
+	rot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = -1
+	attm = 0
+	link = mk2SpacePlaneAdapter_4285250822
+	link = MK1Fuselage_4285250740
+	link = MK1Fuselage_4285250562
+	attN = top, mk2SpacePlaneAdapter_4285250876
+	attN = bottom, mk2SpacePlaneAdapter_4285250822
+}
+PART
+{
+	part = mk2SpacePlaneAdapter_4285250822
+	pos = 0.3359119,6.979715,-3.798208
+	rot = -1.256074E-15,0.7071068,-0.7071069,-1.256074E-15
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 3
+	sqor = -1
+	attm = 0
+	link = JetEngine_4285250798
+	attN = top, JetEngine_4285250798
+	attN = bottom, mk2Fuselage_4285250852
+}
+PART
+{
+	part = JetEngine_4285250798
+	pos = 0.3359119,6.979715,-5.721085
+	rot = 0.7071069,-5.293963E-23,-5.293964E-23,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 4
+	sqor = -1
+	attm = 0
+	attN = top, mk2SpacePlaneAdapter_4285250822
+}
+PART
+{
+	part = MK1Fuselage_4285250740
+	pos = 2.185606,6.979715,-1.919151
+	rot = 0.5000002,0.5000001,0.5000001,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 5
+	sqor = -1
+	attm = 1
+	link = MK1Fuselage_4285250710
+	link = turboFanEngine_4285250620
+	link = R8winglet_4285250292
+	link = deltaWing_4285249628
+	link = SmallGearBay_4285250082
+	sym = MK1Fuselage_4285250562
+	srfN = srfAttach, mk2Fuselage_4285250852
+	attN = top, MK1Fuselage_4285250710
+	attN = bottom, turboFanEngine_4285250620
+}
+PART
+{
+	part = MK1Fuselage_4285250710
+	pos = 2.185606,6.979715,-0.04415727
+	rot = 0.7071071,9.813596E-08,1.402826E-07,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 6
+	sqor = -1
+	attm = 0
+	link = noseConeAdapter_4285250680
+	sym = MK1Fuselage_4285250532
+	srfN = srfAttach, mk2Fuselage_4285250852
+	attN = top, noseConeAdapter_4285250680
+	attN = bottom, MK1Fuselage_4285250740
+}
+PART
+{
+	part = noseConeAdapter_4285250680
+	pos = 2.185605,6.979714,1.437096
+	rot = 0.7071071,3.85312E-08,8.067806E-08,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 7
+	sqor = -1
+	attm = 0
+	link = standardNoseCone_4285250650
+	sym = noseConeAdapter_4285250502
+	attN = top, standardNoseCone_4285250650
+	attN = bottom01, MK1Fuselage_4285250710
+}
+PART
+{
+	part = standardNoseCone_4285250650
+	pos = 2.185605,6.979715,2.303348
+	rot = 0.7071071,-2.107345E-08,2.107341E-08,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 8
+	sqor = -1
+	attm = 0
+	sym = standardNoseCone_4285250472
+	attN = bottom01, noseConeAdapter_4285250680
+}
+PART
+{
+	part = turboFanEngine_4285250620
+	pos = 2.185606,6.979716,-4.27916
+	rot = 0.7071071,3.853133E-08,8.067793E-08,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 9
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4285250442
+	attN = top, MK1Fuselage_4285250740
+}
+PART
+{
+	part = MK1Fuselage_4285250562
+	pos = -1.513782,6.979715,-1.919151
+	rot = -0.5000001,0.5000001,0.5000001,-0.5000001
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 10
+	sqor = -1
+	attm = 1
+	link = MK1Fuselage_4285250532
+	link = turboFanEngine_4285250442
+	link = R8winglet_4285250246
+	link = deltaWing_4285249600
+	link = SmallGearBay_4285234060
+	sym = MK1Fuselage_4285250740
+	srfN = srfAttach, mk2Fuselage_4285250852
+	attN = top, MK1Fuselage_4285250532
+	attN = bottom, turboFanEngine_4285250442
+}
+PART
+{
+	part = MK1Fuselage_4285250532
+	pos = -1.513782,6.979715,-0.04415631
+	rot = -0.707107,6.833356E-08,1.104804E-07,-0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 11
+	sqor = -1
+	attm = 0
+	link = noseConeAdapter_4285250502
+	sym = MK1Fuselage_4285250710
+	srfN = srfAttach, mk2Fuselage_4285250852
+	attN = top, noseConeAdapter_4285250502
+	attN = bottom, MK1Fuselage_4285250562
+}
+PART
+{
+	part = noseConeAdapter_4285250502
+	pos = -1.513781,6.979715,1.437097
+	rot = -0.7071069,8.728906E-09,5.087575E-08,-0.7071069
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 12
+	sqor = -1
+	attm = 0
+	link = standardNoseCone_4285250472
+	sym = noseConeAdapter_4285250680
+	attN = top, standardNoseCone_4285250472
+	attN = bottom01, MK1Fuselage_4285250532
+}
+PART
+{
+	part = standardNoseCone_4285250472
+	pos = -1.513781,6.979715,2.303351
+	rot = -0.7071069,8.728929E-09,5.087572E-08,-0.7071069
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 13
+	sqor = -1
+	attm = 0
+	sym = standardNoseCone_4285250650
+	attN = bottom01, noseConeAdapter_4285250502
+}
+PART
+{
+	part = turboFanEngine_4285250442
+	pos = -1.513782,6.979716,-4.27916
+	rot = -0.7071069,3.853123E-08,8.067807E-08,-0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 14
+	sqor = -1
+	attm = 0
+	sym = turboFanEngine_4285250620
+	attN = top, MK1Fuselage_4285250562
+}
+PART
+{
+	part = R8winglet_4285250292
+	pos = 1.575058,7.942998,-2.802541
+	rot = -0.6272119,0.3265056,0.3265055,-0.6272111
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 16
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4285250246
+	srfN = srfAttach, MK1Fuselage_4285250740
+}
+PART
+{
+	part = R8winglet_4285250246
+	pos = -0.903236,7.942998,-2.802541
+	rot = 0.3265057,-0.6272115,-0.6272115,0.3265057
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 17
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4285250292
+	srfN = srfAttach, MK1Fuselage_4285250562
+}
+PART
+{
+	part = SmallGearBay_4285249964
+	pos = 0.335912,6.455649,4.283237
+	rot = -8.573104E-08,0.993619,-0.1127891,1.287174E-10
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 19
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Mark1Cockpit_4285250924
+}
+PART
+{
+	part = telescopicLadder_4285249846
+	pos = 0.9871317,7.154209,2.675354
+	rot = -0.005494985,0.9874445,0.03526149,0.1538829
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 20
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, mk2SpacePlaneAdapter_4285250876
+	MODULE
+	{
+		name = RetractableLadder
+		isEnabled = True
+		StateName = Retracted
+		ladderAnimationRootName = TelusBay
+		ladderColliderName = ladderCollider
+		ladderRetractAnimationName = Retract
+		externalActivationRange = 5
+	}
+}
+PART
+{
+	part = deltaWing_4285249628
+	pos = 2.786108,6.844652,-1.916396
+	rot = -0.0294687,0.7365755,0.6749475,-0.03215947
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 21
+	sqor = -1
+	attm = 1
+	link = StandardCtrlSrf_4285249526
+	sym = deltaWing_4285249600
+	srfN = srfAttach, MK1Fuselage_4285250740
+}
+PART
+{
+	part = deltaWing_4285249600
+	pos = -2.114284,6.844652,-1.916396
+	rot = 0.6749474,-0.03215945,-0.02946866,0.7365757
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 22
+	sqor = -1
+	attm = 1
+	link = StandardCtrlSrf_4285249572
+	sym = deltaWing_4285249628
+	srfN = srfAttach, MK1Fuselage_4285250562
+}
+PART
+{
+	part = StandardCtrlSrf_4285249572
+	pos = -3.877093,6.949867,-2.968603
+	rot = 0.03619379,0.7060648,0.7067221,0.0265832
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 23
+	sqor = -1
+	attm = 1
+	sym = StandardCtrlSrf_4285249526
+	srfN = srfAttach, deltaWing_4285249600
+}
+PART
+{
+	part = StandardCtrlSrf_4285249526
+	pos = 4.548918,6.949867,-2.968604
+	rot = -0.03619377,0.7060647,0.7067223,-0.02658323
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 24
+	sqor = -1
+	attm = 1
+	sym = StandardCtrlSrf_4285249572
+	srfN = srfAttach, deltaWing_4285249628
+}
+PART
+{
+	part = R8winglet_4285245152
+	pos = 1.30475,6.858301,3.921789
+	rot = -0.01913789,0.7068477,0.692786,0.1415898
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 25
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4285250338
+	srfN = srfAttach, Mark1Cockpit_4285250924
+}
+PART
+{
+	part = R8winglet_4285250338
+	pos = -0.6329263,6.858301,3.921789
+	rot = 0.692786,0.1415899,-0.01913788,0.7068477
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 15
+	sqor = -1
+	attm = 1
+	sym = R8winglet_4285245152
+	srfN = srfAttach, Mark1Cockpit_4285250924
+}
+PART
+{
+	part = SmallGearBay_4285234060
+	pos = -1.065727,6.371013,-2.189598
+	rot = 2.528811E-07,-1.937151E-07,7.897617E-07,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 26
+	sqor = -1
+	attm = 1
+	sym = SmallGearBay_4285250082
+	srfN = srfAttach, MK1Fuselage_4285250562
+}
+PART
+{
+	part = SmallGearBay_4285250082
+	pos = 1.737551,6.371013,-2.189598
+	rot = 2.528811E-07,1.937152E-07,-7.897617E-07,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 18
+	sqor = -1
+	attm = 1
+	sym = SmallGearBay_4285234060
+	srfN = srfAttach, MK1Fuselage_4285250740
+}

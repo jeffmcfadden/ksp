@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2011-06-14T20:06:53Z</created>
+    <modified>2011-06-14T20:06:53Z</modified>
+    <revision></revision>
+    <title></title>
+    <subject></subject>
+    <keywords></keywords>
+    <unit meter="1.000000"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="Map__1-image" name="Map__1">
+      <init_from>file://C:\Users\HarvesteR\Desktop\KSP\assets pool\parts\wing01Texture.png</init_from>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="wingMat" name="wingMat">
+      <instance_effect url="#wingMat-fx"/>
+    </material>
+    <material id="_02___Default" name="_02___Default">
+      <instance_effect url="#_02___Default-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="wingMat-fx" name="wingMat">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588000  0.588000 0.588000 1.000000</color>
+            </ambient>
+            <diffuse>
+              <texture texture="Map__1-image" texcoord="CHANNEL0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU sid="wrapU0">TRUE</wrapU>
+                    <wrapV sid="wrapV0">TRUE</wrapV>
+                    <blend_mode>ADD</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.000000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="_02___Default-fx" name="_02___Default">
+      <profile_COMMON>
+        <technique sid="standard">
+          <phong>
+            <emission>
+              <color sid="emission">0.000000  0.000000 0.000000 1.000000</color>
+            </emission>
+            <ambient>
+              <color sid="ambient">0.588235  0.588235 0.588235 1.000000</color>
+            </ambient>
+            <diffuse>
+              <color sid="diffuse">0.588235  0.588235 0.588235 1.000000</color>
+            </diffuse>
+            <specular>
+              <color sid="specular">0.000000  0.000000 0.000000 1.000000</color>
+            </specular>
+            <shininess>
+              <float sid="shininess">2.000000</float>
+            </shininess>
+            <reflective>
+              <color sid="reflective">0.000000  0.000000 0.000000 1.000000</color>
+            </reflective>
+            <reflectivity>
+              <float sid="reflectivity">1.000000</float>
+            </reflectivity>
+            <transparent>
+              <color sid="transparent">1.000000  1.000000 1.000000 1.000000</color>
+            </transparent>
+            <transparency>
+              <float sid="transparency">0.460000</float>
+            </transparency>
+          </phong>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="wing-lib" name="wingMesh">
+      <mesh>
+        <source id="wing-lib-Position">
+          <float_array id="wing-lib-Position-array" count="63">
+-0.911911 0.053102 9.447503
+-3.889435 0.053103 4.682771
+-10.709332 0.053103 -4.553302
+-0.029335 0.053102 -6.036204
+-0.022854 -0.334733 3.543425
+-0.020389 -0.331196 7.188553
+-0.016921 -0.181589 9.559459
+-1.833325 -0.181900 4.076907
+-4.848145 -0.181900 1.746601
+-11.362286 -0.082554 -0.692236
+-0.016052 0.053102 10.843797
+-0.016921 0.287794 9.559459
+-11.992451 0.053103 -0.928165
+-11.362286 0.188759 -0.692236
+-2.146397 0.053103 6.886819
+-0.020389 0.437402 7.188553
+-1.833325 0.288105 4.076907
+-0.022854 0.440938 3.543425
+-4.848145 0.288105 1.746601
+-5.675480 0.053103 3.188290
+-11.497711 0.053103 0.108563
+</float_array>
+          <technique_common>
+            <accessor source="#wing-lib-Position-array" count="21" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wing-lib-Normal0">
+          <float_array id="wing-lib-Normal0-array" count="342">
+-0.270038 -0.947134 0.173256
+-0.228813 -0.967270 0.109695
+-0.242536 -0.961300 0.130688
+-0.208910 -0.977925 -0.004299
+-0.019582 -0.999143 -0.036470
+-0.127815 -0.991023 0.039203
+-0.228813 -0.967270 0.109695
+-0.162005 -0.984196 0.071506
+-0.169646 -0.983403 0.064335
+-0.169646 -0.983403 0.064335
+-0.242536 -0.961300 0.130688
+-0.228813 -0.967270 0.109695
+-0.079138 -0.996517 0.026306
+-0.047106 -0.998769 -0.015568
+-0.169646 -0.983403 0.064335
+-0.041721 -0.998407 0.037997
+-0.010744 -0.999458 -0.031104
+-0.047106 -0.998769 -0.015568
+-0.047106 -0.998769 -0.015568
+-0.079138 -0.996517 0.026306
+-0.041721 -0.998407 0.037997
+-0.169646 -0.983403 0.064335
+-0.162005 -0.984196 0.071506
+-0.105372 -0.990088 0.092861
+-0.105372 -0.990088 0.092861
+-0.079138 -0.996517 0.026306
+-0.169646 -0.983403 0.064335
+-0.079138 -0.996517 0.026306
+-0.105372 -0.990088 0.092861
+-0.077059 -0.989762 0.120136
+-0.077059 -0.989762 0.120136
+-0.041721 -0.998407 0.037997
+-0.079138 -0.996517 0.026306
+-0.127815 -0.991023 0.039203
+-0.114493 -0.984735 0.131103
+-0.208910 -0.977925 -0.004299
+-0.077059 -0.989762 0.120136
+-0.114493 -0.984735 0.131103
+-0.127815 -0.991023 0.039203
+-0.127815 -0.991023 0.039203
+-0.041721 -0.998407 0.037997
+-0.077059 -0.989762 0.120136
+-0.041721 -0.998407 0.037997
+-0.127815 -0.991023 0.039203
+-0.019582 -0.999143 -0.036470
+-0.019582 -0.999143 -0.036470
+-0.010744 -0.999458 -0.031104
+-0.041721 -0.998407 0.037997
+-0.270038 0.947134 0.173256
+-0.242536 0.961300 0.130688
+-0.228813 0.967270 0.109696
+-0.208910 0.977925 -0.004299
+-0.127815 0.991023 0.039203
+-0.019582 0.999143 -0.036470
+-0.228813 0.967270 0.109696
+-0.242536 0.961300 0.130688
+-0.169646 0.983403 0.064335
+-0.169646 0.983403 0.064335
+-0.162005 0.984196 0.071506
+-0.228813 0.967270 0.109696
+-0.079138 0.996517 0.026306
+-0.169646 0.983403 0.064335
+-0.047106 0.998769 -0.015568
+-0.041721 0.998407 0.037997
+-0.079138 0.996517 0.026306
+-0.047106 0.998769 -0.015568
+-0.047106 0.998769 -0.015568
+-0.010744 0.999458 -0.031105
+-0.041721 0.998407 0.037997
+-0.169646 0.983403 0.064335
+-0.079138 0.996517 0.026306
+-0.105372 0.990088 0.092861
+-0.105372 0.990088 0.092861
+-0.162005 0.984196 0.071506
+-0.169646 0.983403 0.064335
+-0.079138 0.996517 0.026306
+-0.041721 0.998407 0.037997
+-0.077058 0.989762 0.120136
+-0.077058 0.989762 0.120136
+-0.105372 0.990088 0.092861
+-0.079138 0.996517 0.026306
+-0.127815 0.991023 0.039203
+-0.208910 0.977925 -0.004299
+-0.114492 0.984735 0.131103
+-0.077058 0.989762 0.120136
+-0.041721 0.998407 0.037997
+-0.127815 0.991023 0.039203
+-0.127815 0.991023 0.039203
+-0.114492 0.984735 0.131103
+-0.077058 0.989762 0.120136
+-0.041721 0.998407 0.037997
+-0.010744 0.999458 -0.031105
+-0.019582 0.999143 -0.036470
+-0.019582 0.999143 -0.036470
+-0.127815 0.991023 0.039203
+-0.041721 0.998407 0.037997
+0.999999 0.000000 -0.001101
+0.999999 0.000000 -0.001101
+1.000000 0.000000 -0.000676
+0.999999 0.000000 -0.001061
+1.000000 0.000000 -0.000676
+1.000000 0.000000 -0.000676
+1.000000 0.000000 -0.000676
+0.999999 0.000000 -0.001061
+0.999999 0.000000 -0.001061
+1.000000 0.000000 -0.000676
+1.000000 0.000000 -0.000677
+1.000000 0.000000 -0.000676
+0.999999 0.000000 -0.001101
+0.999999 0.000000 -0.001061
+0.999999 0.000000 -0.001061
+0.999999 0.000000 -0.001061
+0.999999 0.000000 -0.001101
+0.999999 0.000000 -0.001101
+</float_array>
+          <technique_common>
+            <accessor source="#wing-lib-Normal0-array" count="114" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wing-lib-UV0">
+          <float_array id="wing-lib-UV0-array" count="76">
+0.009170 0.016720
+0.010842 0.079126
+0.054147 0.085692
+0.780750 0.764663
+0.758690 0.786723
+0.815534 0.821506
+0.604985 0.574835
+0.985418 0.982195
+0.940683 0.913409
+0.986995 0.918566
+0.475126 0.444644
+0.438671 0.481098
+0.610455 0.735318
+0.579758 0.723064
+0.546035 0.912903
+0.568862 0.610957
+0.012055 0.330465
+0.115184 0.121157
+0.116126 0.347304
+0.102039 0.484536
+0.012203 0.509550
+0.387373 0.265521
+0.451446 0.088411
+0.419777 0.276938
+0.879039 0.652496
+0.987854 0.667014
+0.896294 0.514239
+0.987755 0.488387
+0.745748 0.398817
+0.984755 0.020121
+0.792000 0.543782
+0.702813 0.469819
+0.412078 0.316525
+0.253400 0.600268
+0.009837 0.981377
+0.203636 0.456311
+0.293306 0.530472
+0.585616 0.684178
+</float_array>
+          <technique_common>
+            <accessor source="#wing-lib-UV0-array" count="38" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="wing-lib-VertexColors0">
+          <float_array id="wing-lib-VertexColors0-array" count="84">
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#wing-lib-VertexColors0-array" count="21" stride="4">
+              <param name="R" type="double"/>
+              <param name="G" type="double"/>
+              <param name="B" type="double"/>
+              <param name="A" type="double"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="wing-lib-Vertex">
+          <input semantic="POSITION" source="#wing-lib-Position"/>
+        </vertices>
+        <polygons material="wingMat" count="38">
+          <input semantic="VERTEX" offset="0" source="#wing-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#wing-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#wing-lib-UV0"/>
+          <input semantic="COLOR" offset="3" set="0" source="#wing-lib-VertexColors0"/>
+          <p>10 0 7 10 0 1 8 0 6 2 9 6</p>
+          <p>12 3 21 12 2 4 22 2 9 5 23 9</p>
+          <p>0 6 8 0 14 7 24 14 5 8 25 5</p>
+          <p>5 9 25 5 6 10 9 6 0 11 8 0</p>
+          <p>7 12 26 7 4 13 27 4 5 14 25 5</p>
+          <p>8 15 28 8 3 16 29 3 4 17 27 4</p>
+          <p>4 18 27 4 7 19 26 7 8 20 28 8</p>
+          <p>5 21 25 5 14 22 24 14 1 23 30 1</p>
+          <p>1 24 30 1 7 25 26 7 5 26 25 5</p>
+          <p>7 27 26 7 1 28 30 1 19 29 31 19</p>
+          <p>19 30 31 19 8 31 28 8 7 32 26 7</p>
+          <p>9 33 23 9 20 34 32 20 12 35 21 12</p>
+          <p>19 36 31 19 20 37 32 20 9 38 23 9</p>
+          <p>9 39 23 9 8 40 28 8 19 41 31 19</p>
+          <p>8 42 28 8 9 43 23 9 2 44 22 2</p>
+          <p>2 45 22 2 3 46 29 3 8 47 28 8</p>
+          <p>10 48 0 10 11 49 1 11 0 50 2 0</p>
+          <p>12 51 12 12 13 52 13 13 2 53 14 2</p>
+          <p>0 54 2 0 11 55 1 11 15 56 16 15</p>
+          <p>15 57 16 15 14 58 18 14 0 59 2 0</p>
+          <p>16 60 19 16 15 61 16 15 17 62 20 17</p>
+          <p>18 63 33 18 16 64 19 16 17 65 20 17</p>
+          <p>17 66 20 17 3 67 34 3 18 68 33 18</p>
+          <p>15 69 16 15 16 70 19 16 1 71 35 1</p>
+          <p>1 72 35 1 14 73 18 14 15 74 16 15</p>
+          <p>16 75 19 16 18 76 33 18 19 77 36 19</p>
+          <p>19 78 36 19 1 79 35 1 16 80 19 16</p>
+          <p>13 81 13 13 12 82 12 12 20 83 37 20</p>
+          <p>19 84 36 19 18 85 33 18 13 86 13 13</p>
+          <p>13 87 13 13 20 88 37 20 19 89 36 19</p>
+          <p>18 90 33 18 3 91 34 3 2 92 14 2</p>
+          <p>2 93 14 2 13 94 13 13 18 95 33 18</p>
+          <p>6 96 3 6 11 97 4 11 10 98 5 10</p>
+          <p>5 99 6 5 4 100 10 4 17 101 11 17</p>
+          <p>17 102 11 17 15 103 15 15 5 104 6 5</p>
+          <p>4 105 10 4 3 106 17 3 17 107 11 17</p>
+          <p>6 108 3 6 5 109 6 5 15 110 15 15</p>
+          <p>15 111 15 15 11 112 4 11 6 113 3 6</p>
+        </polygons>
+      </mesh>
+    </geometry>
+    <geometry id="node_collider-lib" name="node_colliderMesh">
+      <mesh>
+        <source id="node_collider-lib-Position">
+          <float_array id="node_collider-lib-Position-array" count="24">
+-4.942486 0.000000 -4.581362
+5.931492 0.000000 -6.053068
+5.931492 -0.000000 10.873344
+-6.087217 0.000000 -0.465960
+5.931492 -0.328752 3.563021
+5.931492 0.438137 3.563021
+5.931492 -0.338556 7.214883
+5.931492 0.447941 7.214883
+</float_array>
+          <technique_common>
+            <accessor source="#node_collider-lib-Position-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="node_collider-lib-Normal0">
+          <float_array id="node_collider-lib-Normal0-array" count="108">
+-0.027725 -0.999616 -0.000000
+-0.027725 -0.999616 -0.000000
+-0.027725 -0.999616 -0.000000
+-0.027725 -0.999616 -0.000000
+-0.027725 -0.999616 -0.000000
+-0.027725 -0.999616 -0.000000
+-0.027725 -0.999616 -0.000000
+-0.027725 -0.999616 -0.000000
+-0.027725 -0.999616 -0.000000
+-0.027725 -0.999616 -0.000000
+-0.027725 -0.999616 -0.000000
+-0.027725 -0.999616 -0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+-0.036842 0.999321 0.000000
+-0.036842 0.999321 0.000000
+-0.036842 0.999321 0.000000
+-0.036842 0.999321 0.000000
+-0.036842 0.999321 0.000000
+-0.036842 0.999321 0.000000
+-0.036842 0.999321 0.000000
+-0.036842 0.999321 0.000000
+-0.036842 0.999321 0.000000
+-0.036842 0.999321 0.000000
+-0.036842 0.999321 0.000000
+-0.036842 0.999321 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#node_collider-lib-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="node_collider-lib-UV0">
+          <float_array id="node_collider-lib-UV0-array" count="64">
+1.000000 0.500000
+0.000000 0.000000
+1.000000 1.000000
+0.000000 0.500000
+0.000000 0.000000
+1.000000 0.500000
+0.000000 0.500000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+0.500000 0.000000
+0.500000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+0.500000 0.000000
+0.500000 1.000000
+1.000000 1.000000
+1.000000 0.500000
+0.000000 0.500000
+1.000000 0.500000
+0.000000 0.500000
+1.000000 0.750000
+0.000000 0.750000
+1.000000 0.750000
+0.000000 0.750000
+</float_array>
+          <technique_common>
+            <accessor source="#node_collider-lib-UV0-array" count="32" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="node_collider-lib-VertexColors0">
+          <float_array id="node_collider-lib-VertexColors0-array" count="32">
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+1.000000 1.000000 1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#node_collider-lib-VertexColors0-array" count="8" stride="4">
+              <param name="R" type="double"/>
+              <param name="G" type="double"/>
+              <param name="B" type="double"/>
+              <param name="A" type="double"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="node_collider-lib-Vertex">
+          <input semantic="POSITION" source="#node_collider-lib-Position"/>
+        </vertices>
+        <polygons material="_02___Default" count="12">
+          <input semantic="VERTEX" offset="0" source="#node_collider-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#node_collider-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#node_collider-lib-UV0"/>
+          <input semantic="COLOR" offset="3" set="0" source="#node_collider-lib-VertexColors0"/>
+          <p>0 0 8 0 1 1 9 1 4 2 24 4</p>
+          <p>4 3 24 4 6 4 28 6 0 5 8 0</p>
+          <p>0 6 8 0 6 7 28 6 3 8 10 3</p>
+          <p>6 9 28 6 2 10 11 2 3 11 10 3</p>
+          <p>1 12 13 1 5 13 26 5 4 14 25 4</p>
+          <p>1 15 16 1 0 16 17 0 3 17 19 3</p>
+          <p>3 18 19 3 2 19 18 2 1 20 16 1</p>
+          <p>1 21 16 1 2 22 18 2 5 23 27 5</p>
+          <p>2 24 18 2 7 25 31 7 5 26 27 5</p>
+          <p>5 27 26 5 7 28 30 7 6 29 29 6</p>
+          <p>6 30 29 6 4 31 25 4 5 32 26 5</p>
+          <p>7 33 30 7 2 34 14 2 6 35 29 6</p>
+        </polygons>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="RootNode" name="RootNode">
+      <node id="wing" name="wing">
+        <rotate sid="jointOrientX">1 0 0 -90.000000</rotate>
+        <scale sid="scale">0.100000 0.100000 0.100000</scale>
+        <node id="wing-Pivot" name="wing-Pivot">
+          <translate>5.054990 0.000000 -0.589634</translate>
+          <rotate>0.000000 0.000000 0.000000 0.000002</rotate>
+          <instance_geometry url="#wing-lib">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="wingMat" target="#wingMat"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <node id="node_collider" name="node_collider">
+        <rotate sid="jointOrientX">1 0 0 -90.000000</rotate>
+        <scale sid="scale">0.100000 0.100000 0.100000</scale>
+        <node id="node_collider-Pivot" name="node_collider-Pivot">
+          <translate>-0.853841 -0.000000 -0.589633</translate>
+          <rotate>0.000000 0.000000 0.000000 0.000003</rotate>
+          <instance_geometry url="#node_collider-lib">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="_02___Default" target="#_02___Default"/>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#RootNode"/>
+  </scene>
+</COLLADA>
+
