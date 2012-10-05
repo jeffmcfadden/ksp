@@ -1,0 +1,8290 @@
+GAME
+{
+	version = 0.17.0
+	Title = Jeff (Sandbox)
+	Description = No description available.
+	Mode = 0
+	Status = 1
+	scene = 5
+	PARAMETERS
+	{
+		FLIGHT
+		{
+			CanQuickSave = True
+			CanQuickLoad = True
+			CanAutoSave = True
+			CanUseMap = True
+			CanSwitchVesselsNear = True
+			CanSwitchVesselsFar = True
+			CanTimeWarpHigh = True
+			CanTimeWarpLow = True
+			CanEVA = True
+			CanIVA = True
+			CanBoard = True
+			CanRestart = True
+			CanLeaveToEditor = True
+			CanLeaveToTrackingStation = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		EDITOR
+		{
+			CanSave = True
+			CanLoad = True
+			CanStartNew = True
+			CanLaunch = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+			startUpMode = 0
+			craftFileToLoad = 
+		}
+		TRACKINGSTATION
+		{
+			CanFlyVessel = True
+			CanAbortVessel = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		SPACECENTER
+		{
+			CanGoInVAB = True
+			CanGoInSPH = True
+			CanGoInTrackingStation = True
+			CanLaunchAtPad = True
+			CanLaunchAtRunway = True
+			CanLeaveToMainMenu = True
+		}
+	}
+	FLIGHTSTATE
+	{
+		version = 0.17.0
+		UT = 630416925.628041
+		activeVessel = 44
+		CREW
+		{
+			name = Jebediah Kerman
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			state = 1
+			ToD = 51185.9104443395
+			idx = 0
+		}
+		CREW
+		{
+			name = Bill Kerman
+			brave = 0.5
+			dumb = 0.8
+			badS = False
+			state = 1
+			ToD = 51185.9104443395
+			idx = 1
+		}
+		CREW
+		{
+			name = Bob Kerman
+			brave = 0.3
+			dumb = 0.1
+			badS = False
+			state = 1
+			ToD = 51185.9104443395
+			idx = 2
+		}
+		CREW
+		{
+			name = Bilski Kerman
+			brave = 0.4816431
+			dumb = 0.6909325
+			badS = False
+			state = 3
+			ToD = 630393016.38867
+			idx = -1
+		}
+		CREW
+		{
+			name = Fredble Kerman
+			brave = 0.9575814
+			dumb = 0.3473496
+			badS = False
+			state = 1
+			ToD = 630363981.641735
+			idx = 0
+		}
+		CREW
+		{
+			name = Mergel Kerman
+			brave = 0.2228608
+			dumb = 0.4236588
+			badS = False
+			state = 1
+			ToD = 630363981.641735
+			idx = 1
+		}
+		CREW
+		{
+			name = Herhat Kerman
+			brave = 0.9115624
+			dumb = 0.2272925
+			badS = False
+			state = 1
+			ToD = 126387923.414999
+			idx = 2
+		}
+		CREW
+		{
+			name = Doodton Kerman
+			brave = 0.8728557
+			dumb = 0.6179677
+			badS = False
+			state = 1
+			ToD = 126387923.414999
+			idx = -1
+		}
+		CREW
+		{
+			name = Lanemone Kerman
+			brave = 0.3808861
+			dumb = 0.4473246
+			badS = False
+			state = 0
+			ToD = 126387923.414999
+			idx = 2
+		}
+		CREW
+		{
+			name = Hudlorf Kerman
+			brave = 0.2712486
+			dumb = 0.02116239
+			badS = False
+			state = 0
+			ToD = 240808.163696377
+			idx = 0
+		}
+		CREW
+		{
+			name = Lufel Kerman
+			brave = 0.8187822
+			dumb = 0.2870676
+			badS = False
+			state = 0
+			ToD = 240808.163696377
+			idx = 1
+		}
+		CREW
+		{
+			name = Samler Kerman
+			brave = 0.06566942
+			dumb = 0.6855593
+			badS = False
+			state = 0
+			ToD = 240808.163696377
+			idx = 2
+		}
+		CREW
+		{
+			name = Kirburry Kerman
+			brave = 0.9490038
+			dumb = 0.6975671
+			badS = False
+			state = 0
+			ToD = 58121680.5326091
+			idx = 0
+		}
+		CREW
+		{
+			name = Sigely Kerman
+			brave = 0.9833049
+			dumb = 0.7944925
+			badS = False
+			state = 0
+			ToD = 58121680.5326091
+			idx = 1
+		}
+		CREW
+		{
+			name = Gregbles Kerman
+			brave = 0.6414778
+			dumb = 0.6280828
+			badS = False
+			state = 0
+			ToD = 58121680.5326091
+			idx = 2
+		}
+		CREW
+		{
+			name = Henden Kerman
+			brave = 0.6981302
+			dumb = 0.681289
+			badS = True
+			state = 0
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Gregley Kerman
+			brave = 0.3033893
+			dumb = 0.750249
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 1
+		}
+		CREW
+		{
+			name = Wilhat Kerman
+			brave = 0.3522443
+			dumb = 0.1872998
+			badS = True
+			state = 0
+			ToD = 0
+			idx = 2
+		}
+		CREW
+		{
+			name = Camwin Kerman
+			brave = 0.02858436
+			dumb = 0.1042082
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Hudbur Kerman
+			brave = 0.6172972
+			dumb = 0.9687734
+			badS = True
+			state = 0
+			ToD = 0
+			idx = 1
+		}
+		CREW
+		{
+			name = Elrick Kerman
+			brave = 0.03996575
+			dumb = 0.9933376
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 2
+		}
+		CREW
+		{
+			name = Danden Kerman
+			brave = 0.9841123
+			dumb = 0.5182925
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Sondun Kerman
+			brave = 0.1433263
+			dumb = 0.06168854
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 1
+		}
+		CREW
+		{
+			name = Hudgel Kerman
+			brave = 0.4433594
+			dumb = 0.3572428
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 2
+		}
+		CREW
+		{
+			name = Ronsy Kerman
+			brave = 0.4322583
+			dumb = 0.4081267
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Dooddo Kerman
+			brave = 0.8610846
+			dumb = 0.09916103
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 1
+		}
+		CREW
+		{
+			name = Geofcott Kerman
+			brave = 0.8635335
+			dumb = 0.2388985
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 2
+		}
+		CREW
+		{
+			name = Ankin Kerman
+			brave = 0.2960014
+			dumb = 0.8858663
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Rodsted Kerman
+			brave = 0.001113415
+			dumb = 0.4741367
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 1
+		}
+		CREW
+		{
+			name = Greglo Kerman
+			brave = 0.871419
+			dumb = 0.0054214
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 2
+		}
+		CREW
+		{
+			name = Alkin Kerman
+			brave = 0.8504161
+			dumb = 0.6805701
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Ed Kerman
+			brave = 0.7717
+			dumb = 0.1292338
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 1
+		}
+		CREW
+		{
+			name = Generick Kerman
+			brave = 0.5879067
+			dumb = 0.5734885
+			badS = True
+			state = 1
+			ToD = 0
+			idx = 2
+		}
+		CREW
+		{
+			name = Thompsen Kerman
+			brave = 0.5259703
+			dumb = 0.7305287
+			badS = False
+			state = 1
+			ToD = 445199823.825458
+			idx = 0
+		}
+		CREW
+		{
+			name = Melvey Kerman
+			brave = 0.3592731
+			dumb = 0.6070372
+			badS = False
+			state = 1
+			ToD = 445199823.825458
+			idx = 1
+		}
+		CREW
+		{
+			name = Jenfred Kerman
+			brave = 0.3528034
+			dumb = 0.95409
+			badS = False
+			state = 1
+			ToD = 445199823.825458
+			idx = 2
+		}
+		CREW
+		{
+			name = Mersby Kerman
+			brave = 0.1349314
+			dumb = 0.7381544
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Mitke Kerman
+			brave = 0.4217251
+			dumb = 0.6745937
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 1
+		}
+		CREW
+		{
+			name = Bobcott Kerman
+			brave = 0.3675557
+			dumb = 0.9179176
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 2
+		}
+		CREW
+		{
+			name = Roford Kerman
+			brave = 0.04144597
+			dumb = 0.2459493
+			badS = False
+			state = 1
+			ToD = 445313551.78839
+			idx = 0
+		}
+		CREW
+		{
+			name = Kelley Kerman
+			brave = 0.9871379
+			dumb = 0.01258457
+			badS = False
+			state = 1
+			ToD = 445313551.78839
+			idx = 1
+		}
+		CREW
+		{
+			name = Thomprey Kerman
+			brave = 0.267781
+			dumb = 0.6384662
+			badS = False
+			state = 1
+			ToD = 445313551.78839
+			idx = 2
+		}
+		CREW
+		{
+			name = Deslorf Kerman
+			brave = 0.2765724
+			dumb = 0.07344413
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Lenald Kerman
+			brave = 0.1072406
+			dumb = 0.3574206
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 1
+		}
+		CREW
+		{
+			name = Seedred Kerman
+			brave = 0.3458725
+			dumb = 0.8042905
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 2
+		}
+		CREW
+		{
+			name = Derberry Kerman
+			brave = 0.4922425
+			dumb = 0.7030814
+			badS = False
+			state = 0
+			ToD = 547316039.650766
+			idx = 0
+		}
+		CREW
+		{
+			name = Thomsen Kerman
+			brave = 0.2812173
+			dumb = 0.2948703
+			badS = False
+			state = 0
+			ToD = 547316039.650766
+			idx = 1
+		}
+		CREW
+		{
+			name = Ludbin Kerman
+			brave = 0.6894804
+			dumb = 0.09422004
+			badS = False
+			state = 0
+			ToD = 547316039.650766
+			idx = 2
+		}
+		CREW
+		{
+			name = Munlie Kerman
+			brave = 0.2835315
+			dumb = 0.6955518
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Macsy Kerman
+			brave = 0.5109715
+			dumb = 0.4016716
+			badS = False
+			state = 1
+			ToD = 0
+			idx = -1
+		}
+		CREW
+		{
+			name = Sherdin Kerman
+			brave = 0.4867443
+			dumb = 0.456171
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 2
+		}
+		CREW
+		{
+			name = Ed Kerman
+			brave = 0.2909779
+			dumb = 0.9737015
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Philsey Kerman
+			brave = 0.784784
+			dumb = 0.4791613
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 1
+		}
+		CREW
+		{
+			name = Loly Kerman
+			brave = 0.1125448
+			dumb = 0.4431217
+			badS = False
+			state = 0
+			ToD = 0
+			idx = 2
+		}
+		VESSEL
+		{
+			pid = f04fef80b7c9465ab659cb954d61f73a
+			name = Moon 1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 12122.8708105476
+			lct = 28485.3695264007
+			root = 0
+			lat = -0.0906771132455225
+			lon = 163.60517209632
+			alt = 6503586.96986368
+			hgt = -1
+			nrm = 0.6472443,0.7351916,-0.2014149
+			rot = -0.1033015,0.6875082,-0.718394,-0.02390298
+			CoM = 0.0001372099,-2.954159,8.061528E-06
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 13556351217.7879
+				ECC = 0.0511534648349234
+				INC = 0.0212409752638509
+				LPE = 83.998534003994
+				LAN = 25.0835210229105
+				MNA = 1.69967471034679
+				EPH = 828693.871925491
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = stackDecoupler
+				uid = 4294547482
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.05
+				temp = -200.9697
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = advSasModule
+				uid = 4294547444
+				parent = 0
+				position = 0,-1.3268985748291,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 2
+				sqor = 1
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 0.8
+				temp = -201.0856
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank2-2
+				uid = 4294547416
+				parent = 1
+				position = 0,-2.22880935668945,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 2
+				sqor = 1
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = bottom, 3
+				mass = 1
+				temp = -201.804
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4294547392
+				parent = 2
+				position = 0,-3.89324951171875,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 2
+				sqor = 1
+				sidx = 3
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = None, -1
+				mass = 2.5
+				temp = -200.6422
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294545816
+				parent = 2
+				position = -1.33891308307648,-2.66259002685547,8.78353603184223E-08
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 1
+				dstg = 2
+				sqor = 1
+				sidx = 4
+				attm = 1
+				sym = 5
+				sym = 6
+				sym = 7
+				sym = 8
+				sym = 9
+				srfN = srfAttach, 2
+				mass = 0.1
+				temp = -200.4408
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294545742
+				parent = 2
+				position = -0.669456005096436,-2.66259002685547,1.15953278541565
+				rotation = 0,0.258819,0,-0.9659259
+				mirror = 1,1,1
+				istg = 1
+				dstg = 2
+				sqor = 1
+				sidx = 5
+				attm = 1
+				sym = 4
+				sym = 6
+				sym = 7
+				sym = 8
+				sym = 9
+				srfN = srfAttach, 2
+				mass = 0.1
+				temp = -200.2287
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294545668
+				parent = 2
+				position = 0.669456601142883,-2.66259002685547,1.15953278541565
+				rotation = 0,-0.2588191,0,-0.9659259
+				mirror = 1,1,1
+				istg = 1
+				dstg = 2
+				sqor = 1
+				sidx = 6
+				attm = 1
+				sym = 4
+				sym = 5
+				sym = 7
+				sym = 8
+				sym = 9
+				srfN = srfAttach, 2
+				mass = 0.1
+				temp = -200.0159
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294545594
+				parent = 2
+				position = 1.33891296386719,-2.66259002685547,-4.04077582061291E-07
+				rotation = 0,-0.7071069,0,-0.7071067
+				mirror = 1,1,1
+				istg = 1
+				dstg = 2
+				sqor = 1
+				sidx = 7
+				attm = 1
+				sym = 4
+				sym = 5
+				sym = 6
+				sym = 8
+				sym = 9
+				srfN = srfAttach, 2
+				mass = 0.1
+				temp = -199.8051
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294545520
+				parent = 2
+				position = 0.669456601142883,-2.66259002685547,-1.1595321893692
+				rotation = 0,-0.9659259,0,-0.2588191
+				mirror = 1,1,1
+				istg = 1
+				dstg = 2
+				sqor = 1
+				sidx = 8
+				attm = 1
+				sym = 4
+				sym = 5
+				sym = 6
+				sym = 7
+				sym = 9
+				srfN = srfAttach, 2
+				mass = 0.1
+				temp = -199.5911
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294545446
+				parent = 2
+				position = -0.669457077980042,-2.66259002685547,-1.1595321893692
+				rotation = 0,0.9659259,0,-0.2588191
+				mirror = 1,1,1
+				istg = 1
+				dstg = 2
+				sqor = 1
+				sidx = 9
+				attm = 1
+				sym = 4
+				sym = 5
+				sym = 6
+				sym = 7
+				sym = 8
+				srfN = srfAttach, 2
+				mass = 0.1
+				temp = -199.3816
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = 1b7d6914e0154e258ab4c27dd92c0548
+			name = To Another Planet Debris
+			sit = ESCAPING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 5.29999999915162
+			lct = 47032.6380980855
+			root = 0
+			lat = 0.326358591781541
+			lon = -130.870901685308
+			alt = 160686.102234689
+			hgt = -1
+			nrm = 0.1238749,0.3887823,-0.912964
+			rot = -0.02475914,0.1543296,-0.7592574,0.6317418
+			CoM = -0.003879935,-9.298443,0.002769947
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 11320565403.3871
+				ECC = 0.236048897221352
+				INC = 0.968814537541803
+				LPE = 25.0263921761193
+				LAN = 1.6260633736407
+				MNA = 2.51894636185019
+				EPH = 100780.968735828
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = stackDecoupler
+				uid = 4294796538
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.05
+				temp = -24.55122
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294796500
+				parent = 0
+				position = 0,-2.24202156066895,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 2
+				temp = -2.036532
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294796476
+				parent = 1
+				position = 0,-5.99202060699463,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = bottom, 3
+				mass = 2
+				temp = 106.0761
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294796452
+				parent = 2
+				position = 0,-9.74201965332031,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 3
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 2
+				temp = 352.48
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2
+				uid = 4294795930
+				parent = 3
+				position = 0,-12.6823291778564,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 4
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = None, -1
+				mass = 6
+				temp = 538.3077
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 540331e9c3704f839105d7fc8bada405
+			name = To Another Planet Debris
+			sit = ESCAPING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 42.0999990589917
+			lct = 4659481.32275585
+			root = 0
+			lat = -0.96013318345938
+			lon = -397.004056292812
+			alt = 506700.416267954
+			hgt = -1
+			nrm = 0.2939876,0.7120548,-0.6376121
+			rot = 0.03777597,0.3572231,-0.789304,0.4979598
+			CoM = -0.002367973,-9.298424,0.002531767
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 21159798632.5078
+				ECC = 0.36388173643582
+				INC = 1.1391511963161
+				LPE = 163.975883849757
+				LAN = 182.067429558916
+				MNA = 0.139856737215371
+				EPH = 4706933.06967234
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = stackDecoupler
+				uid = 4294718842
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 5
+				sqor = 2
+				sidx = 4
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.05
+				temp = -198.4497
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294718804
+				parent = 0
+				position = 0,-2.24202156066895,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 6
+				sqor = 2
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 2
+				temp = -197.7249
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294718780
+				parent = 1
+				position = 0,-5.99201965332031,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 6
+				sqor = 2
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = bottom, 3
+				mass = 2
+				temp = -196.2014
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294718756
+				parent = 2
+				position = 0,-9.74201965332031,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 6
+				sqor = 2
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 2
+				temp = -194.5829
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2
+				uid = 4294718732
+				parent = 3
+				position = 0,-12.6823329925537,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 6
+				sqor = 2
+				sidx = 8
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = None, -1
+				mass = 6
+				temp = -193.6645
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 5f897fd459724844a9bdd528a24e586a
+			name = To Another Planet Debris
+			sit = ESCAPING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 30.3999993205071
+			lct = 4659493.14275559
+			root = 0
+			lat = -0.963052047406572
+			lon = -396.985324700704
+			alt = 506689.337973919
+			hgt = -1
+			nrm = 0.3039209,-0.03540236,-0.9520393
+			rot = 0.2173133,-0.002128369,-0.7350726,0.6422139
+			CoM = 8.161366E-05,-1.447687,-5.829334E-05
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 21171891232.6519
+				ECC = 0.364236794728694
+				INC = 1.13952324672216
+				LPE = 163.991677724464
+				LAN = 182.06755957762
+				MNA = 0.139600712724005
+				EPH = 4706933.06967234
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294718944
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 3
+				sqor = 2
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -144.2026
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = nuclearEngine
+				uid = 4294718910
+				parent = 0
+				position = 0,-1.7692985534668,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 4
+				sqor = 2
+				sidx = 3
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = None, -1
+				mass = 2.25
+				temp = -143.9394
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = bdce1aa841be44bba6d3f7ccd87f9519
+			name = New Genesis 2 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 158642069.530017
+			lct = 43245036.1779656
+			root = 0
+			lat = 0.00841934056476713
+			lon = -161.095342873107
+			alt = 600820.674934993
+			hgt = -1
+			nrm = 0.9719426,-0.04106399,-0.2316058
+			rot = -0.2236141,0.59303,0.6821554,0.3646589
+			CoM = -2.145767E-05,-6.671273,-1.192093E-06
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 1200914.54817444
+				ECC = 0.000624606178784289
+				INC = 179.888779285165
+				LPE = 92.8096550173438
+				LAN = 329.653024821766
+				MNA = 0.0828383716927023
+				EPH = 43245046.5005398
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294856204
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -40.19011
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294584870
+				parent = 0
+				position = 0,-2.24046039581299,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 4
+				sqor = 3
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 2
+				temp = -40.19011
+				expt = 0
+				state = 0
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294584846
+				parent = 1
+				position = 0,-5.99046039581299,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 4
+				sqor = 3
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = bottom, 3
+				mass = 2
+				temp = -40.19011
+				expt = 0
+				state = 0
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2
+				uid = 4294584822
+				parent = 2
+				position = 0,-8.9307689666748,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 4
+				sqor = 3
+				sidx = 3
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = None, -1
+				mass = 6
+				temp = -40.19011
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 46809602336e42b3a358de73364cbc4a
+			name = New Genesis 5 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 74.9599843621254
+			lct = 123738710.447183
+			root = 0
+			lat = 0.100515042184957
+			lon = 356.233928246023
+			alt = 10596623121.6246
+			hgt = -1
+			nrm = -0.03562742,-0.8477157,0.5292534
+			rot = 0.4519382,0.4016003,-0.7480586,0.2736376
+			CoM = 8.368492E-05,-4.290401,-3.030896E-05
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 10467326682.0564
+				ECC = 0.343684680242499
+				INC = 0.100552095368073
+				LPE = 207.407843667036
+				LAN = 60.3333018789044
+				MNA = 4.9451608090475
+				EPH = 123738781.507168
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294047978
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 3
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = 9.445935
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4292073144
+				parent = 0
+				position = 0,-2.2404670715332,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 4
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 2
+				temp = 9.43578
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4292073120
+				parent = 1
+				position = 0,-5.99046897888184,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = bottom, 3
+				mass = 2
+				temp = 9.440196
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2
+				uid = 4292073096
+				parent = 2
+				position = 0,-8.93077850341797,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = None, -1
+				mass = 6
+				temp = 9.430407
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 6ca29efd3f62417389726315ef452c18
+			name = New Genesis 5 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 4789.36050777137
+			lct = 124279923.594874
+			root = 0
+			lat = 0.115748869324194
+			lon = -63.7918770114932
+			alt = 8580794369.52792
+			hgt = -1
+			nrm = -0.3930646,0.2452324,0.8862061
+			rot = 0.5579537,0.3526833,-0.4184761,-0.6238428
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 11131367845.9273
+				ECC = 0.341782586955251
+				INC = 0.100591457397344
+				LPE = 169.745562009487
+				LAN = 88.1026322613437
+				MNA = 4.33203139751942
+				EPH = 136441190.721398
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = nuclearEngine
+				uid = 4294048046
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 2.25
+				temp = 14.83555
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = c399de5e714e4dc980abd5dffdba6509
+			name = New Genesis 7 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 12.6000067591667
+			lct = 154648596.541404
+			root = 0
+			lat = -0.356926675030603
+			lon = -383.491912721029
+			alt = 9907577881.42793
+			hgt = -1
+			nrm = -0.09300844,-0.3862609,-0.9176884
+			rot = 0.1426144,0.08562073,0.8473353,-0.5043344
+			CoM = -0.0009910744,-8.962876,-0.001251406
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 16395102913.8247
+				ECC = 0.379743830032604
+				INC = 0.441846600829634
+				LPE = 305.935377837666
+				LAN = 24.2306896643793
+				MNA = 0.0013221802042956
+				EPH = 154648609.101411
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294640112
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 3
+				sqor = 2
+				sidx = 3
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = 32.30249
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294640078
+				parent = 0
+				position = 0,-2.24046993255615,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 4
+				sqor = 2
+				sidx = 4
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 2
+				temp = 24.82096
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294640054
+				parent = 1
+				position = 0,-5.99047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 4
+				sqor = 2
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = bottom, 3
+				mass = 2
+				temp = 15.30906
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294640030
+				parent = 2
+				position = 0,-9.74046897888184,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 4
+				sqor = 2
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 2
+				temp = 12.55873
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2
+				uid = 4294640006
+				parent = 3
+				position = 0,-12.6807765960693,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 4
+				sqor = 2
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = None, -1
+				mass = 6
+				temp = 12.10905
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 464017a3b184483f8209ab27b6546ddb
+			name = Minimus 1 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 64.4889121949673
+			lct = 197241368.425682
+			root = 0
+			lat = 0.047306763314427
+			lon = -222.02038713772
+			alt = 264312.093640976
+			hgt = -1
+			nrm = -0.2270785,0.3178653,0.9205417
+			rot = -0.5228164,0.6793695,0.1257214,-0.4993136
+			CoM = 5.38826E-05,-11.13844,-3.409386E-05
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 13875159372.7884
+				ECC = 0.0366942442448303
+				INC = 0.528305873950058
+				LPE = 298.13609150631
+				LAN = 352.706891843294
+				MNA = 1.11062368355766
+				EPH = 197829290.181494
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294650582
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -155.4098
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294650548
+				parent = 0
+				position = 0,-2.24046897888184,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 2
+				temp = -168.6032
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294650524
+				parent = 1
+				position = 0,-5.99046897888184,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = bottom, 3
+				mass = 2
+				temp = -171.7032
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294650500
+				parent = 2
+				position = 0,-9.74046897888184,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 8
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 2
+				temp = -140.6414
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank1-2
+				uid = 4294650476
+				parent = 3
+				position = 0,-13.4904747009277,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 9
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = bottom, 5
+				mass = 2
+				temp = -84.91349
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2
+				uid = 4294650452
+				parent = 4
+				position = 0,-16.4307823181152,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 10
+				attm = 0
+				srfN = None, -1
+				attN = top, 4
+				attN = None, -1
+				mass = 6
+				temp = -55.84745
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 0703793380ba48deafb514597f7a60c6
+			name = Doodton Kerman
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 299.700160771608
+			lct = 197435366.326111
+			root = 0
+			lat = -6.19667205414229
+			lon = -19.1631252474118
+			alt = 0.171036330037168
+			hgt = 0.2269799
+			nrm = 0.0003284514,1,0.0002059154
+			rot = 0.6125001,0.3944169,0.4230279,-0.5388194
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = True
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 98.7587345906828
+				LAN = 284.28480733186
+				MNA = -8.40714670366795
+				EPH = 630386057.08844
+				REF = 3
+				OBJ = 4
+			}
+			PART
+			{
+				name = kerbalEVA
+				uid = 4293971114
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 0.03125
+				temp = -4.294325E-08
+				expt = 0
+				state = 0
+				connected = True
+				attached = True
+				crew = 7
+				MODULE
+				{
+					name = KerbalEVA
+					isEnabled = False
+					Fuel = 100
+					state = Idle (Grounded)
+					step = 1.182373
+					packExt = False
+					lightOn = False
+					Fuel = 100
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 38b9089143234fc1973c9a835daac40f
+			name = New Genesis 8
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 216642078.504755
+			lct = 197856641.573216
+			root = 0
+			lat = 47.7296366655856
+			lon = 56.7273578505078
+			alt = 769911.700036213
+			hgt = -1
+			nrm = 0.7483222,0.6140899,0.2508138
+			rot = -0.6879574,-0.7222576,0.02821295,-0.06528992
+			CoM = 0.001846161,-7.147917,-0.0024257
+			stg = 4
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 1840248.8743411
+				ECC = 0.266698697685119
+				INC = 93.9965285628981
+				LPE = 79.7638204668646
+				LAN = 251.191331538925
+				MNA = 0.540773262682367
+				EPH = 414498720.077971
+				REF = 5
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4294856084
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 1
+				mass = 4
+				temp = -201.0245
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 12
+				crew = 13
+				crew = 14
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4294856004
+				parent = 0
+				position = 0,1.1952600479126,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = -200.2759
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294855960
+				parent = 0
+				position = 0,-0.930100440979004,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 3
+				attN = top, 0
+				mass = 0.5
+				temp = -200.5037
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4294855926
+				parent = 2
+				position = 0,-1.54557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 0.8
+				temp = -200.4554
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4294855902
+				parent = 3
+				position = 0,-2.29557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = bottom, 5
+				mass = 0.5
+				temp = -200.3986
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = 0, FLOAT
+				trans_kill_h = False, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294855822
+				parent = 4
+				position = 0,-2.74642086029053,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 6
+				attN = top, 4
+				mass = 0.5
+				temp = -200.2596
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294855788
+				parent = 5
+				position = 0,-4.98689365386963,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 5
+				attN = bottom, 7
+				mass = 5.768444
+				temp = -200.1313
+				expt = 0.211975
+				state = 1
+				connected = True
+				attached = True
+				fuel = 11776.39, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294855764
+				parent = 6
+				position = 0,-8.73689365386963,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 6
+				attN = bottom, 8
+				mass = 18
+				temp = -200.221
+				expt = 0.9
+				state = 1
+				connected = True
+				attached = True
+				fuel = 50000, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4294855740
+				parent = 7
+				position = 0,-11.6772012710571,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = top, 7
+				attN = None, -1
+				mass = 6
+				temp = -199.9638
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = da847aeb55ce48d58eeeedda1d2394df
+			name = New Genesis 9
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 30509230.0698081
+			lct = 414498765.797927
+			root = 0
+			lat = -0.520589653922655
+			lon = -257.903796998251
+			alt = 77169376.1802697
+			hgt = 7.716947E+07
+			nrm = -0.3280597,-0.04486328,0.9435913
+			rot = -0.7104291,-0.5518991,0.2089799,0.3834386
+			CoM = -0.00048244,-6.994061,0.0007607937
+			stg = 4
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 3353766.33384679
+				ECC = 0.341318985933066
+				INC = 126.176431150439
+				LPE = 86.6959547059296
+				LAN = 93.0294178195943
+				MNA = 2.90564459591318
+				EPH = 449743753.249572
+				REF = 12
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4294867968
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 1
+				mass = 4
+				temp = -201.0275
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 27
+				crew = 28
+				crew = 29
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4294867888
+				parent = 0
+				position = 0,1.1952600479126,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = -200.2759
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294867844
+				parent = 0
+				position = 0,-0.930100440979004,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 3
+				attN = top, 0
+				mass = 0.5
+				temp = -200.5098
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4294867810
+				parent = 2
+				position = 0,-1.54557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 0.8
+				temp = -200.4675
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4294867786
+				parent = 3
+				position = 0,-2.29557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = bottom, 5
+				mass = 0.5
+				temp = -200.4244
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = 0, FLOAT
+				trans_kill_h = False, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294867706
+				parent = 4
+				position = 0,-2.74642086029053,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 6
+				attN = top, 4
+				mass = 0.5
+				temp = -200.3183
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294867672
+				parent = 5
+				position = 0,-4.98689365386963,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 5
+				attN = bottom, 7
+				mass = 9.037415
+				temp = -200.3096
+				expt = 0.3958546
+				state = 1
+				connected = True
+				attached = True
+				fuel = 21991.92, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294867648
+				parent = 6
+				position = 0,-8.73689365386963,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 6
+				attN = bottom, 8
+				mass = 18
+				temp = -201.008
+				expt = 0.9
+				state = 1
+				connected = True
+				attached = True
+				fuel = 50000, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4294867624
+				parent = 7
+				position = 0,-11.6772012710571,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = top, 7
+				attN = None, -1
+				mass = 6
+				temp = -200.2736
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294867562
+				parent = 7
+				position = -1.16044056415558,-10.2398900985718,0.669980823993683
+				rotation = 0,0.5,0,-0.8660254
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 3
+				attm = 1
+				sym = 10
+				sym = 11
+				srfN = srfAttach, 7
+				mass = 0.1
+				temp = -200.13
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294867488
+				parent = 7
+				position = 1.16044068336487,-10.2398900985718,0.669980227947235
+				rotation = 0,-0.5000001,0,-0.8660253
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 4
+				attm = 1
+				sym = 9
+				sym = 11
+				srfN = srfAttach, 7
+				mass = 0.1
+				temp = -199.9461
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294867414
+				parent = 7
+				position = -1.04308128356934E-07,-10.2398900985718,-1.33996164798737
+				rotation = 0,1,0,-4.371139E-08
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 5
+				attm = 1
+				sym = 9
+				sym = 10
+				srfN = srfAttach, 7
+				mass = 0.1
+				temp = -199.7641
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = d6457bdfd5ca44edba5a576a8ca837e2
+			name = Moonbase Lander Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 11183.424068749
+			lct = 445036428.069402
+			root = 0
+			lat = -1.29551755110459
+			lon = -37.0836764782819
+			alt = 102230.03098925
+			hgt = -1
+			nrm = 0.207537,0.9482384,0.2403597
+			rot = 0.5469161,-0.7142426,-0.4022933,0.1700018
+			CoM = -0.0001068413,-2.473694,-0.0002912283
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 301937.868303696
+				ECC = 0.00128397247717582
+				INC = 1.9341841684531
+				LPE = 0.87088109714775
+				LAN = 21.7389077424962
+				MNA = 5.53244286437473
+				EPH = 445036443.826184
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4293836672
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 5
+				sqor = 5
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4293324516
+				parent = 0
+				position = 0,-2.24047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 12.45635
+				temp = 0
+				expt = 0.5881696
+				state = 1
+				connected = False
+				attached = True
+				fuel = 32676.09, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4293324492
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 5
+				dstg = 6
+				sqor = 5
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 19118b0df742442aba3dc0ce350be408
+			name = Moonbase Lander
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 39194.2643263936
+			lct = 445113717.330135
+			root = 0
+			lat = 0.540997273189931
+			lon = -16.516867992285
+			alt = 1111.24202686024
+			hgt = 8.957655
+			nrm = 0.006763816,0.9999771,0.0001611114
+			rot = 0.5048733,0.34981,0.4778792,-0.6279869
+			CoM = -0.001369715,-4.167228,0.001929343
+			stg = 4
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 119.678635027012
+				LAN = 284.28480733186
+				MNA = -8.40714670366795
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4294883302
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 1
+				mass = 4
+				temp = 0.5627831
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 30
+				crew = 31
+				crew = 32
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4294883222
+				parent = 0
+				position = 0,1.19525909423828,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = 0.2811565
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294883178
+				parent = 0
+				position = 0,-0.930100440979004,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 3
+				attN = top, 0
+				mass = 0.5
+				temp = 1.326587
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4294883144
+				parent = 2
+				position = 0,-1.54557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 0.8
+				temp = 3.082202
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4294883120
+				parent = 3
+				position = 0,-2.29557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = bottom, 5
+				mass = 0.5
+				temp = 6.799538
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = -0.5, FLOAT
+				trans_kill_h = True, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294883040
+				parent = 4
+				position = 0,-2.74641990661621,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 6
+				attN = top, 4
+				mass = 0.5
+				temp = 13.44084
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294883006
+				parent = 5
+				position = 0,-4.98688983917236,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 5
+				attN = bottom, 7
+				mass = 17.58107
+				temp = 25.29651
+				expt = 0.8764354
+				state = 1
+				connected = True
+				attached = True
+				fuel = 48690.86, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4294882982
+				parent = 6
+				position = 0,-7.58882713317871,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 6
+				attN = None, -1
+				mass = 2.5
+				temp = 57.53148
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294882792
+				parent = 6
+				position = -1.16410851478577,-6.46292018890381,0.672098517417908
+				rotation = 0,0.5,0,-0.8660254
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 1
+				sym = 9
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = 19.34513
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294882718
+				parent = 6
+				position = 1.16410851478577,-6.46292018890381,0.67209804058075
+				rotation = 0,-0.5000001,0,-0.8660253
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 3
+				attm = 1
+				sym = 8
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = 19.30564
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294882644
+				parent = 6
+				position = -1.04308128356934E-07,-6.46292018890381,-1.34419643878937
+				rotation = 0,1,0,-4.371139E-08
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 4
+				attm = 1
+				sym = 8
+				sym = 9
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = 19.26687
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = 14f7823a5ddc48df837794da8b125eab
+			name = Moonbase Lander Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 8817.23450011015
+			lct = 445142172.032737
+			root = 0
+			lat = 0.926592616598233
+			lon = -148.155193857065
+			alt = 199483.027451013
+			hgt = -1
+			nrm = -0.8724099,-0.4800375,0.0920049
+			rot = -0.4181083,-0.6046674,-0.5771974,0.3555363
+			CoM = -0.00025177,-3.109483,-0.0001728982
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 399310.507095245
+				ECC = 0.000536906953899836
+				INC = 0.992201212621716
+				LPE = 326.67510144545
+				LAN = 289.527393328949
+				MNA = 2.51746577085271
+				EPH = 445150989.227237
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294882912
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = 0.107792
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294882878
+				parent = 0
+				position = 0,-2.24047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 12.5098
+				temp = 0.1099098
+				expt = 0.5911765
+				state = 1
+				connected = False
+				attached = True
+				fuel = 32843.14, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4294882854
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = 0.1128003
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 2eebbc66946d4bc1a9fd9d1b7d04c3b3
+			name = Moonbase Lander
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 288681.949024498
+			lct = 445152936.114439
+			root = 0
+			lat = -0.00227986894179625
+			lon = -0.00359282952459239
+			alt = 1245.79277785157
+			hgt = 0.922871
+			nrm = 0.7203875,-0.3886236,0.5744681
+			rot = 0.8401437,-0.3820673,0.1530627,-0.3532064
+			CoM = 0.0002005643,-0.02215343,0.0003488464
+			stg = 4
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 119.873811113395
+				LAN = 284.28480733186
+				MNA = -8.40714670366795
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4292882264
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 1
+				mass = 4
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 33
+				crew = 34
+				crew = 35
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4292339222
+				parent = 0
+				position = 0,1.19525909423828,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4292339178
+				parent = 0
+				position = 0,-0.930100440979004,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = top, 0
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 67e57850a99d4410bf068e6c4958a3b6
+			name = Moonbase Lander Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 3228.92213010788
+			lct = 445182616.171898
+			root = 0
+			lat = 0.247182768375399
+			lon = -48.8829848316539
+			alt = 144533.888791857
+			hgt = -1
+			nrm = 0.9805913,0.08123127,0.1784441
+			rot = -0.6018168,0.4506169,0.3383236,0.5659488
+			CoM = 0.0001803637,-3.109579,3.586709E-05
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 344360.086157123
+				ECC = 0.000552137490438901
+				INC = 1.94542449859108
+				LPE = 161.712638977491
+				LAN = 222.741747861895
+				MNA = 5.7988527116941
+				EPH = 445182620.208711
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294738214
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -199.6157
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294738180
+				parent = 0
+				position = 0,-2.24047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 12.50828
+				temp = -199.3571
+				expt = 0.5910906
+				state = 1
+				connected = False
+				attached = True
+				fuel = 32838.37, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4294738156
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = -199.079
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = e4783b6bbc4e411c84ffb0b93f0dfafa
+			name = Moonbase Lander Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 254851.419098496
+			lct = 445186766.644365
+			root = 0
+			lat = -0.00152929825734782
+			lon = -0.00262273366636556
+			alt = 1246.75370099759
+			hgt = 1.17409
+			nrm = 0.8660553,-0.008531122,0.4998753
+			rot = 0.8747876,-0.1853785,0.1887193,-0.4059144
+			CoM = -0.02264017,-3.516719,-0.007180572
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 119.87382523984
+				LAN = 284.28480733186
+				MNA = -8.40714670366795
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4292882244
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 1
+				mass = 0.8
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = False
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4292339116
+				parent = 0
+				position = 0,-0.75,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = -0.5, FLOAT
+				trans_kill_h = True, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4292339036
+				parent = 1
+				position = 0,-1.20084953308105,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 3
+				attN = top, 1
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4292339002
+				parent = 2
+				position = 0,-3.44131946563721,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 17.57391
+				temp = 0
+				expt = 0.8760327
+				state = 1
+				connected = True
+				attached = True
+				fuel = 48668.48, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4292338978
+				parent = 3
+				position = 0,-6.04325675964355,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = None, -1
+				mass = 2.5
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292338908
+				parent = 3
+				position = -1.16410851478577,-4.91734981536865,0.672098517417908
+				rotation = 0,0.5,0,-0.8660254
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 1
+				sym = 6
+				sym = 7
+				srfN = srfAttach, 3
+				mass = 0.1
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292338834
+				parent = 3
+				position = 1.16410851478577,-4.91734981536865,0.67209804058075
+				rotation = 0,-0.5000001,0,-0.8660253
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 3
+				attm = 1
+				sym = 5
+				sym = 7
+				srfN = srfAttach, 3
+				mass = 0.1
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292338760
+				parent = 3
+				position = -1.04308128356934E-07,-4.91734981536865,-1.34419643878937
+				rotation = 0,1,0,-4.371139E-08
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 4
+				attm = 1
+				sym = 5
+				sym = 6
+				srfN = srfAttach, 3
+				mass = 0.1
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = 57082922b3a640fb996ce9a2b34d5c1b
+			name = Moonbase Lander
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 254826.699122489
+			lct = 445186791.364341
+			root = 0
+			lat = -0.000340471835320438
+			lon = -0.000919874085393957
+			alt = 1255.81796863207
+			hgt = 9.032108
+			nrm = 0.001852775,0.9999405,0.01077258
+			rot = 0.5611404,0.4418098,0.4844581,-0.505199
+			CoM = -0.002191501,-4.165441,-0.001669812
+			stg = 4
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 5230748.5182823
+				ECC = 1
+				INC = NaN
+				LPE = 119.873884178903
+				LAN = 284.28480733186
+				MNA = 0.288150375758712
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4292882234
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 1
+				mass = 4
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 36
+				crew = 37
+				crew = 38
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4292339908
+				parent = 0
+				position = 0,1.19525909423828,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4292339864
+				parent = 0
+				position = 0,-0.930100440979004,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 3
+				attN = top, 0
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4292339830
+				parent = 2
+				position = 0,-1.54557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 0.8
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4292339806
+				parent = 3
+				position = 0,-2.29557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = bottom, 5
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = -0.5, FLOAT
+				trans_kill_h = True, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4292339726
+				parent = 4
+				position = 0,-2.74641990661621,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 6
+				attN = top, 4
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4292339692
+				parent = 5
+				position = 0,-4.98688983917236,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 5
+				attN = bottom, 7
+				mass = 17.53469
+				temp = 0
+				expt = 0.8738266
+				state = 1
+				connected = True
+				attached = True
+				fuel = 48545.92, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4292339668
+				parent = 6
+				position = 0,-7.58882713317871,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 6
+				attN = None, -1
+				mass = 2.5
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292339598
+				parent = 6
+				position = -1.16410851478577,-6.46292018890381,0.672098517417908
+				rotation = 0,0.5,0,-0.8660254
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 1
+				sym = 9
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292339524
+				parent = 6
+				position = 1.16410851478577,-6.46292018890381,0.67209804058075
+				rotation = 0,-0.5000001,0,-0.8660253
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 3
+				attm = 1
+				sym = 8
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292339450
+				parent = 6
+				position = -1.04308128356934E-07,-6.46292018890381,-1.34419643878937
+				rotation = 0,1,0,-4.371139E-08
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 4
+				attm = 1
+				sym = 8
+				sym = 9
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = 536631e757db49748403b8ca1ac7d1a8
+			name = Moonbase Lander Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 8825.03948557377
+			lct = 445215510.032301
+			root = 0
+			lat = 1.46614426130626
+			lon = 217.16842456058
+			alt = 197124.752195337
+			hgt = -1
+			nrm = -0.6832497,-0.3490179,0.6413707
+			rot = -0.3534326,-0.6834005,-0.6208249,-0.1504184
+			CoM = -5.435944E-05,-3.109575,-6.574392E-05
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 396913.382107013
+				ECC = 0.000542555565299996
+				INC = 1.5949586471184
+				LPE = 302.578377873498
+				LAN = 122.596606618922
+				MNA = 2.9774197848867
+				EPH = 445224335.031786
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294472466
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -200.3376
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294472432
+				parent = 0
+				position = 0,-2.24047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 12.51424
+				temp = -200.0857
+				expt = 0.5914261
+				state = 1
+				connected = False
+				attached = True
+				fuel = 32857, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4294472408
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = -199.817
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 050a9b7cce41424e8642fc77a1f2951e
+			name = Moonbase Lander
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 40515.3310206532
+			lct = 445226596.126503
+			root = 0
+			lat = -0.20623365203624
+			lon = -12.6465938059223
+			alt = 1315.00123259419
+			hgt = 8.960406
+			nrm = 0.0005888492,0.9999624,0.008648837
+			rot = 0.4745511,0.5853254,-0.4953997,0.4321741
+			CoM = -0.001673162,-4.166455,-0.001514286
+			stg = 4
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 119.731227450191
+				LAN = 284.28480733186
+				MNA = -8.40714670366795
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4294083880
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 1
+				mass = 4
+				temp = -22.02962
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 33
+				crew = 34
+				crew = 35
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4294083800
+				parent = 0
+				position = 0,1.19525909423828,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = -21.94693
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294083756
+				parent = 0
+				position = 0,-0.930100440979004,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 3
+				attN = top, 0
+				mass = 0.5
+				temp = -21.97361
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4294083722
+				parent = 2
+				position = 0,-1.54557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 0.8
+				temp = -21.97085
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4294083698
+				parent = 3
+				position = 0,-2.29557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = bottom, 5
+				mass = 0.5
+				temp = -21.97188
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = -0.5, FLOAT
+				trans_kill_h = True, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294083618
+				parent = 4
+				position = 0,-2.74641990661621,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 6
+				attN = top, 4
+				mass = 0.5
+				temp = -21.97421
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294083584
+				parent = 5
+				position = 0,-4.98688983917236,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 5
+				attN = bottom, 7
+				mass = 17.56583
+				temp = -22.02072
+				expt = 0.875578
+				state = 1
+				connected = True
+				attached = True
+				fuel = 48643.23, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4294083560
+				parent = 6
+				position = 0,-7.58882713317871,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 6
+				attN = None, -1
+				mass = 2.5
+				temp = -21.94383
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294083370
+				parent = 6
+				position = -1.16410851478577,-6.46292018890381,0.672098517417908
+				rotation = 0,0.5,0,-0.8660254
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 1
+				sym = 9
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = -21.92605
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294083296
+				parent = 6
+				position = 1.16410851478577,-6.46292018890381,0.67209804058075
+				rotation = 0,-0.5000001,0,-0.8660253
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 3
+				attm = 1
+				sym = 8
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = -21.9057
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294083222
+				parent = 6
+				position = -1.04308128356934E-07,-6.46292018890381,-1.34419643878937
+				rotation = 0,1,0,-4.371139E-08
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 4
+				attm = 1
+				sym = 8
+				sym = 9
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = -21.88575
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = 80c0d41c758446dfaf3a825d52d9c41c
+			name = Moonbase Lander Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 8895.91110771894
+			lct = 445256180.828024
+			root = 0
+			lat = -0.444496498019841
+			lon = 216.683443443737
+			alt = 199824.845475166
+			hgt = -1
+			nrm = 0.5803229,0.7749206,-0.2504467
+			rot = -0.2408376,0.02986962,-0.3532396,0.9035081
+			CoM = -4.383922E-05,-2.47371,-9.75728E-05
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 399539.804700404
+				ECC = 0.00183137048425307
+				INC = 0.446961319996346
+				LPE = 151.115749089455
+				LAN = 76.4995194232124
+				MNA = 5.56310944102406
+				EPH = 445256194.964808
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294083490
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4293854674
+				parent = 0
+				position = 0,-2.24047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 12.5123
+				temp = 0
+				expt = 0.5913171
+				state = 1
+				connected = False
+				attached = True
+				fuel = 32850.95, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4293854650
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 1bc284d5a8234ca486c297c69e7e9741
+			name = Moonbase Lander
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 174480.905965507
+			lct = 445267137.157498
+			root = 0
+			lat = -0.00391127966620973
+			lon = -0.00127481957633435
+			alt = 1246.14994804622
+			hgt = 0.9223879
+			nrm = -0.0004505776,-0.3884879,-0.9214538
+			rot = 0.6056579,-0.03923654,-0.7235188,-0.3288762
+			CoM = 0.0001659766,-0.02228887,-0.0003325309
+			stg = 4
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 5230746.56977793
+				ECC = 1
+				INC = NaN
+				LPE = 119.873833278053
+				LAN = 284.28480733186
+				MNA = 3.14159265358979
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4292882194
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 1
+				mass = 4
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 39
+				crew = 40
+				crew = 41
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4292338602
+				parent = 0
+				position = 0,1.19525909423828,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4292338558
+				parent = 0
+				position = 0,-0.930100440979004,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = top, 0
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 12b6d2af252b47a29659939b905dbf0e
+			name = Moonbase Lander Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 7519.40043568611
+			lct = 445296015.960651
+			root = 0
+			lat = 0.775397479594927
+			lon = -216.772266921106
+			alt = 196340.788667579
+			hgt = -1
+			nrm = -0.8545142,0.5055586,-0.1192313
+			rot = -0.7010099,-0.2528154,0.1716923,-0.6443534
+			CoM = -2.086163E-05,-2.473761,-4.440546E-06
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 396608.85685349
+				ECC = 0.000675191643342908
+				INC = 1.33110273316799
+				LPE = 28.4662487029435
+				LAN = 331.368862388303
+				MNA = 5.01189877380743
+				EPH = 445296019.997444
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4293288488
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4293021828
+				parent = 0
+				position = 0,-2.24047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 12.51769
+				temp = 0
+				expt = 0.5916198
+				state = 1
+				connected = False
+				attached = True
+				fuel = 32867.77, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4293021804
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 012cd20b9249408abfb4c76e5dceb390
+			name = Moonbase Lander Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 133997.438249528
+			lct = 445307620.625214
+			root = 0
+			lat = -0.00294157399688175
+			lon = -0.000885726131127029
+			alt = 1246.96310436152
+			hgt = 1.182963
+			nrm = 0.01397082,-0.05511768,-0.9983822
+			rot = 0.6339275,0.1754162,-0.6819586,-0.31984
+			CoM = 0.008960724,-3.510737,0.07055418
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 119.873841948588
+				LAN = 284.28480733186
+				MNA = -8.40714670366795
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4292882174
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 1
+				mass = 0.8
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = False
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4292338496
+				parent = 0
+				position = 0,-0.75,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = -0.5, FLOAT
+				trans_kill_h = True, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4292338416
+				parent = 1
+				position = 0,-1.20084953308105,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 3
+				attN = top, 1
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4292338382
+				parent = 2
+				position = 0,-3.44131946563721,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 17.5608
+				temp = 0
+				expt = 0.8752947
+				state = 1
+				connected = True
+				attached = True
+				fuel = 48627.49, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4292338358
+				parent = 3
+				position = 0,-6.04325675964355,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = None, -1
+				mass = 2.5
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292338288
+				parent = 3
+				position = -1.16410851478577,-4.91734981536865,0.672098517417908
+				rotation = 0,0.5,0,-0.8660254
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 1
+				sym = 6
+				sym = 7
+				srfN = srfAttach, 3
+				mass = 0.1
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292338214
+				parent = 3
+				position = 1.16410851478577,-4.91734981536865,0.67209804058075
+				rotation = 0,-0.5000001,0,-0.8660253
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 3
+				attm = 1
+				sym = 5
+				sym = 7
+				srfN = srfAttach, 3
+				mass = 0.1
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292338140
+				parent = 3
+				position = -1.04308128356934E-07,-4.91734981536865,-1.34419643878937
+				rotation = 0,1,0,-4.371139E-08
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 4
+				attm = 1
+				sym = 5
+				sym = 6
+				srfN = srfAttach, 3
+				mass = 0.1
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = 1e69f8828f3143f2b472f26d8b2e16ea
+			name = Moonbase Lander
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 43139.7169303298
+			lct = 445398478.346533
+			root = 0
+			lat = -3.6109287136063E-05
+			lon = 0.00414566976278685
+			alt = 1257.65792183668
+			hgt = 8.985881
+			nrm = -0.0138155,0.9998943,0.004537206
+			rot = 0.5172942,0.5107273,-0.5366248,0.4284836
+			CoM = 0.002396271,-4.156381,0.001576305
+			stg = 4
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 119.873942269036
+				LAN = 284.28480733186
+				MNA = -8.40714670366795
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4292882164
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 1
+				mass = 4
+				temp = 0.01912728
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 39
+				crew = 40
+				crew = 41
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4292882084
+				parent = 0
+				position = 0,1.19525909423828,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = 0.01563039
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4292882040
+				parent = 0
+				position = 0,-0.930100440979004,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 3
+				attN = top, 0
+				mass = 0.5
+				temp = 0.02560141
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4292882006
+				parent = 2
+				position = 0,-1.54557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 0.8
+				temp = 0.03478824
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4292881982
+				parent = 3
+				position = 0,-2.29557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = bottom, 5
+				mass = 0.5
+				temp = 0.04621741
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = -0.5, FLOAT
+				trans_kill_h = True, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4292881902
+				parent = 4
+				position = 0,-2.74641990661621,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 6
+				attN = top, 4
+				mass = 0.5
+				temp = 0.05855921
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4292881868
+				parent = 5
+				position = 0,-4.98688983917236,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 5
+				attN = bottom, 7
+				mass = 17.22566
+				temp = 0.07359461
+				expt = 0.8564436
+				state = 1
+				connected = True
+				attached = True
+				fuel = 47580.2, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4292881844
+				parent = 6
+				position = 0,-7.58882713317871,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 6
+				attN = None, -1
+				mass = 2.5
+				temp = 0.07822565
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292881654
+				parent = 6
+				position = -1.16410851478577,-6.46292018890381,0.672098517417908
+				rotation = 0,0.5,0,-0.8660254
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 1
+				sym = 9
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = 0.07569876
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292881580
+				parent = 6
+				position = 1.16410851478577,-6.46292018890381,0.67209804058075
+				rotation = 0,-0.5000001,0,-0.8660253
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 3
+				attm = 1
+				sym = 8
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = 0.07554562
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292881506
+				parent = 6
+				position = -1.04308128356934E-07,-6.46292018890381,-1.34419643878937
+				rotation = 0,1,0,-4.371139E-08
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 4
+				attm = 1
+				sym = 8
+				sym = 9
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = 0.07539364
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = 77a99ea3d1394272b451d349863d0286
+			name = Moonbase Lander Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 8822.7458344698
+			lct = 445427128.654245
+			root = 0
+			lat = 0.824867554790483
+			lon = -147.305922464974
+			alt = 198263.102330171
+			hgt = -1
+			nrm = 0.9372743,-0.2242481,-0.2668893
+			rot = 0.2163418,0.6024494,-0.663282,0.3876958
+			CoM = 9.512901E-05,-3.109115,-3.963709E-05
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 398026.232970403
+				ECC = 0.000602459608752696
+				INC = 0.837215864208191
+				LPE = 272.039908176041
+				LAN = 319.586281083767
+				MNA = 3.27725953072782
+				EPH = 445435950.470919
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4292881774
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -3.269264
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4292881740
+				parent = 0
+				position = 0,-2.24047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 12.51765
+				temp = -3.259693
+				expt = 0.5916181
+				state = 1
+				connected = False
+				attached = True
+				fuel = 32867.67, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4292881716
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = -3.248507
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 7870435d9b1747e58e7bf6eac3a6bc9a
+			name = Moonbase Lander 2
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 39766.7017269135
+			lct = 445441642.80344
+			root = 0
+			lat = 0.275458133655714
+			lon = -5.02108396847088
+			alt = 1194.85014397799
+			hgt = 8.950271
+			nrm = 0.001878366,0.999988,-0.004541814
+			rot = 0.6698354,0.7206302,-0.1537467,0.09151258
+			CoM = 0.002192825,-4.161278,-0.001787305
+			stg = 4
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 119.821960160192
+				LAN = 284.28480733186
+				MNA = -8.40714670366795
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4292278994
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 1
+				mass = 4
+				temp = -19.98905
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 42
+				crew = 43
+				crew = 44
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4292278914
+				parent = 0
+				position = 0,1.19525909423828,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = -19.91974
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4292278870
+				parent = 0
+				position = 0,-0.930100440979004,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 3
+				attN = top, 0
+				mass = 0.5
+				temp = -19.92758
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4292278836
+				parent = 2
+				position = 0,-1.54557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 0.8
+				temp = -19.90982
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4292278812
+				parent = 3
+				position = 0,-2.29557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = bottom, 5
+				mass = 0.5
+				temp = -19.89151
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = -0.5, FLOAT
+				trans_kill_h = True, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4292278732
+				parent = 4
+				position = 0,-2.74641990661621,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 6
+				attN = top, 4
+				mass = 0.5
+				temp = -19.87295
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4292278698
+				parent = 5
+				position = 0,-4.98688983917236,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 5
+				attN = bottom, 7
+				mass = 17.38926
+				temp = -19.88911
+				expt = 0.8656456
+				state = 1
+				connected = True
+				attached = True
+				fuel = 48091.42, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4292278674
+				parent = 6
+				position = 0,-7.58882713317871,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 6
+				attN = None, -1
+				mass = 2.5
+				temp = -19.81047
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292278484
+				parent = 6
+				position = -1.16410851478577,-6.46292018890381,0.672098517417908
+				rotation = 0,0.5,0,-0.8660254
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 1
+				sym = 9
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = -19.79963
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292278410
+				parent = 6
+				position = 1.16410851478577,-6.46292018890381,0.67209804058075
+				rotation = 0,-0.5000001,0,-0.8660253
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 3
+				attm = 1
+				sym = 8
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = -19.78156
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4292278336
+				parent = 6
+				position = -1.04308128356934E-07,-6.46292018890381,-1.34419643878937
+				rotation = 0,1,0,-4.371139E-08
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 4
+				attm = 1
+				sym = 8
+				sym = 9
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = -19.76348
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = 557afc7f4d8e4924bf653a889ce74a97
+			name = Moonbase Lander 2 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 2852.71432632208
+			lct = 445470632.308895
+			root = 0
+			lat = 0.937779139934526
+			lon = -115.783860572312
+			alt = 195315.082634558
+			hgt = -1
+			nrm = 0.5802161,0.7628956,0.2852016
+			rot = -0.4358376,0.6899298,0.5599265,0.1432651
+			CoM = -9.024143E-05,-3.109264,-4.386902E-05
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 395370.834396677
+				ECC = 0.000646441527048341
+				INC = 1.04947037379706
+				LPE = 38.6042112061183
+				LAN = 71.5104987037809
+				MNA = 4.72616225985937
+				EPH = 445470642.385604
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4292278604
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -169.0062
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4292278570
+				parent = 0
+				position = 0,-2.24047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 12.51485
+				temp = -162.9703
+				expt = 0.5914603
+				state = 1
+				connected = False
+				attached = True
+				fuel = 32858.91, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4292278546
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = -154.8415
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = f86a0570090e42b5b84c475260a16176
+			name = Moonbase Lander
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 184904588.04333
+			lct = 445481428.225149
+			root = 0
+			lat = 1.01592314858233
+			lon = 92.6894461221889
+			alt = 1916.73189035812
+			hgt = 8.981064
+			nrm = -0.00507275,0.9999819,0.003274414
+			rot = 0.03095902,-0.7399493,-0.6708253,-0.03886063
+			CoM = -0.0001122952,-3.909004,-0.0001893491
+			stg = 4
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 5090999.13936491
+				ECC = 1
+				INC = NaN
+				LPE = 119.410874715992
+				LAN = 284.28480733186
+				MNA = 3.14159265358979
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4293309206
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 1
+				mass = 4
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 45
+				crew = 46
+				crew = 47
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4293140982
+				parent = 0
+				position = 0,1.19525909423828,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4293140938
+				parent = 0
+				position = 0,-0.930100440979004,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 3
+				attN = top, 0
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4293140904
+				parent = 2
+				position = 0,-1.54557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 0.8
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4293140880
+				parent = 3
+				position = 0,-2.29557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = bottom, 5
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = -0.5, FLOAT
+				trans_kill_h = True, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4293140800
+				parent = 4
+				position = 0,-2.74641990661621,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 6
+				attN = top, 4
+				mass = 0.5
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4293140766
+				parent = 5
+				position = 0,-4.98688983917236,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 5
+				attN = bottom, 7
+				mass = 17.47322
+				temp = 0
+				expt = 0.8703684
+				state = 1
+				connected = True
+				attached = True
+				fuel = 48353.8, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4293140742
+				parent = 6
+				position = 0,-7.58882713317871,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 6
+				attN = None, -1
+				mass = 2.5
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4293140672
+				parent = 6
+				position = -1.16410851478577,-6.46292018890381,0.672098517417908
+				rotation = 0,0.5,0,-0.8660254
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 1
+				sym = 9
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4293140598
+				parent = 6
+				position = 1.16410851478577,-6.46292018890381,0.67209804058075
+				rotation = 0,-0.5000001,0,-0.8660253
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 3
+				attm = 1
+				sym = 8
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4293140524
+				parent = 6
+				position = -1.04308128356934E-07,-6.46292018890381,-1.34419643878937
+				rotation = 0,1,0,-4.371139E-08
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 4
+				attm = 1
+				sym = 8
+				sym = 9
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = 0
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = 90bec113ae954eed95f9f07561347ca9
+			name = Moonbase Lander Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 24.7199764251709
+			lct = 445511121.225258
+			root = 0
+			lat = 1.13443699274557
+			lon = 85.4280438137609
+			alt = 198089.840682675
+			hgt = -1
+			nrm = -0.2682585,0.7730104,0.5748849
+			rot = 0.08251141,0.7225792,-0.4902887,0.4803
+			CoM = 0.001030803,-3.112967,0.002332784
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 419644.256155905
+				ECC = 0.0513847467879812
+				INC = 1.51901535208592
+				LPE = 130.213046719859
+				LAN = 355.246642460934
+				MNA = 0.0232804077306223
+				EPH = 445511145.905235
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4291312704
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -43.23054
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4291312670
+				parent = 0
+				position = 0,-2.24047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 12.51318
+				temp = -42.49503
+				expt = 0.5913662
+				state = 1
+				connected = False
+				attached = True
+				fuel = 32853.68, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4291312646
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = -41.48577
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = e9fe7e74fb2c4fa8a9e9940e7ddcb5f3
+			name = Moonbase Lander
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 24865861.7149262
+			lct = 445512242.927065
+			root = 0
+			lat = 10.0456772482376
+			lon = -67.3896966001934
+			alt = 2598.18724952475
+			hgt = 8.962895
+			nrm = -0.02706474,0.9995827,-0.01010638
+			rot = -0.4731629,0.171361,-0.4538586,0.7353671
+			CoM = 0.002224922,-4.170455,0.001610518
+			stg = 4
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 155.396358327447
+				LAN = 284.28480733186
+				MNA = -8.40714670366795
+				EPH = 630386057.08844
+				REF = 6
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4294887048
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 1
+				mass = 4
+				temp = -31.72352
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 48
+				crew = 50
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4294886968
+				parent = 0
+				position = 0,1.19525909423828,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = -31.60453
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294886924
+				parent = 0
+				position = 0,-0.930100440979004,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 3
+				attN = top, 0
+				mass = 0.5
+				temp = -31.64301
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4294886890
+				parent = 2
+				position = 0,-1.54557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 0.8
+				temp = -31.6391
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4294886866
+				parent = 3
+				position = 0,-2.29557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = bottom, 5
+				mass = 0.5
+				temp = -31.64039
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = -0.5, FLOAT
+				trans_kill_h = True, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294886786
+				parent = 4
+				position = 0,-2.74641990661621,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 6
+				attN = top, 4
+				mass = 0.5
+				temp = -31.64431
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294886752
+				parent = 5
+				position = 0,-4.98688983917236,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 5
+				attN = bottom, 7
+				mass = 17.70199
+				temp = -31.71089
+				expt = 0.8832371
+				state = 1
+				connected = True
+				attached = True
+				fuel = 49068.73, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4294886728
+				parent = 6
+				position = 0,-7.58882713317871,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 6
+				attN = None, -1
+				mass = 2.5
+				temp = -31.60039
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294886538
+				parent = 6
+				position = -1.16410851478577,-6.46292018890381,0.672098517417908
+				rotation = 0,0.5,0,-0.8660254
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 1
+				sym = 9
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = -31.57439
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294886464
+				parent = 6
+				position = 1.16410851478577,-6.46292018890381,0.67209804058075
+				rotation = 0,-0.5000001,0,-0.8660253
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 3
+				attm = 1
+				sym = 8
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = -31.54531
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294886390
+				parent = 6
+				position = -1.04308128356934E-07,-6.46292018890381,-1.34419643878937
+				rotation = 0,1,0,-4.371139E-08
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 4
+				attm = 1
+				sym = 8
+				sym = 9
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = -31.51652
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = 90f3f6797575494890dc64cfc469267c
+			name = Macsy Kerman
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 99.4599051475525
+			lct = 470378005.182086
+			root = 0
+			lat = 10.046741825832
+			lon = -67.3895792992654
+			alt = 2589.4741445437
+			hgt = 0.2273245
+			nrm = 0.09751937,0.9932624,-0.06261095
+			rot = -0.6423883,-0.307255,0.01085873,0.702007
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = True
+			ORBIT
+			{
+				SMA = 13109404305.0491
+				ECC = 1
+				INC = NaN
+				LPE = 155.396358309319
+				LAN = 284.28480733186
+				MNA = 3.14159265358979
+				EPH = 630386057.08844
+				REF = 6
+				OBJ = 4
+			}
+			PART
+			{
+				name = kerbalEVA
+				uid = 4294379672
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				mass = 0.03125
+				temp = -31.55594
+				expt = 0
+				state = 0
+				connected = True
+				attached = True
+				crew = 49
+				MODULE
+				{
+					name = KerbalEVA
+					isEnabled = False
+					Fuel = 100
+					state = Idle (Grounded)
+					step = 1.208333
+					packExt = False
+					lightOn = False
+					Fuel = 100
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 63c7e4994824484881233dbef618bd08
+			name = Moonbase Lander Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 24.5199766159058
+			lct = 546680351.556857
+			root = 0
+			lat = -0.0387419024034581
+			lon = -338.900820770908
+			alt = 4704738313.79325
+			hgt = -1
+			nrm = 0.4839758,0.0696812,0.8723029
+			rot = 0.4766566,0.4344881,-0.7287234,-0.2301759
+			CoM = 0.002223969,-4.186568,-4.178286E-05
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 4806166432.1617
+				ECC = 0.230204873276246
+				INC = 0.0768863186589171
+				LPE = 98.9802388342015
+				LAN = 337.8218836537
+				MNA = 1.48829514949939
+				EPH = 546680376.036834
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294884706
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -40.24744
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294884672
+				parent = 0
+				position = 0,-2.24047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 2
+				temp = -36.08956
+				expt = 0
+				state = 2
+				connected = False
+				attached = True
+				fuel = 0, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4294884648
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = -30.43519
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 0ea4294692ff4a97a0716099da8657ce
+			name = Moonbase Lander Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 50.4399518966675
+			lct = 557033677.514852
+			root = 0
+			lat = 0.0422466772517037
+			lon = 94.2148585747149
+			alt = 5659601268.23392
+			hgt = -1
+			nrm = -0.5215358,0.8426265,-0.1340946
+			rot = -0.4051451,-0.3051458,0.728811,-0.4599761
+			CoM = 0.0007677227,-3.540936,0.001215197
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 5197283072.14704
+				ECC = 0.157970671131032
+				INC = 6.98723575324345
+				LPE = 23.7869374094836
+				LAN = 69.3328626962265
+				MNA = 2.57579495195179
+				EPH = 557033727.914804
+				REF = 0
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294795638
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -194.3483
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294795604
+				parent = 0
+				position = 0,-2.24047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 6.213822
+				temp = -194.1138
+				expt = 0.2370275
+				state = 1
+				connected = False
+				attached = True
+				fuel = 13168.19, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4294795580
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = -193.8658
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = ae2d7d413c4c4a63a11b7763cbb92bfa
+			name = Moonbase Lander Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 755.659279346466
+			lct = 573088208.585274
+			root = 0
+			lat = 7.3845686492633
+			lon = -71.1643150660934
+			alt = 3985780773.7394
+			hgt = -1
+			nrm = 0.4124341,-0.07243162,-0.9081034
+			rot = -0.1434952,0.07944412,0.8185523,0.5505177
+			CoM = -0.003712039,-2.936636,-0.0002928674
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 14751414171.3996
+				ECC = 0.71207040615273
+				INC = 7.53956200878284
+				LPE = 78.1831158786108
+				LAN = 64.6759508581654
+				MNA = 0.000436726126229435
+				EPH = 573088964.244553
+				REF = 0
+				OBJ = 0
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4294795846
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 1
+				mass = 0.5
+				temp = -178.5012
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = False
+				tmode = 0, INT
+				trans_spd_act = 0, FLOAT
+				trans_kill_h = False, BOOL
+				trans_land = False, BOOL
+				sass_mode = 15, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294795766
+				parent = 0
+				position = 0,-0.450849533081055,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 0
+				mass = 0.5
+				temp = -178.3738
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294795732
+				parent = 1
+				position = 0,-2.69131946563721,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = bottom, 3
+				mass = 14.62051
+				temp = -178.6952
+				expt = 0.7099037
+				state = 1
+				connected = True
+				attached = True
+				fuel = 39439.1, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4294795708
+				parent = 2
+				position = 0,-5.29325675964355,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = None, -1
+				mass = 2.5
+				temp = -178.0696
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294795518
+				parent = 2
+				position = -1.16410851478577,-4.16734981536865,0.672098517417908
+				rotation = 0,0.5,0,-0.8660254
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 1
+				sym = 5
+				sym = 6
+				srfN = srfAttach, 2
+				mass = 0.1
+				temp = -177.9364
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294795444
+				parent = 2
+				position = 1.16410851478577,-4.16734981536865,0.67209804058075
+				rotation = 0,-0.5000001,0,-0.8660253
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 3
+				attm = 1
+				sym = 4
+				sym = 6
+				srfN = srfAttach, 2
+				mass = 0.1
+				temp = -177.7867
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294795370
+				parent = 2
+				position = -1.04308128356934E-07,-4.16734981536865,-1.34419643878937
+				rotation = 0,1,0,-4.371139E-08
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 4
+				attm = 1
+				sym = 4
+				sym = 5
+				srfN = srfAttach, 2
+				mass = 0.1
+				temp = -177.637
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 0, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = 2a7cd592c5e549978aae692ac581d131
+			name = Moonbase Lander Buggy
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 103218.919317722
+			lct = 630253491.562486
+			root = 0
+			lat = 0.864868950102758
+			lon = 90.7003276740013
+			alt = 2171.31826689103
+			hgt = 8.674575
+			nrm = -0.002461672,0.9999967,-0.0008859383
+			rot = 0.7055628,-0.007319486,0.02809514,0.7080526
+			CoM = 3.843755E-05,0.08352534,-4.475121E-06
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 5092514.28516012
+				ECC = 1
+				INC = NaN
+				LPE = 119.446488528404
+				LAN = 284.28480733186
+				MNA = 3.14159265358979
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4294858558
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = top, 1
+				mass = 4
+				temp = -1.082998E-05
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				crew = 0
+				crew = 1
+				crew = 2
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4294858478
+				parent = 0
+				position = 0,1.19525909423828,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = -1.079248E-05
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = a016469672b7407a94e2ef08e0062615
+			name = Moonbase Lander Buggy Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 24.8199763298035
+			lct = 630281964.116161
+			root = 0
+			lat = 0.935741834109935
+			lon = 83.4032935752126
+			alt = 199244.743285366
+			hgt = -1
+			nrm = -0.1498129,0.9593531,0.2391611
+			rot = 0.5451077,0.6875723,0.3974444,0.2685888
+			CoM = -0.004549429,-3.1117,-0.0005935431
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 420646.843107943
+				ECC = 0.0509040093286058
+				INC = 1.35880627440895
+				LPE = 134.877498831297
+				LAN = 145.425211456014
+				MNA = 0.0251621113621522
+				EPH = 630281988.896138
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294858168
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -70.12382
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294858134
+				parent = 0
+				position = 0,-2.24047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 12.49747
+				temp = -69.24498
+				expt = 0.5904824
+				state = 1
+				connected = False
+				attached = True
+				fuel = 32804.58, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4294858110
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 8
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = -68.05396
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 92961093d3d64dda99cdad7769379555
+			name = Moonbase Lander Buggy Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 84.8999190330505
+			lct = 630356625.581884
+			root = 0
+			lat = 0.864889056970711
+			lon = 90.7002694427754
+			alt = 2168.84198852893
+			hgt = 6.189123
+			nrm = -0.002784282,0.9999958,-0.0009232126
+			rot = 0.705443,-0.004183658,0.03098635,0.7080767
+			CoM = 0.009314775,-2.498552,-0.009953026
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 5092515.37329751
+				ECC = 1
+				INC = NaN
+				LPE = 119.446481616955
+				LAN = 284.28480733186
+				MNA = 3.14159265358979
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294858296
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 3
+				sqor = 0
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -36.3353
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294858262
+				parent = 0
+				position = 0,-2.24046993255615,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 4
+				sqor = 0
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 17.47681
+				temp = -36.33888
+				expt = 0.8705704
+				state = 1
+				connected = False
+				attached = True
+				fuel = 48365.02, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4294858238
+				parent = 1
+				position = 0,-4.8424072265625,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 4
+				sqor = 0
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 2.5
+				temp = -36.20044
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294858048
+				parent = 1
+				position = -1.16410851478577,-3.7165002822876,0.672098517417908
+				rotation = 0,0.5,0,-0.8660254
+				mirror = 1,1,1
+				istg = 0
+				dstg = 4
+				sqor = 0
+				sidx = 8
+				attm = 1
+				sym = 4
+				sym = 5
+				srfN = srfAttach, 1
+				mass = 0.1
+				temp = -36.17129
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294857974
+				parent = 1
+				position = 1.16410851478577,-3.7165002822876,0.67209804058075
+				rotation = 0,-0.5000001,0,-0.8660253
+				mirror = 1,1,1
+				istg = 0
+				dstg = 4
+				sqor = 0
+				sidx = 9
+				attm = 1
+				sym = 3
+				sym = 5
+				srfN = srfAttach, 1
+				mass = 0.1
+				temp = -36.138
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294857900
+				parent = 1
+				position = -1.04308128356934E-07,-3.7165002822876,-1.34419643878937
+				rotation = 0,1,0,-4.371139E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 4
+				sqor = 0
+				sidx = 10
+				attm = 1
+				sym = 3
+				sym = 4
+				srfN = srfAttach, 1
+				mass = 0.1
+				temp = -36.10485
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = hstwCart
+				uid = 4294857826
+				parent = 0
+				position = 0.929458916187286,-0.21675968170166,-1.00190711021423
+				rotation = -0.1830139,0.6830118,0.6830131,0.1830136
+				mirror = 1,1,1
+				istg = 0
+				dstg = 4
+				sqor = 0
+				sidx = 11
+				attm = 1
+				srfN = srfAttach, 0
+				attN = None, -1
+				attN = None, -1
+				mass = 0.2
+				temp = -36.16472
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 80124b3e1390460fba10c7c2c263e908
+			name = Moonbase Lander Buggy Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 79.5399241447449
+			lct = 630356630.941879
+			root = 0
+			lat = 0.864878629983486
+			lon = 90.7003009823946
+			alt = 2170.50430598104
+			hgt = 7.856121
+			nrm = -0.002600253,0.9999962,-0.000894024
+			rot = 0.7055463,-0.006803738,0.02851038,0.7080575
+			CoM = 0.0004032552,-0.6530775,-4.214421E-05
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 119.446486109228
+				LAN = 284.28480733186
+				MNA = -8.40714670366795
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294858434
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 1
+				sqor = 0
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -36.29011
+				expt = 0.5
+				state = 2
+				connected = True
+				attached = False
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4294858400
+				parent = 0
+				position = 0,-0.615469932556152,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 3
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 0.8
+				temp = -36.23654
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4294858376
+				parent = 1
+				position = 0,-1.36546993255615,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 4
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -36.16208
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = -0.5, FLOAT
+				trans_kill_h = True, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+		}
+		VESSEL
+		{
+			pid = 939f8570789f4ec18acdea68e834045f
+			name = Moonbase Lander Buggy 2
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 29228.0267505646
+			lct = 630356739.121776
+			root = 0
+			lat = 0.138307134972109
+			lon = 92.8305238745525
+			alt = 2047.06411181256
+			hgt = 0.9931997
+			nrm = 0.9395151,-0.2671717,-0.2143138
+			rot = 0.4898228,-0.5981688,0.548108,0.3191323
+			CoM = -9.092316E-05,0.132616,1.860783E-05
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 0
+				ECC = 1
+				INC = NaN
+				LPE = 119.408785630163
+				LAN = 284.28480733186
+				MNA = -8.40714670366795
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4293309096
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = top, 1
+				mass = 4
+				temp = -4.181915E-17
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				crew = 4
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4293309002
+				parent = 0
+				position = 0,1.19318962097168,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 0
+				mass = 0.5
+				temp = -4.167437E-17
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = -0.5, FLOAT
+				trans_kill_h = True, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+		}
+		VESSEL
+		{
+			pid = b014a1bea424414badd9556474fc264b
+			name = Moonbase Lander Buggy 2 Debris
+			sit = ORBITING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 24.4999766349792
+			lct = 630384567.797146
+			root = 0
+			lat = 0.133794942352691
+			lon = 85.5318897827528
+			alt = 200336.193988494
+			hgt = -1
+			nrm = -0.07577515,-0.9574282,0.2785491
+			rot = 0.5843878,-0.57197,-0.1310063,-0.5605164
+			CoM = -0.002008438,-3.111875,0.003350854
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 417405.242463038
+				ECC = 0.0412352524639004
+				INC = 0.20077243035411
+				LPE = 130.482261280304
+				LAN = 51.5458364514517
+				MNA = 0.124872439166218
+				EPH = 630384592.257123
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4293308804
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 1
+				sqor = 0
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -53.41691
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4293308770
+				parent = 0
+				position = 0,-2.24046993255615,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 8
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 12.64487
+				temp = -53.25328
+				expt = 0.5987741
+				state = 1
+				connected = False
+				attached = True
+				fuel = 33265.23, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4293308746
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 9
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = -53.00287
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+		VESSEL
+		{
+			pid = 8551871f444c419c9c16601dc412b5f8
+			name = Moonbase Lander Buggy 2 Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 328.239686965942
+			lct = 630385638.928839
+			root = 0
+			lat = 0.138435749555218
+			lon = 92.8301752679328
+			alt = 2047.26512520082
+			hgt = 1.157936
+			nrm = 0.9999999,4.911423E-05,-8.363649E-05
+			rot = 0.5060853,-0.4851987,0.5521087,0.4512604
+			CoM = 0.0002788305,-2.341432,-0.0001181662
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 5090815.38667757
+				ECC = 1
+				INC = NaN
+				LPE = 119.408791223498
+				LAN = 284.28480733186
+				MNA = 3.14159265358979
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4293308922
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 1
+				mass = 0.8
+				temp = -34.25278
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4293308898
+				parent = 0
+				position = 0,-2.125,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 17.51144
+				temp = -34.26324
+				expt = 0.8725184
+				state = 1
+				connected = False
+				attached = True
+				fuel = 48473.24, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4293308874
+				parent = 1
+				position = 0,-4.72693920135498,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 2.5
+				temp = -34.15519
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = hstwCart
+				uid = 4293308684
+				parent = 1
+				position = 0.352532207965851,-1.58665943145752,1.31566762924194
+				rotation = -0.7010567,0.09229596,0.09229596,0.7010581
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 3
+				attm = 1
+				srfN = srfAttach, 1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.2
+				temp = -34.12374
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = hstwCart
+				uid = 4293308564
+				parent = 1
+				position = -0.355473875999451,-1.60974979400635,-1.3266464471817
+				rotation = 0.09229597,0.7010567,0.7010581,-0.09229597
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 4
+				attm = 1
+				srfN = srfAttach, 1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.2
+				temp = -34.08859
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 50eea35513fc47379cd4eab75a28613a
+			name = Mergel Kerman
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 184.159824371338
+			lct = 630385832.108655
+			root = 0
+			lat = 0.956504986941156
+			lon = 92.6952281157431
+			alt = 1923.15856750932
+			hgt = 0.02879411
+			nrm = -0.002620742,0.1026621,-0.9947132
+			rot = 0.6293844,0.769388,0.04305018,0.1003209
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = True
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 119.410797212692
+				LAN = 284.28480733186
+				MNA = -8.40714670366795
+				EPH = 630386057.08844
+				REF = 2
+				OBJ = 4
+			}
+			PART
+			{
+				name = kerbalEVA
+				uid = 4293144262
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				mass = 0.03125
+				temp = -32.12732
+				expt = 0
+				state = 0
+				connected = True
+				attached = True
+				crew = 5
+				MODULE
+				{
+					name = KerbalEVA
+					isEnabled = False
+					Fuel = 54.3824
+					state = Ragdoll
+					step = 0.3005371
+					packExt = True
+					lightOn = False
+					Fuel = 54.3824
+				}
+			}
+		}
+		VESSEL
+		{
+			pid = 385bebb677e14c8992b0439f3ea06e08
+			name = Moonbase Lander
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 30816.4396505356
+			lct = 630386109.18839
+			root = 0
+			lat = -0.938548429044618
+			lon = 95.42740926307
+			alt = 2011.92859747147
+			hgt = 8.959024
+			nrm = -0.003790855,0.9999573,0.008433664
+			rot = 0.6787109,0.03317867,0.114881,0.7246054
+			CoM = -0.001630664,-4.160781,-0.001613066
+			stg = 4
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 101016.932202945
+				ECC = 0.999741772186219
+				INC = 0.94210288495951
+				LPE = 85.0784048230839
+				LAN = 18.3712095017135
+				MNA = 3.1416005209514
+				EPH = 630416925.628041
+				REF = 2
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4294883294
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 2
+				attN = top, 1
+				mass = 4
+				temp = -33.27911
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				crew = 4
+				crew = 5
+				crew = 6
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4294883214
+				parent = 0
+				position = 0,1.19525909423828,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = -33.35805
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294883170
+				parent = 0
+				position = 0,-0.930100440979004,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 3
+				attN = top, 0
+				mass = 0.5
+				temp = -32.68285
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4294883136
+				parent = 2
+				position = 0,-1.54557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = bottom, 4
+				mass = 0.8
+				temp = -31.65621
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = mumech.mechjeb1m
+				uid = 4294883112
+				parent = 3
+				position = 0,-2.29557037353516,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 3
+				attN = bottom, 5
+				mass = 0.5
+				temp = -29.84297
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = -0.5, FLOAT
+				trans_kill_h = True, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294883032
+				parent = 4
+				position = 0,-2.74641990661621,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 3
+				dstg = 3
+				sqor = 3
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 6
+				attN = top, 4
+				mass = 0.5
+				temp = -27.16532
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294882998
+				parent = 5
+				position = 0,-4.98688983917236,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 5
+				attN = bottom, 7
+				mass = 17.34454
+				temp = -23.1419
+				expt = 0.8631306
+				state = 1
+				connected = True
+				attached = True
+				fuel = 47951.7, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine2-2
+				uid = 4294882974
+				parent = 6
+				position = 0,-7.58882713317871,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 6
+				attN = None, -1
+				mass = 2.5
+				temp = -15.36972
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294882784
+				parent = 6
+				position = -1.16410851478577,-6.46292018890381,0.672098517417908
+				rotation = 0,0.5,0,-0.8660254
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 2
+				attm = 1
+				sym = 9
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = -24.12222
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294882710
+				parent = 6
+				position = 1.16410851478577,-6.46292018890381,0.67209804058075
+				rotation = 0,-0.5000001,0,-0.8660253
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 3
+				attm = 1
+				sym = 8
+				sym = 10
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = -24.11028
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+			PART
+			{
+				name = landingLeg1-2
+				uid = 4294882636
+				parent = 6
+				position = -1.04308128356934E-07,-6.46292018890381,-1.34419643878937
+				rotation = 0,1,0,-4.371139E-08
+				mirror = 1,1,1
+				istg = 4
+				dstg = 4
+				sqor = 4
+				sidx = 4
+				attm = 1
+				sym = 8
+				sym = 9
+				srfN = srfAttach, 6
+				mass = 0.1
+				temp = -24.0983
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				lgSt = 2, INT
+				nTime = 0, FLOAT
+				aSpeed = 0, FLOAT
+			}
+		}
+		VESSEL
+		{
+			pid = c4226841a7784a5a87674d2db16bdfea
+			name = Moonbase Lander Debris
+			sit = ESCAPING
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 85.9109981060028
+			lct = 630415278.841817
+			root = 0
+			lat = 1.29318815153608
+			lon = 49.1901912402426
+			alt = 242472.420193599
+			hgt = -1
+			nrm = 0.9612192,0.2733583,0.03651011
+			rot = 0.3025712,0.5126085,-0.3013624,0.7448919
+			CoM = 5.00679E-06,-3.100307,-0.0001964569
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = -1006688.47758786
+				ECC = 1.39258521983257
+				INC = 1.30663143327338
+				LPE = 133.567241027548
+				LAN = 134.864060499546
+				MNA = -0.118865154978325
+				EPH = 630415312.641413
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294882904
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 5
+				sqor = 4
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -102.3689
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294882870
+				parent = 0
+				position = 0,-2.24047088623047,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 6
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 12.71982
+				temp = -102.4065
+				expt = 0.60299
+				state = 1
+				connected = False
+				attached = True
+				fuel = 33499.45, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4294882846
+				parent = 1
+				position = 0,-5.18077659606934,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 4
+				dstg = 6
+				sqor = 4
+				sidx = 7
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = None, -1
+				mass = 6
+				temp = -102.4824
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+	}
+}

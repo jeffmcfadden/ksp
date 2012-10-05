@@ -1,0 +1,144 @@
+ship = New Genesis 8
+version = 0.17.0
+type = VAB
+PART
+{
+	part = Mark1-2Pod_4294877364
+	pos = -0.2470135,13.902,0.005287626
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = parachuteLarge_4294874702
+	link = decoupler1-2_4294871402
+	attN = bottom, decoupler1-2_4294871402
+	attN = top, parachuteLarge_4294874702
+}
+PART
+{
+	part = parachuteLarge_4294874702
+	pos = -0.2470135,15.09726,0.005287626
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	attN = bottom, Mark1-2Pod_4294877364
+}
+PART
+{
+	part = decoupler1-2_4294871402
+	pos = -0.2470135,12.9719,0.005287626
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = asasmodule1-2_4294868960
+	attN = bottom, asasmodule1-2_4294868960
+	attN = top, Mark1-2Pod_4294877364
+}
+PART
+{
+	part = asasmodule1-2_4294868960
+	pos = -0.2470135,12.35643,0.005287626
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = mumech.mechjeb1m_4294868192
+	attN = top, decoupler1-2_4294871402
+	attN = bottom, mumech.mechjeb1m_4294868192
+}
+PART
+{
+	part = mumech.mechjeb1m_4294868192
+	pos = -0.2470135,11.60643,0.005287626
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = decoupler1-2_4294866786
+	attN = top, asasmodule1-2_4294868960
+	attN = bottom, decoupler1-2_4294866786
+}
+PART
+{
+	part = decoupler1-2_4294866786
+	pos = -0.2470135,11.15558,0.005287626
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 3
+	dstg = 3
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = fuelTank1-2b_4294858832
+	attN = bottom, fuelTank1-2b_4294858832
+	attN = top, mumech.mechjeb1m_4294868192
+}
+PART
+{
+	part = fuelTank1-2b_4294858832
+	pos = -0.2470135,8.915107,0.005287626
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = fuelTank1-2b_4294858038
+	attN = top, decoupler1-2_4294866786
+	attN = bottom, fuelTank1-2b_4294858038
+}
+PART
+{
+	part = fuelTank1-2b_4294858038
+	pos = -0.2470135,5.165107,0.005287626
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = liquidEngine1-2b_4294856684
+	attN = top, fuelTank1-2b_4294858832
+	attN = bottom, liquidEngine1-2b_4294856684
+}
+PART
+{
+	part = liquidEngine1-2b_4294856684
+	pos = -0.2470135,2.224799,0.005287626
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 2
+	sqor = -1
+	attm = 0
+	attN = top, fuelTank1-2b_4294858038
+}
