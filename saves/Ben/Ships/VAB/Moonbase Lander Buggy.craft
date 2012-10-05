@@ -1,0 +1,242 @@
+ship = Moonbase Lander Buggy
+version = 0.17.0
+type = VAB
+PART
+{
+	part = Mark1-2Pod_4294886158
+	pos = -0.2129935,16.5702,0.005001485
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = parachuteLarge_4294886078
+	link = decoupler1-2_4294886034
+	attN = bottom, decoupler1-2_4294886034
+	attN = top, parachuteLarge_4294886078
+}
+PART
+{
+	part = parachuteLarge_4294886078
+	pos = -0.2129935,17.76546,0.005001485
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	attN = bottom, Mark1-2Pod_4294886158
+}
+PART
+{
+	part = decoupler1-2_4294886034
+	pos = -0.2129935,15.6401,0.005001485
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = asasmodule1-2_4294886000
+	attN = bottom, asasmodule1-2_4294886000
+	attN = top, Mark1-2Pod_4294886158
+}
+PART
+{
+	part = asasmodule1-2_4294886000
+	pos = -0.2129935,15.02463,0.005001485
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = mumech.mechjeb1m_4294885976
+	attN = top, decoupler1-2_4294886034
+	attN = bottom, mumech.mechjeb1m_4294885976
+}
+PART
+{
+	part = mumech.mechjeb1m_4294885976
+	pos = -0.2129935,14.27463,0.005001485
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = decoupler1-2_4294885896
+	attN = top, asasmodule1-2_4294886000
+	attN = bottom, decoupler1-2_4294885896
+}
+PART
+{
+	part = decoupler1-2_4294885896
+	pos = -0.2129935,13.82378,0.005001485
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 3
+	dstg = 3
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = fuelTank1-2b_4294885862
+	link = hstwCart_4294859466
+	attN = bottom, fuelTank1-2b_4294885862
+	attN = top, mumech.mechjeb1m_4294885976
+}
+PART
+{
+	part = fuelTank1-2b_4294885862
+	pos = -0.2129935,11.58331,0.005001485
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = liquidEngine2-2_4294885838
+	link = landingLeg1-2_4294885648
+	link = landingLeg1-2_4294885574
+	link = landingLeg1-2_4294885500
+	attN = top, decoupler1-2_4294885896
+	attN = bottom, liquidEngine2-2_4294885838
+}
+PART
+{
+	part = liquidEngine2-2_4294885838
+	pos = -0.2129935,8.981373,0.005001485
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = decoupler1-2_4294885768
+	attN = top, fuelTank1-2b_4294885862
+	attN = bottom, decoupler1-2_4294885768
+}
+PART
+{
+	part = decoupler1-2_4294885768
+	pos = -0.2129935,7.79508,0.005001485
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 5
+	dstg = 5
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = fuelTank1-2b_4294885734
+	attN = bottom, fuelTank1-2b_4294885734
+	attN = top, liquidEngine2-2_4294885838
+}
+PART
+{
+	part = fuelTank1-2b_4294885734
+	pos = -0.2129935,5.554609,0.005001485
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = liquidEngine1-2b_4294885710
+	attN = top, decoupler1-2_4294885768
+	attN = bottom, liquidEngine1-2b_4294885710
+}
+PART
+{
+	part = liquidEngine1-2b_4294885710
+	pos = -0.2129935,2.614304,0.005001485
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 6
+	dstg = 6
+	sidx = 1
+	sqor = -1
+	attm = 0
+	attN = top, fuelTank1-2b_4294885734
+}
+PART
+{
+	part = landingLeg1-2_4294885648
+	pos = -1.377102,10.10728,0.6771
+	rot = 0,0.5,0,-0.8660254
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 2
+	sqor = -1
+	attm = 1
+	sym = landingLeg1-2_4294885500
+	sym = landingLeg1-2_4294885574
+	srfN = srfAttach, fuelTank1-2b_4294885862
+}
+PART
+{
+	part = landingLeg1-2_4294885574
+	pos = 0.951115,10.10728,0.6770995
+	rot = 0,-0.5000001,0,-0.8660253
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 3
+	sqor = -1
+	attm = 1
+	sym = landingLeg1-2_4294885500
+	sym = landingLeg1-2_4294885648
+	srfN = srfAttach, fuelTank1-2b_4294885862
+}
+PART
+{
+	part = landingLeg1-2_4294885500
+	pos = -0.2129936,10.10728,-1.339195
+	rot = 0,1,0,-4.371139E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 4
+	sqor = -1
+	attm = 1
+	sym = landingLeg1-2_4294885648
+	sym = landingLeg1-2_4294885574
+	srfN = srfAttach, fuelTank1-2b_4294885862
+}
+PART
+{
+	part = hstwCart_4294859466
+	pos = 0.7164654,13.60702,-0.9969056
+	rot = -0.1830139,0.6830118,0.6830131,0.1830136
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 4
+	sidx = 5
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, decoupler1-2_4294885896
+}

@@ -19,7 +19,7 @@ function FlyMeToTheMunDriver(lat, lon)
     mechjeb.stage()
     wait(mechjeb.free)
     print "Landing..."
-    mechjeb.land()
+    mechjeb.landAt(lat, lon, true)
     wait(mechjeb.free)
     mechjeb.autoStageDeactivate()
     print "Landed!"
