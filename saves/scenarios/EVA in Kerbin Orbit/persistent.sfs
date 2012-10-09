@@ -1,0 +1,593 @@
+GAME
+{
+	version = 0.17.0
+	Title = EVA in Kerbin Orbit
+	Description = Jebediah Kerman on EVA about 40 meters away from his ship.
+	Mode = 0
+	Status = 1
+	scene = 7
+	PARAMETERS
+	{
+		FLIGHT
+		{
+			CanQuickSave = True
+			CanQuickLoad = True
+			CanAutoSave = True
+			CanUseMap = True
+			CanSwitchVesselsNear = True
+			CanSwitchVesselsFar = True
+			CanTimeWarpHigh = True
+			CanTimeWarpLow = True
+			CanEVA = True
+			CanIVA = True
+			CanBoard = True
+			CanRestart = True
+			CanLeaveToEditor = False
+			CanLeaveToTrackingStation = False
+			CanLeaveToSpaceCenter = False
+			CanLeaveToMainMenu = True
+		}
+		EDITOR
+		{
+			CanSave = True
+			CanLoad = True
+			CanStartNew = True
+			CanLaunch = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+			startUpMode = 0
+			craftFileToLoad = 
+		}
+		TRACKINGSTATION
+		{
+			CanFlyVessel = True
+			CanAbortVessel = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		SPACECENTER
+		{
+			CanGoInVAB = True
+			CanGoInSPH = True
+			CanGoInTrackingStation = True
+			CanLaunchAtPad = True
+			CanLaunchAtRunway = True
+			CanLeaveToMainMenu = True
+		}
+	}
+	FLIGHTSTATE
+	{
+		version = 0.17.0
+		UT = 839037.749897053
+		activeVessel = 2
+		CREW
+		{
+			name = Jebediah Kerman
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			state = 1
+			ToD = 8309.80553833361
+			idx = 0
+		}
+		CREW
+		{
+			name = Bill Kerman
+			brave = 0.5
+			dumb = 0.8
+			badS = False
+			state = 0
+			ToD = 8309.80553833361
+			idx = -1
+		}
+		CREW
+		{
+			name = Bob Kerman
+			brave = 0.3
+			dumb = 0.1
+			badS = False
+			state = 1
+			ToD = 8309.80553833361
+			idx = 2
+		}
+		VESSEL
+		{
+			pid = 44bd76376bb84d4f920984fada4e4743
+			name = Orbiter 5
+			sit = SUB_ORBITAL
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 2129.09019717877
+			lct = 836908.659699874
+			root = 0
+			lat = 0.140907623917698
+			lon = -186.79420783076
+			alt = 31263.7540622277
+			hgt = -1
+			nrm = -0.07074004,-0.07064268,0.9949904
+			rot = 0.6087686,-0.5230684,-0.4207021,0.4228592
+			CoM = 1.347298E-05,0.08340748,-3.827736E-06
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 552051.9505808
+				ECC = 0.164719499508635
+				INC = 0.398608606084736
+				LPE = 314.234890544114
+				LAN = 47.8693300491757
+				MNA = 3.73586044194503
+				EPH = 839037.749897053
+				REF = 1
+				OBJ = 0
+			}
+			PART
+			{
+				name = Mark1-2Pod
+				uid = 4294886564
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = top, 1
+				mass = 4
+				temp = -4.555233
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+				crew = 2
+				crew = 0
+			}
+			PART
+			{
+				name = parachuteLarge
+				uid = 4294884424
+				parent = 0
+				position = 0,1.19526100158691,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 0
+				mass = 0.3
+				temp = -4.547375
+				expt = 0.5
+				state = 1
+				connected = True
+				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 14a99876510c4f5abcb535a65be03eb0
+			name = Orbiter 5 Debris
+			sit = SUB_ORBITAL
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 205.520000191405
+			lct = 838832.229896861
+			root = 0
+			lat = 0.158231281780826
+			lon = -186.774887332
+			alt = 31849.6381509077
+			hgt = -1
+			nrm = 0.5555669,-0.7776484,-0.294293
+			rot = 0.1569677,0.2413392,-0.8031361,0.5216216
+			CoM = 0.0004104152,-0.9958809,-0.0004313141
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 560593.512915613
+				ECC = 0.149366129322323
+				INC = 0.387903408673626
+				LPE = 308.487392397819
+				LAN = 51.2660350377323
+				MNA = 3.7729563174064
+				EPH = 839037.749897053
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294885206
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 1
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 1
+				attN = None, -1
+				mass = 0.5
+				temp = -3.333561
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+			PART
+			{
+				name = RCSFuelTank
+				uid = 4294885172
+				parent = 0
+				position = 0,-0.946249961853027,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = bottom, 2
+				mass = 0.5
+				temp = -3.321318
+				expt = 0.7
+				state = 0
+				connected = False
+				attached = True
+				qty = 200, FLOAT
+			}
+			PART
+			{
+				name = fuelTankSmall
+				uid = 4294885144
+				parent = 1
+				position = 0,-1.47250938415527,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 2
+				attm = 0
+				srfN = None, -1
+				attN = top, 1
+				attN = bottom, 3
+				mass = 0.9473225
+				temp = -3.328804
+				expt = 0.7578579
+				state = 1
+				connected = False
+				attached = True
+				fuel = 164.4645, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine3
+				uid = 4294885116
+				parent = 2
+				position = 0,-2.29837989807129,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 3
+				attm = 0
+				srfN = None, -1
+				attN = top, 2
+				attN = None, -1
+				mass = 0.5
+				temp = -3.313018
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4294885048
+				parent = 2
+				position = 0.620788872241974,-1.80649948120117,3.67872416973114E-08
+				rotation = -1.653112E-08,1,2.176354E-09,0
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 4
+				attm = 1
+				sym = 5
+				sym = 6
+				sym = 7
+				srfN = srfAttach, 2
+				mass = 0.05
+				temp = -3.310764
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4294884992
+				parent = 2
+				position = -1.04308128356934E-07,-1.80649948120117,-0.620788991451263
+				rotation = -1.015035E-08,0.7071068,1.322818E-08,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 5
+				attm = 1
+				sym = 4
+				sym = 6
+				sym = 7
+				srfN = srfAttach, 2
+				mass = 0.05
+				temp = -3.308497
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4294884936
+				parent = 2
+				position = -0.620788931846619,-1.80649948120117,3.67872416973114E-08
+				rotation = 2.176354E-09,0,1.653112E-08,-1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 6
+				attm = 1
+				sym = 4
+				sym = 5
+				sym = 7
+				srfN = srfAttach, 2
+				mass = 0.05
+				temp = -3.306237
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = strutConnector
+				uid = 4294884880
+				parent = 2
+				position = 0,-1.80649948120117,0.620788991451263
+				rotation = -1.322818E-08,0.7071068,-1.015035E-08,0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 7
+				attm = 1
+				sym = 4
+				sym = 5
+				sym = 6
+				srfN = srfAttach, 2
+				mass = 0.05
+				temp = -3.30398
+				expt = 0
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 4294884824
+				parent = 0
+				position = 1.46369194984436,0.272670745849609,-2.10944563150406E-07
+				rotation = 0,-1,0,8.42937E-08
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 8
+				attm = 1
+				sym = 10
+				sym = 12
+				sym = 14
+				srfN = srfAttach, 0
+				mass = 0.1
+				temp = -3.315214
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4294884796
+				parent = 8
+				position = 1.70162582397461,0.180021286010742,-0.000742438249289989
+				rotation = 0,1,0,0
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 9
+				attm = 1
+				sym = 11
+				sym = 13
+				sym = 15
+				srfN = srfAttach, 8
+				mass = 0.05
+				temp = -3.309063
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 4294884724
+				parent = 0
+				position = -4.02331352233887E-07,0.272670745849609,-1.46369218826294
+				rotation = 0,-0.7071067,0,0.7071069
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 10
+				attm = 1
+				sym = 8
+				sym = 12
+				sym = 14
+				srfN = srfAttach, 0
+				mass = 0.1
+				temp = -3.313572
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4294884696
+				parent = 10
+				position = -0.000742703676223755,0.180021286010742,-1.70162618160248
+				rotation = 0,0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 11
+				attm = 1
+				sym = 9
+				sym = 13
+				sym = 15
+				srfN = srfAttach, 10
+				mass = 0.05
+				temp = -3.308677
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 4294884624
+				parent = 0
+				position = -1.46369218826294,0.272670745849609,3.851018846035E-07
+				rotation = 0,8.42937E-08,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 12
+				attm = 1
+				sym = 8
+				sym = 10
+				sym = 14
+				srfN = srfAttach, 0
+				mass = 0.1
+				temp = -3.31193
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4294884596
+				parent = 12
+				position = -1.70162606239319,0.180021286010742,0.000742611940950155
+				rotation = 0,0,0,-1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 13
+				attm = 1
+				sym = 9
+				sym = 11
+				sym = 15
+				srfN = srfAttach, 12
+				mass = 0.05
+				temp = -3.308296
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = smallHardpoint
+				uid = 4294884524
+				parent = 0
+				position = 2.98023223876953E-07,0.272670745849609,1.46369183063507
+				rotation = 0,-0.7071068,0,-0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 14
+				attm = 1
+				sym = 8
+				sym = 10
+				sym = 12
+				srfN = srfAttach, 0
+				mass = 0.1
+				temp = -3.310296
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+			}
+			PART
+			{
+				name = RCSBlock
+				uid = 4294884496
+				parent = 14
+				position = 0.000742599368095398,0.180021286010742,1.70162582397461
+				rotation = 0,0.7071068,0,0.7071068
+				mirror = 1,1,1
+				istg = 0
+				dstg = 2
+				sqor = 0
+				sidx = 15
+				attm = 1
+				sym = 9
+				sym = 11
+				sym = 13
+				srfN = srfAttach, 14
+				mass = 0.05
+				temp = -3.307914
+				expt = 0.5
+				state = 1
+				connected = False
+				attached = True
+			}
+		}
+	}
+}
