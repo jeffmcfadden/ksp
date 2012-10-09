@@ -1,0 +1,131 @@
+ship = Gnat I
+version = 0.17.0
+type = VAB
+PART
+{
+	part = Mark1-2Pod_4294884858
+	pos = 0.07842931,7.489334,-0.0001784693
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = asasmodule1-2_4294879332
+	link = mumech.mechjeb_4294875548
+	attN = bottom, asasmodule1-2_4294879332
+	attN = top, mumech.mechjeb_4294875548
+}
+PART
+{
+	part = asasmodule1-2_4294879332
+	pos = 0.07842931,6.760094,-0.0001784693
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = fuelTank1-2b_4294882248
+	attN = top, Mark1-2Pod_4294884858
+	attN = bottom, fuelTank1-2b_4294882248
+}
+PART
+{
+	part = fuelTank1-2b_4294882248
+	pos = 0.07842931,4.635094,-0.0001784693
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = -1
+	attm = 0
+	link = liquidEngine1-2b_4294877352
+	link = landingLeg1-2_4294864536
+	link = landingLeg1-2_4294864458
+	link = landingLeg1-2_4294865836
+	attN = top, asasmodule1-2_4294879332
+	attN = bottom, liquidEngine1-2b_4294877352
+}
+PART
+{
+	part = liquidEngine1-2b_4294877352
+	pos = 0.07842931,1.694786,-0.0001784693
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 3
+	sqor = -1
+	attm = 0
+	attN = top, fuelTank1-2b_4294882248
+}
+PART
+{
+	part = mumech.mechjeb_4294875548
+	pos = 0.07842931,8.682524,-0.0001784693
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 4
+	sqor = -1
+	attm = 0
+	attN = bottom, Mark1-2Pod_4294884858
+}
+PART
+{
+	part = landingLeg1-2_4294864536
+	pos = -1.081418,2.919112,0.6694601
+	rot = 0,0.5,0,-0.8660254
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 6
+	sqor = -1
+	attm = 1
+	sym = landingLeg1-2_4294865836
+	sym = landingLeg1-2_4294864458
+	srfN = srfAttach, fuelTank1-2b_4294882248
+}
+PART
+{
+	part = landingLeg1-2_4294864458
+	pos = 1.238277,2.919112,0.6694596
+	rot = 0,-0.5000001,0,-0.8660253
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 7
+	sqor = -1
+	attm = 1
+	sym = landingLeg1-2_4294865836
+	sym = landingLeg1-2_4294864536
+	srfN = srfAttach, fuelTank1-2b_4294882248
+}
+PART
+{
+	part = landingLeg1-2_4294865836
+	pos = 0.07842919,2.919112,-1.339455
+	rot = 0,1,0,-4.371139E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 5
+	sqor = -1
+	attm = 1
+	sym = landingLeg1-2_4294864536
+	sym = landingLeg1-2_4294864458
+	srfN = srfAttach, fuelTank1-2b_4294882248
+}

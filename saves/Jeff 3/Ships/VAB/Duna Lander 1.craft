@@ -1,0 +1,200 @@
+ship = Duna Lander 1
+version = 0.17.0
+type = VAB
+PART
+{
+	part = Mark1-2Pod_4294485488
+	pos = -0.00624926,12.81431,0.08902493
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = 0
+	attm = 0
+	link = hstwCart_4294485408
+	link = mumech.mechjeb1m_4294485168
+	attN = bottom, hstwCart_4294485408
+	attN = top, mumech.mechjeb1m_4294485168
+}
+PART
+{
+	part = hstwCart_4294485408
+	pos = -0.00624926,12.21007,0.08902493
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = 0
+	attm = 0
+	link = decoupler1-2_4294485288
+	attN = top, Mark1-2Pod_4294485488
+	attN = bottom, decoupler1-2_4294485288
+}
+PART
+{
+	part = decoupler1-2_4294485288
+	pos = -0.00624926,11.50921,0.08902493
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 3
+	dstg = 1
+	sidx = 0
+	sqor = 3
+	attm = 0
+	link = fuelTank1-2b_4294485254
+	attN = bottom, fuelTank1-2b_4294485254
+	attN = top, hstwCart_4294485408
+}
+PART
+{
+	part = fuelTank1-2b_4294485254
+	pos = -0.00624926,9.268744,0.08902493
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 0
+	sqor = 2
+	attm = 0
+	link = liquidEngine1-2b_4294485230
+	attN = top, decoupler1-2_4294485288
+	attN = bottom, liquidEngine1-2b_4294485230
+}
+PART
+{
+	part = liquidEngine1-2b_4294485230
+	pos = -0.00624926,6.328436,0.08902493
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 4
+	dstg = 2
+	sidx = 0
+	sqor = 4
+	attm = 0
+	attN = top, fuelTank1-2b_4294485254
+}
+PART
+{
+	part = mumech.mechjeb1m_4294485168
+	pos = -0.00624926,14.0075,0.08902493
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = 0
+	attm = 0
+	link = decoupler1-2_4294485088
+	attN = top, decoupler1-2_4294485088
+	attN = bottom, Mark1-2Pod_4294485488
+}
+PART
+{
+	part = decoupler1-2_4294485088
+	pos = -0.00624926,14.87297,0.08902493
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 0
+	sqor = 1
+	attm = 0
+	link = fuelTank2-2_4294485054
+	attN = bottom, mumech.mechjeb1m_4294485168
+	attN = top, fuelTank2-2_4294485054
+}
+PART
+{
+	part = fuelTank2-2_4294485054
+	pos = -0.00624926,16.26133,0.08902493
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 1
+	sqor = 2
+	attm = 0
+	link = radialLiquidEngine1-2_4294478996
+	link = radialLiquidEngine1-2_4294478948
+	link = radialLiquidEngine1-2_4294478900
+	link = radialLiquidEngine1-2_4294479316
+	attN = bottom, decoupler1-2_4294485088
+}
+PART
+{
+	part = radialLiquidEngine1-2_4294478996
+	pos = -1.799372,16.04254,0.07600169
+	rot = 7.797168E-07,0.7071068,7.797168E-07,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 3
+	sqor = -1
+	attm = 1
+	sym = radialLiquidEngine1-2_4294479316
+	sym = radialLiquidEngine1-2_4294478948
+	sym = radialLiquidEngine1-2_4294478900
+	srfN = srfAttach, fuelTank2-2_4294485054
+}
+PART
+{
+	part = radialLiquidEngine1-2_4294478948
+	pos = -0.01927224,16.04254,1.882148
+	rot = 1.102686E-06,-4.371139E-08,-4.819994E-14,-1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 4
+	sqor = -1
+	attm = 1
+	sym = radialLiquidEngine1-2_4294479316
+	sym = radialLiquidEngine1-2_4294478996
+	sym = radialLiquidEngine1-2_4294478900
+	srfN = srfAttach, fuelTank2-2_4294485054
+}
+PART
+{
+	part = radialLiquidEngine1-2_4294478900
+	pos = 1.786874,16.04254,0.102048
+	rot = 7.797168E-07,-0.7071068,-7.797168E-07,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 5
+	sqor = -1
+	attm = 1
+	sym = radialLiquidEngine1-2_4294479316
+	sym = radialLiquidEngine1-2_4294478996
+	sym = radialLiquidEngine1-2_4294478948
+	srfN = srfAttach, fuelTank2-2_4294485054
+}
+PART
+{
+	part = radialLiquidEngine1-2_4294479316
+	pos = 0.006773878,16.04254,-1.704098
+	rot = 0,1,1.102686E-06,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 2
+	sqor = -1
+	attm = 1
+	sym = radialLiquidEngine1-2_4294478996
+	sym = radialLiquidEngine1-2_4294478948
+	sym = radialLiquidEngine1-2_4294478900
+	srfN = srfAttach, fuelTank2-2_4294485054
+}
