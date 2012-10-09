@@ -1,0 +1,1 @@
+you must load the Dragon Rider save for it to work as a fully all in one capsule in game. 

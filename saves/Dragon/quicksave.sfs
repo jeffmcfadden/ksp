@@ -1,0 +1,635 @@
+GAME
+{
+	version = 0.17.0
+	Title = Dragon (Sandbox)
+	Description = No description available.
+	Mode = 0
+	Status = 1
+	scene = 5
+	PARAMETERS
+	{
+		FLIGHT
+		{
+			CanQuickSave = True
+			CanQuickLoad = True
+			CanAutoSave = True
+			CanUseMap = True
+			CanSwitchVesselsNear = True
+			CanSwitchVesselsFar = True
+			CanTimeWarpHigh = True
+			CanTimeWarpLow = True
+			CanEVA = True
+			CanIVA = True
+			CanBoard = True
+			CanRestart = True
+			CanLeaveToEditor = True
+			CanLeaveToTrackingStation = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		EDITOR
+		{
+			CanSave = True
+			CanLoad = True
+			CanStartNew = True
+			CanLaunch = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+			startUpMode = 0
+			craftFileToLoad = 
+		}
+		TRACKINGSTATION
+		{
+			CanFlyVessel = True
+			CanAbortVessel = True
+			CanLeaveToSpaceCenter = True
+			CanLeaveToMainMenu = False
+		}
+		SPACECENTER
+		{
+			CanGoInVAB = True
+			CanGoInSPH = True
+			CanGoInTrackingStation = True
+			CanLaunchAtPad = True
+			CanLaunchAtRunway = True
+			CanLeaveToMainMenu = True
+		}
+	}
+	FLIGHTSTATE
+	{
+		version = 0.17.0
+		UT = 262.300000000052
+		activeVessel = 0
+		CREW
+		{
+			name = Jebediah Kerman
+			brave = 0.5
+			dumb = 0.5
+			badS = True
+			state = 3
+			ToD = 7285.28
+			idx = -1
+		}
+		CREW
+		{
+			name = Bill Kerman
+			brave = 0.5
+			dumb = 0.8
+			badS = False
+			state = 3
+			ToD = 7285.28
+			idx = -1
+		}
+		CREW
+		{
+			name = Bob Kerman
+			brave = 0.3
+			dumb = 0.1
+			badS = False
+			state = 3
+			ToD = 7285.28
+			idx = -1
+		}
+		CREW
+		{
+			name = Luzon Kerman
+			brave = 0.9945676
+			dumb = 0.7171917
+			badS = False
+			state = 3
+			ToD = 7285.28
+			idx = -1
+		}
+		CREW
+		{
+			name = Obble Kerman
+			brave = 0.5033547
+			dumb = 0.1293486
+			badS = False
+			state = 3
+			ToD = 7285.28
+			idx = -1
+		}
+		CREW
+		{
+			name = Sidmy Kerman
+			brave = 0.8422517
+			dumb = 0.743407
+			badS = False
+			state = 3
+			ToD = 7285.28
+			idx = -1
+		}
+		CREW
+		{
+			name = Ornand Kerman
+			brave = 0.5620409
+			dumb = 0.5039023
+			badS = False
+			state = 3
+			ToD = 7285.28
+			idx = -1
+		}
+		CREW
+		{
+			name = Siddun Kerman
+			brave = 0.328273
+			dumb = 0.8601907
+			badS = False
+			state = 3
+			ToD = 7309.44
+			idx = -1
+		}
+		CREW
+		{
+			name = Bilwise Kerman
+			brave = 0.3770317
+			dumb = 0.1665342
+			badS = False
+			state = 3
+			ToD = 7309.44
+			idx = -1
+		}
+		CREW
+		{
+			name = Lenby Kerman
+			brave = 0.8352979
+			dumb = 0.3884354
+			badS = False
+			state = 3
+			ToD = 7309.44
+			idx = -1
+		}
+		CREW
+		{
+			name = Steve Kerman
+			brave = 0.0408392
+			dumb = 0.07420969
+			badS = False
+			state = 3
+			ToD = 7309.44
+			idx = -1
+		}
+		CREW
+		{
+			name = Aldbert Kerman
+			brave = 0.9750654
+			dumb = 0.08281362
+			badS = False
+			state = 3
+			ToD = 7309.44
+			idx = -1
+		}
+		CREW
+		{
+			name = Camlan Kerman
+			brave = 0.01209867
+			dumb = 0.6737883
+			badS = False
+			state = 3
+			ToD = 7309.44
+			idx = -1
+		}
+		CREW
+		{
+			name = Tomeny Kerman
+			brave = 0.6358385
+			dumb = 0.5097471
+			badS = False
+			state = 3
+			ToD = 7309.44
+			idx = -1
+		}
+		CREW
+		{
+			name = Lanrod Kerman
+			brave = 0.0001564026
+			dumb = 0.4995924
+			badS = False
+			state = 3
+			ToD = 7440.78000000005
+			idx = -1
+		}
+		CREW
+		{
+			name = Miltrey Kerman
+			brave = 0.9678291
+			dumb = 0.1728724
+			badS = False
+			state = 3
+			ToD = 7440.78000000005
+			idx = -1
+		}
+		CREW
+		{
+			name = Wehrbus Kerman
+			brave = 0.06347191
+			dumb = 0.2449929
+			badS = False
+			state = 3
+			ToD = 7440.78000000005
+			idx = -1
+		}
+		CREW
+		{
+			name = Luger Kerman
+			brave = 0.8065168
+			dumb = 0.2310525
+			badS = False
+			state = 3
+			ToD = 7440.78000000005
+			idx = -1
+		}
+		CREW
+		{
+			name = Patvin Kerman
+			brave = 0.6700116
+			dumb = 0.3536034
+			badS = False
+			state = 3
+			ToD = 7440.78000000005
+			idx = -1
+		}
+		CREW
+		{
+			name = Maczer Kerman
+			brave = 0.6651287
+			dumb = 0.7794353
+			badS = False
+			state = 3
+			ToD = 7440.78000000005
+			idx = -1
+		}
+		CREW
+		{
+			name = Bildo Kerman
+			brave = 0.5453131
+			dumb = 0.8391072
+			badS = False
+			state = 3
+			ToD = 7440.78000000005
+			idx = -1
+		}
+		CREW
+		{
+			name = Derson Kerman
+			brave = 0.5251185
+			dumb = 0.4850417
+			badS = False
+			state = 1
+			ToD = 0
+			idx = -1
+		}
+		CREW
+		{
+			name = Ribby Kerman
+			brave = 0.1761085
+			dumb = 0.8072342
+			badS = False
+			state = 1
+			ToD = 0
+			idx = -1
+		}
+		CREW
+		{
+			name = Dangun Kerman
+			brave = 0.6588743
+			dumb = 0.1301752
+			badS = False
+			state = 1
+			ToD = 0
+			idx = -1
+		}
+		CREW
+		{
+			name = Kelly Kerman
+			brave = 0.9021821
+			dumb = 0.8517561
+			badS = False
+			state = 1
+			ToD = 0
+			idx = -1
+		}
+		CREW
+		{
+			name = Erfurt Kerman
+			brave = 0.3668475
+			dumb = 0.6643952
+			badS = False
+			state = 1
+			ToD = 0
+			idx = -1
+		}
+		CREW
+		{
+			name = Genelin Kerman
+			brave = 0.3680714
+			dumb = 0.08880377
+			badS = False
+			state = 1
+			ToD = 0
+			idx = -1
+		}
+		CREW
+		{
+			name = Neildrin Kerman
+			brave = 0.5603999
+			dumb = 0.470226
+			badS = False
+			state = 1
+			ToD = 0
+			idx = -1
+		}
+		VESSEL
+		{
+			pid = 4b063f99c28a46cba0e991d8a21387e5
+			name = Dragon 3
+			sit = PRELAUNCH
+			landed = True
+			landedAt = LaunchPad
+			splashed = False
+			met = 0
+			lct = 262.300000000052
+			root = 0
+			lat = -0.102663036643161
+			lon = -74.5754002804054
+			alt = 77.1268103749026
+			hgt = 8.807046
+			nrm = -2.980232E-08,1,-2.553861E-08
+			rot = -0.7009887,-0.09221787,-0.0972654,0.7004643
+			CoM = 2.384186E-07,-1.197478,3.637979E-08
+			stg = 3
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 300816.664077183
+				ECC = 0.994822764134544
+				INC = 0.102663048117418
+				LPE = 90
+				LAN = 109.796266436154
+				MNA = 3.14159265358979
+				EPH = 262.300000000052
+				REF = 1
+				OBJ = 0
+			}
+			PART
+			{
+				name = Dragon.Rider
+				uid = 4294715536
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom01, 6
+				attN = top00, 5
+				attN = None, -1
+				mass = 4
+				temp = 19.43443
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				tmode = 0, INT
+				trans_spd_act = 0, FLOAT
+				trans_kill_h = False, BOOL
+				trans_land = False, BOOL
+				sass_mode = 0, INT
+				srf_hdg = 90, STRING
+				srf_pit = 90, STRING
+				srf_act = False, BOOL
+				srf_act_hdg = 90, FLOAT
+				srf_act_pit = 90, FLOAT
+				trans_spd = 0, STRING
+				crew = 21
+				crew = 22
+				crew = 23
+				crew = 24
+				crew = 25
+				crew = 26
+				crew = 27
+				MODULE
+				{
+					name = ModuleKrAnimation
+					isEnabled = True
+					extendAnim = Leg_Extend
+					retractAnim = |reversed
+					extendGUI = Extend Struts
+					retractGUI = Retract Struts
+					controllableInside = always
+					stage = 0
+					state = 0
+					landingGear = 1
+					animPlayStart = 0
+					EVA_Range = 5
+				}
+			}
+			PART
+			{
+				name = Dragon.EscapeLanding.Engine
+				uid = 4294715382
+				parent = 0
+				position = -0.869423449039459,0.101208686828613,0.869200646877289
+				rotation = -0.2297455,-0.3633251,-0.09294351,0.8980943
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 1
+				sym = 2
+				sym = 3
+				sym = 4
+				srfN = srfAttach, 0
+				mass = 0.1
+				temp = 19.43397
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = Dragon.EscapeLanding.Engine
+				uid = 4294715302
+				parent = 0
+				position = 0.869200825691223,0.101208686828613,0.869423747062683
+				rotation = -0.2281756,0.378139,0.09673361,0.8919582
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 2
+				attm = 1
+				sym = 1
+				sym = 3
+				sym = 4
+				srfN = srfAttach, 0
+				mass = 0.1
+				temp = 19.4335
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = Dragon.EscapeLanding.Engine
+				uid = 4294715222
+				parent = 0
+				position = 0.869423627853394,0.101208686828613,-0.869200766086578
+				rotation = -0.09294351,0.8980943,0.2297455,0.3633251
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 3
+				attm = 1
+				sym = 1
+				sym = 2
+				sym = 4
+				srfN = srfAttach, 0
+				mass = 0.1
+				temp = 19.4335
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = Dragon.EscapeLanding.Engine
+				uid = 4294715142
+				parent = 0
+				position = -0.869200527667999,0.101208686828613,-0.869423747062683
+				rotation = -0.09673361,-0.8919582,-0.2281756,0.378139
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 4
+				attm = 1
+				sym = 1
+				sym = 2
+				sym = 3
+				srfN = srfAttach, 0
+				mass = 0.1
+				temp = 19.43397
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = Dragon.RCS.Tank
+				uid = 4294715062
+				parent = 0
+				position = 0,1.37793064117432,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = top, 0
+				attN = None, -1
+				attN = None, -1
+				attN = None, -1
+				attN = None, -1
+				attN = None, -1
+				attN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 1
+				temp = 19.42476
+				expt = 0.7
+				state = 0
+				connected = True
+				attached = True
+				qty = 300, FLOAT
+			}
+			PART
+			{
+				name = decoupler1-2
+				uid = 4294715030
+				parent = 0
+				position = 0,-1.70900917053223,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 1
+				dstg = 1
+				sqor = 1
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = bottom, 7
+				attN = top, 0
+				mass = 0.5
+				temp = 19.44731
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+			}
+			PART
+			{
+				name = fuelTank1-2b
+				uid = 4294714996
+				parent = 6
+				position = 0,-3.94947957992554,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 0
+				attm = 0
+				srfN = None, -1
+				attN = top, 6
+				attN = bottom, 8
+				mass = 18
+				temp = 19.46341
+				expt = 0.9
+				state = 0
+				connected = True
+				attached = True
+				fuel = 50000, FLOAT
+				allowFlow = True, BOOL
+			}
+			PART
+			{
+				name = liquidEngine1-2b
+				uid = 4294714972
+				parent = 7
+				position = 0,-6.88978719711304,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = top, 7
+				attN = None, -1
+				mass = 6
+				temp = 19.48549
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
+				hasShroud = False, BOOL
+			}
+		}
+	}
+}

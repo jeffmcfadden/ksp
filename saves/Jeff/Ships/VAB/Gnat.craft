@@ -1,0 +1,64 @@
+ship = Gnat
+version = 0.17.0
+type = VAB
+PART
+{
+	part = Mark1-2Pod_4294495040
+	pos = 0.01603373,7.089897,-3.673509E-05
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = mumech.mechjeb1m_4294485482
+	link = fuelTank1-2b_4294483388
+	attN = bottom, fuelTank1-2b_4294483388
+	attN = top, mumech.mechjeb1m_4294485482
+}
+PART
+{
+	part = mumech.mechjeb1m_4294485482
+	pos = 0.01603373,8.283087,-3.673509E-05
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	attN = bottom, Mark1-2Pod_4294495040
+}
+PART
+{
+	part = fuelTank1-2b_4294483388
+	pos = 0.01603373,4.735657,-3.673509E-05
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = -1
+	attm = 0
+	link = liquidEngine1-2b_4294480730
+	attN = top, Mark1-2Pod_4294495040
+	attN = bottom, liquidEngine1-2b_4294480730
+}
+PART
+{
+	part = liquidEngine1-2b_4294480730
+	pos = 0.01603373,1.795349,-3.673509E-05
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 3
+	sqor = -1
+	attm = 0
+	attN = top, fuelTank1-2b_4294483388
+}

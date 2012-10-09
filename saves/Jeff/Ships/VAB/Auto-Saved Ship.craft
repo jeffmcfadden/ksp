@@ -1,10 +1,10 @@
-ship = Moon Sat 2
+ship = Gnat
 version = 0.17.0
 type = VAB
 PART
 {
-	part = mumech.mechjebpod_4294885458
-	pos = 0.261495,18.67114,-0.003678866
+	part = Mark1-2Pod_4294495040
+	pos = 0.01603373,7.089897,-3.673509E-05
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -13,13 +13,15 @@ PART
 	sidx = 0
 	sqor = -1
 	attm = 0
-	link = fuelTank1-2b_4294885386
-	attN = bottom, fuelTank1-2b_4294885386
+	link = mumech.mechjeb1m_4294485482
+	link = fuelTank1-2b_4294483388
+	attN = bottom, fuelTank1-2b_4294483388
+	attN = top, mumech.mechjeb1m_4294485482
 }
 PART
 {
-	part = fuelTank1-2b_4294885386
-	pos = 0.261495,16.79614,-0.003678866
+	part = mumech.mechjeb1m_4294485482
+	pos = 0.01603373,8.283087,-3.673509E-05
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -28,16 +30,12 @@ PART
 	sidx = 1
 	sqor = -1
 	attm = 0
-	link = fuelTank1-2b_4294885362
-	link = Mk1FuselageStructural_4294885276
-	link = Mk1FuselageStructural_4294885108
-	attN = top, mumech.mechjebpod_4294885458
-	attN = bottom, fuelTank1-2b_4294885362
+	attN = bottom, Mark1-2Pod_4294495040
 }
 PART
 {
-	part = fuelTank1-2b_4294885362
-	pos = 0.261495,13.04614,-0.003678866
+	part = fuelTank1-2b_4294483388
+	pos = 0.01603373,4.735657,-3.673509E-05
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -46,14 +44,14 @@ PART
 	sidx = 2
 	sqor = -1
 	attm = 0
-	link = liquidEngine1-2b_4294885338
-	attN = top, fuelTank1-2b_4294885386
-	attN = bottom, liquidEngine1-2b_4294885338
+	link = liquidEngine1-2b_4294480730
+	attN = top, Mark1-2Pod_4294495040
+	attN = bottom, liquidEngine1-2b_4294480730
 }
 PART
 {
-	part = liquidEngine1-2b_4294885338
-	pos = 0.261495,10.10584,-0.003678866
+	part = liquidEngine1-2b_4294480730
+	pos = 0.01603373,1.795349,-3.673509E-05
 	rot = 0,0,0,1
 	attRot = 0,0,0,1
 	mir = 1,1,1
@@ -62,419 +60,5 @@ PART
 	sidx = 3
 	sqor = -1
 	attm = 0
-	attN = top, fuelTank1-2b_4294885362
-}
-PART
-{
-	part = Mk1FuselageStructural_4294885276
-	pos = 2.108546,16.7332,-0.003679138
-	rot = 0,-0.7071068,0,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 4
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294885248
-	sym = Mk1FuselageStructural_4294885108
-	srfN = srfAttach, fuelTank1-2b_4294885386
-}
-PART
-{
-	part = Mk1FuselageStructural_4294885248
-	pos = 3.348401,16.6978,-0.003679492
-	rot = 0,-0.7071068,0,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 5
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294885220
-	sym = Mk1FuselageStructural_4294885080
-	srfN = srfAttach, Mk1FuselageStructural_4294885276
-}
-PART
-{
-	part = Mk1FuselageStructural_4294885220
-	pos = 4.58958,16.68695,-0.003680085
-	rot = -5.863535E-07,-0.7071068,7.641533E-07,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 6
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294885192
-	sym = Mk1FuselageStructural_4294885052
-	srfN = srfAttach, Mk1FuselageStructural_4294885248
-}
-PART
-{
-	part = Mk1FuselageStructural_4294885192
-	pos = 5.827598,16.69401,-0.003680646
-	rot = -5.863536E-07,-0.7071068,7.641534E-07,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 7
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294885164
-	sym = Mk1FuselageStructural_4294885024
-	srfN = srfAttach, Mk1FuselageStructural_4294885220
-}
-PART
-{
-	part = Mk1FuselageStructural_4294885164
-	pos = 7.065935,16.68855,-0.003681626
-	rot = -5.863536E-07,-0.7071068,7.641532E-07,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 8
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294885136
-	sym = Mk1FuselageStructural_4294884996
-	srfN = srfAttach, Mk1FuselageStructural_4294885192
-}
-PART
-{
-	part = Mk1FuselageStructural_4294885136
-	pos = 8.306007,16.68804,-0.003681354
-	rot = -5.863536E-07,-0.7071068,7.641534E-07,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 9
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294862208
-	sym = Mk1FuselageStructural_4294884968
-	srfN = srfAttach, Mk1FuselageStructural_4294885164
-}
-PART
-{
-	part = Mk1FuselageStructural_4294885108
-	pos = -1.585556,16.7332,-0.003678756
-	rot = 0,0.7071068,0,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 10
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294885080
-	sym = Mk1FuselageStructural_4294885276
-	srfN = srfAttach, fuelTank1-2b_4294885386
-}
-PART
-{
-	part = Mk1FuselageStructural_4294885080
-	pos = -2.82541,16.6978,-0.003678993
-	rot = 0,0.7071068,0,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 11
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294885052
-	sym = Mk1FuselageStructural_4294885248
-	srfN = srfAttach, Mk1FuselageStructural_4294885108
-}
-PART
-{
-	part = Mk1FuselageStructural_4294885052
-	pos = -4.06659,16.68695,-0.003678992
-	rot = -7.641533E-07,0.7071068,-5.863536E-07,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 12
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294885024
-	sym = Mk1FuselageStructural_4294885220
-	srfN = srfAttach, Mk1FuselageStructural_4294885080
-}
-PART
-{
-	part = Mk1FuselageStructural_4294885024
-	pos = -5.304608,16.69401,-0.00367902
-	rot = -7.641533E-07,0.7071068,-5.863537E-07,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 13
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294884996
-	sym = Mk1FuselageStructural_4294885192
-	srfN = srfAttach, Mk1FuselageStructural_4294885052
-}
-PART
-{
-	part = Mk1FuselageStructural_4294884996
-	pos = -6.542946,16.68855,-0.003678632
-	rot = -7.641533E-07,0.7071068,-5.863537E-07,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 14
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294884968
-	sym = Mk1FuselageStructural_4294885164
-	srfN = srfAttach, Mk1FuselageStructural_4294885024
-}
-PART
-{
-	part = Mk1FuselageStructural_4294884968
-	pos = -7.783019,16.68804,-0.003679495
-	rot = -7.641533E-07,0.7071068,-5.863537E-07,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 15
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294862664
-	sym = Mk1FuselageStructural_4294885136
-	srfN = srfAttach, Mk1FuselageStructural_4294884996
-}
-PART
-{
-	part = Mk1FuselageStructural_4294862208
-	pos = 9.544021,16.69457,-0.003681723
-	rot = 1.004859E-13,-0.7071068,-6.029155E-14,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 17
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294861444
-	sym = Mk1FuselageStructural_4294862664
-	srfN = srfAttach, Mk1FuselageStructural_4294885136
-}
-PART
-{
-	part = Mk1FuselageStructural_4294862664
-	pos = -9.021032,16.69457,-0.003679421
-	rot = 9.56494E-27,0.7071068,-1.246531E-26,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 16
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294861876
-	sym = Mk1FuselageStructural_4294862208
-	srfN = srfAttach, Mk1FuselageStructural_4294884968
-}
-PART
-{
-	part = Mk1FuselageStructural_4294861444
-	pos = 10.78396,16.69935,-0.003682093
-	rot = 1.004859E-13,-0.7071068,-6.029155E-14,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 19
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294860610
-	sym = Mk1FuselageStructural_4294861876
-	srfN = srfAttach, Mk1FuselageStructural_4294862208
-}
-PART
-{
-	part = Mk1FuselageStructural_4294861876
-	pos = -10.26097,16.69935,-0.003679347
-	rot = 9.56494E-27,0.7071068,-1.246531E-26,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 18
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294861082
-	sym = Mk1FuselageStructural_4294861444
-	srfN = srfAttach, Mk1FuselageStructural_4294862664
-}
-PART
-{
-	part = Mk1FuselageStructural_4294860610
-	pos = 12.02247,16.71614,-0.003682462
-	rot = 1.004859E-13,-0.7071068,-6.029155E-14,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 21
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294859806
-	sym = Mk1FuselageStructural_4294861082
-	srfN = srfAttach, Mk1FuselageStructural_4294861444
-}
-PART
-{
-	part = Mk1FuselageStructural_4294861082
-	pos = -11.49948,16.71614,-0.003679274
-	rot = 9.56494E-27,0.7071068,-1.246531E-26,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 20
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294860318
-	sym = Mk1FuselageStructural_4294860610
-	srfN = srfAttach, Mk1FuselageStructural_4294861876
-}
-PART
-{
-	part = Mk1FuselageStructural_4294859806
-	pos = 13.26245,16.71097,-0.003682831
-	rot = 1.004859E-13,-0.7071068,-6.029155E-14,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 23
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294858836
-	sym = Mk1FuselageStructural_4294860318
-	srfN = srfAttach, Mk1FuselageStructural_4294860610
-}
-PART
-{
-	part = Mk1FuselageStructural_4294860318
-	pos = -12.73946,16.71097,-0.0036792
-	rot = 9.56494E-27,0.7071068,-1.246531E-26,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 22
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294859388
-	sym = Mk1FuselageStructural_4294859806
-	srfN = srfAttach, Mk1FuselageStructural_4294861082
-}
-PART
-{
-	part = Mk1FuselageStructural_4294858836
-	pos = 14.50333,16.68651,-0.003683201
-	rot = 1.004859E-13,-0.7071068,-6.029155E-14,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 25
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294857896
-	sym = Mk1FuselageStructural_4294859388
-	srfN = srfAttach, Mk1FuselageStructural_4294859806
-}
-PART
-{
-	part = Mk1FuselageStructural_4294859388
-	pos = -13.98035,16.68651,-0.003679126
-	rot = 9.56494E-27,0.7071068,-1.246531E-26,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 24
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294858488
-	sym = Mk1FuselageStructural_4294858836
-	srfN = srfAttach, Mk1FuselageStructural_4294860318
-}
-PART
-{
-	part = Mk1FuselageStructural_4294857896
-	pos = 15.74201,16.67315,-0.00368357
-	rot = 1.004859E-13,-0.7071068,-6.029155E-14,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 27
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294856730
-	sym = Mk1FuselageStructural_4294858488
-	srfN = srfAttach, Mk1FuselageStructural_4294858836
-}
-PART
-{
-	part = Mk1FuselageStructural_4294858488
-	pos = -15.21903,16.67315,-0.003679052
-	rot = 9.56494E-27,0.7071068,-1.246531E-26,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 26
-	sqor = -1
-	attm = 1
-	link = Mk1FuselageStructural_4294857424
-	sym = Mk1FuselageStructural_4294857896
-	srfN = srfAttach, Mk1FuselageStructural_4294859388
-}
-PART
-{
-	part = Mk1FuselageStructural_4294856730
-	pos = 16.9808,16.6692,-0.003683939
-	rot = 1.004859E-13,-0.7071068,-6.029155E-14,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 29
-	sqor = -1
-	attm = 1
-	sym = Mk1FuselageStructural_4294857424
-	srfN = srfAttach, Mk1FuselageStructural_4294857896
-}
-PART
-{
-	part = Mk1FuselageStructural_4294857424
-	pos = -16.45781,16.6692,-0.003678978
-	rot = 9.56494E-27,0.7071068,-1.246531E-26,-0.7071068
-	attRot = 0,0,0,1
-	mir = 1,1,1
-	istg = 0
-	dstg = 0
-	sidx = 28
-	sqor = -1
-	attm = 1
-	sym = Mk1FuselageStructural_4294856730
-	srfN = srfAttach, Mk1FuselageStructural_4294858488
+	attN = top, fuelTank1-2b_4294483388
 }

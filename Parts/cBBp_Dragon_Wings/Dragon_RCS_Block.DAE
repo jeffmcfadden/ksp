@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.0">
+  <asset>
+    <contributor>
+      <author></author>
+      <authoring_tool>FBX COLLADA exporter</authoring_tool>
+      <comments></comments>
+    </contributor>
+    <created>2012-09-08T02:34:52Z</created>
+    <modified>2012-09-08T02:34:52Z</modified>
+    <revision></revision>
+    <title></title>
+    <subject></subject>
+    <keywords></keywords>
+    <unit meter="1.000000"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_geometries>
+    <geometry id="base-lib" name="baseMesh">
+      <mesh>
+        <source id="base-lib-Position">
+          <float_array id="base-lib-Position-array" count="24">
+-1.968504 -1.968504 0.000000
+1.968504 -1.968504 0.000000
+-1.968504 1.968504 0.000000
+1.968504 1.968504 0.000000
+-1.968504 -1.968504 0.903631
+1.968504 -1.968504 0.903631
+-1.968504 1.968504 0.903631
+1.968504 1.968504 0.903631
+</float_array>
+          <technique_common>
+            <accessor source="#base-lib-Position-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="base-lib-Normal0">
+          <float_array id="base-lib-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#base-lib-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="base-lib-UV0">
+          <float_array id="base-lib-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#base-lib-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="base-lib-Vertex">
+          <input semantic="POSITION" source="#base-lib-Position"/>
+        </vertices>
+        <polygons count="12">
+          <input semantic="VERTEX" offset="0" source="#base-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#base-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#base-lib-UV0"/>
+          <p>0 0 9 2 1 11 3 2 10</p>
+          <p>3 3 10 1 4 8 0 5 9</p>
+          <p>4 6 8 5 7 9 7 8 11</p>
+          <p>7 9 11 6 10 10 4 11 8</p>
+          <p>0 12 4 1 13 5 5 14 7</p>
+          <p>5 15 7 4 16 6 0 17 4</p>
+          <p>1 18 0 3 19 1 7 20 3</p>
+          <p>7 21 3 5 22 2 1 23 0</p>
+          <p>3 24 4 2 25 5 6 26 7</p>
+          <p>6 27 7 7 28 6 3 29 4</p>
+          <p>2 30 0 0 31 1 4 32 3</p>
+          <p>4 33 3 6 34 2 2 35 0</p>
+        </polygons>
+      </mesh>
+    </geometry>
+    <geometry id="node_collider-lib" name="node_colliderMesh">
+      <mesh>
+        <source id="node_collider-lib-Position">
+          <float_array id="node_collider-lib-Position-array" count="24">
+-1.968504 -1.968504 0.000000
+1.968504 -1.968504 0.000000
+-1.968504 1.968504 0.000000
+1.968504 1.968504 0.000000
+-1.968504 -1.968504 0.903631
+1.968504 -1.968504 0.903631
+-1.968504 1.968504 0.903631
+1.968504 1.968504 0.903631
+</float_array>
+          <technique_common>
+            <accessor source="#node_collider-lib-Position-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="node_collider-lib-Normal0">
+          <float_array id="node_collider-lib-Normal0-array" count="108">
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 -1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 0.000000 1.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+0.000000 -1.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+1.000000 0.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+0.000000 1.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+-1.000000 0.000000 0.000000
+</float_array>
+          <technique_common>
+            <accessor source="#node_collider-lib-Normal0-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="node_collider-lib-UV0">
+          <float_array id="node_collider-lib-UV0-array" count="24">
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+0.000000 0.000000
+1.000000 0.000000
+0.000000 1.000000
+1.000000 1.000000
+</float_array>
+          <technique_common>
+            <accessor source="#node_collider-lib-UV0-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="node_collider-lib-Vertex">
+          <input semantic="POSITION" source="#node_collider-lib-Position"/>
+        </vertices>
+        <polygons count="12">
+          <input semantic="VERTEX" offset="0" source="#node_collider-lib-Vertex"/>
+          <input semantic="NORMAL" offset="1" source="#node_collider-lib-Normal0"/>
+          <input semantic="TEXCOORD" offset="2" set="0" source="#node_collider-lib-UV0"/>
+          <p>0 0 9 2 1 11 3 2 10</p>
+          <p>3 3 10 1 4 8 0 5 9</p>
+          <p>4 6 8 5 7 9 7 8 11</p>
+          <p>7 9 11 6 10 10 4 11 8</p>
+          <p>0 12 4 1 13 5 5 14 7</p>
+          <p>5 15 7 4 16 6 0 17 4</p>
+          <p>1 18 0 3 19 1 7 20 3</p>
+          <p>7 21 3 5 22 2 1 23 0</p>
+          <p>3 24 4 2 25 5 6 26 7</p>
+          <p>6 27 7 7 28 6 3 29 4</p>
+          <p>2 30 0 0 31 1 4 32 3</p>
+          <p>4 33 3 6 34 2 2 35 0</p>
+        </polygons>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="RootNode" name="RootNode">
+      <node id="base" name="base">
+        <rotate sid="jointOrientX">1 0 0 -90.000000</rotate>
+        <scale sid="scale">0.039852 0.039852 0.161700</scale>
+        <node id="base-Pivot" name="base-Pivot">
+          <translate>0.000000 0.000000 -0.451815</translate>
+          <rotate>0.000000 0.000000 0.000000 0.000000</rotate>
+          <instance_geometry url="#base-lib"/>
+        </node>
+      </node>
+      <node id="node_collider" name="node_collider">
+        <rotate sid="jointOrientX">1 0 0 -90.000000</rotate>
+        <scale sid="scale">0.039852 0.039852 0.161700</scale>
+        <node id="node_collider-Pivot" name="node_collider-Pivot">
+          <translate>0.000000 0.000000 -0.451815</translate>
+          <rotate>0.000000 0.000000 0.000000 0.000000</rotate>
+          <instance_geometry url="#node_collider-lib"/>
+        </node>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#RootNode"/>
+  </scene>
+</COLLADA>
+

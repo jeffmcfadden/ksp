@@ -1,0 +1,216 @@
+ship = Rocket 1
+version = 0.17.0
+type = VAB
+PART
+{
+	part = Mark1-2Pod_4294876536
+	pos = -0.04900837,8.838333,-0.0001861006
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = parachuteLarge_4294872128
+	link = decoupler1-2_4294860406
+	attN = bottom, decoupler1-2_4294860406
+	attN = top, parachuteLarge_4294872128
+}
+PART
+{
+	part = parachuteLarge_4294872128
+	pos = -0.04900837,10.03359,-0.0001861006
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	attN = bottom, Mark1-2Pod_4294876536
+}
+PART
+{
+	part = decoupler1-2_4294860406
+	pos = -0.04900837,7.908236,-0.0001861006
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = asasmodule1-2_4294867628
+	attN = bottom, asasmodule1-2_4294867628
+	attN = top, Mark1-2Pod_4294876536
+}
+PART
+{
+	part = asasmodule1-2_4294867628
+	pos = -0.04900837,7.292766,-0.0001861006
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = fuelTank1-2b_4294862676
+	attN = top, decoupler1-2_4294860406
+	attN = bottom, fuelTank1-2b_4294862676
+}
+PART
+{
+	part = fuelTank1-2b_4294862676
+	pos = -0.04900837,5.167766,-0.0001861006
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = liquidEngine1-2b_4294861786
+	link = winglet_4294858052
+	link = winglet_4294858020
+	link = winglet_4294857988
+	link = winglet_4294857956
+	link = winglet_4294857924
+	link = winglet_4294858114
+	attN = top, asasmodule1-2_4294867628
+	attN = bottom, liquidEngine1-2b_4294861786
+}
+PART
+{
+	part = liquidEngine1-2b_4294861786
+	pos = -0.04900837,2.227458,-0.0001861006
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 2
+	sqor = -1
+	attm = 0
+	attN = top, fuelTank1-2b_4294862676
+}
+PART
+{
+	part = winglet_4294858052
+	pos = -1.894999,5.789436,-0.0001860757
+	rot = 0,-2.980232E-08,0,-1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 4
+	sqor = -1
+	attm = 1
+	sym = winglet_4294858114
+	sym = winglet_4294858020
+	sym = winglet_4294857988
+	sym = winglet_4294857956
+	sym = winglet_4294857924
+	srfN = srfAttach, fuelTank1-2b_4294862676
+}
+PART
+{
+	part = winglet_4294858020
+	pos = -0.9720033,5.789436,1.598488
+	rot = 0,-0.5000001,0,-0.8660254
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 5
+	sqor = -1
+	attm = 1
+	sym = winglet_4294858114
+	sym = winglet_4294858052
+	sym = winglet_4294857988
+	sym = winglet_4294857956
+	sym = winglet_4294857924
+	srfN = srfAttach, fuelTank1-2b_4294862676
+}
+PART
+{
+	part = winglet_4294857988
+	pos = 0.8739869,5.789436,1.598488
+	rot = 0,-0.8660254,0,-0.5
+	attRot = 0,0,0,1
+	mir = 1,1,-1
+	istg = 2
+	dstg = 2
+	sidx = 6
+	sqor = -1
+	attm = 1
+	sym = winglet_4294858114
+	sym = winglet_4294858052
+	sym = winglet_4294858020
+	sym = winglet_4294857956
+	sym = winglet_4294857924
+	srfN = srfAttach, fuelTank1-2b_4294862676
+}
+PART
+{
+	part = winglet_4294857956
+	pos = 1.796982,5.789436,-0.0001865617
+	rot = 0,-1,0,1.112238E-07
+	attRot = 0,0,0,1
+	mir = 1,1,-1
+	istg = 2
+	dstg = 2
+	sidx = 7
+	sqor = -1
+	attm = 1
+	sym = winglet_4294858114
+	sym = winglet_4294858052
+	sym = winglet_4294858020
+	sym = winglet_4294857988
+	sym = winglet_4294857924
+	srfN = srfAttach, fuelTank1-2b_4294862676
+}
+PART
+{
+	part = winglet_4294857924
+	pos = 0.873987,5.789436,-1.598861
+	rot = 0,-0.8660254,0,0.5
+	attRot = 0,0,0,1
+	mir = 1,1,-1
+	istg = 2
+	dstg = 2
+	sidx = 8
+	sqor = -1
+	attm = 1
+	sym = winglet_4294858114
+	sym = winglet_4294858052
+	sym = winglet_4294858020
+	sym = winglet_4294857988
+	sym = winglet_4294857956
+	srfN = srfAttach, fuelTank1-2b_4294862676
+}
+PART
+{
+	part = winglet_4294858114
+	pos = -0.9720035,5.789436,-1.598861
+	rot = 0,0.5,0,-0.8660254
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 3
+	sqor = -1
+	attm = 1
+	sym = winglet_4294858052
+	sym = winglet_4294858020
+	sym = winglet_4294857988
+	sym = winglet_4294857956
+	sym = winglet_4294857924
+	srfN = srfAttach, fuelTank1-2b_4294862676
+}
