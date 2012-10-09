@@ -58,8 +58,8 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 0.17.0
-		UT = 8840661.19255254
-		activeVessel = 16
+		UT = 8874468.00730354
+		activeVessel = 17
 		CREW
 		{
 			name = Jebediah Kerman
@@ -186,8 +186,8 @@ GAME
 			brave = 0.4067386
 			dumb = 0.9307182
 			badS = True
-			state = 1
-			ToD = 8815906.5005192
+			state = 3
+			ToD = 8880873.70732131
 			idx = 0
 		}
 		CREW
@@ -196,8 +196,8 @@ GAME
 			brave = 0.6886789
 			dumb = 0.3698866
 			badS = False
-			state = 1
-			ToD = 8815906.5005192
+			state = 3
+			ToD = 8880873.70732131
 			idx = 1
 		}
 		CREW
@@ -206,8 +206,8 @@ GAME
 			brave = 0.4510154
 			dumb = 0.9881027
 			badS = False
-			state = 1
-			ToD = 8815906.5005192
+			state = 3
+			ToD = 8880873.70732131
 			idx = 2
 		}
 		CREW
@@ -216,8 +216,8 @@ GAME
 			brave = 0.6168235
 			dumb = 0.8580837
 			badS = False
-			state = 0
-			ToD = 8815410.70633323
+			state = 3
+			ToD = 8874585.94730359
 			idx = 0
 		}
 		CREW
@@ -226,8 +226,8 @@ GAME
 			brave = 0.8740444
 			dumb = 0.8983725
 			badS = True
-			state = 0
-			ToD = 8815410.70633323
+			state = 3
+			ToD = 8874585.94730359
 			idx = 1
 		}
 		CREW
@@ -236,8 +236,8 @@ GAME
 			brave = 0.9927883
 			dumb = 0.2900233
 			badS = False
-			state = 0
-			ToD = 8815410.70633323
+			state = 3
+			ToD = 8874585.94730359
 			idx = 2
 		}
 		CREW
@@ -265,6 +265,36 @@ GAME
 			name = Caldrin Kerman
 			brave = 0.1670256
 			dumb = 0.5470015
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 2
+		}
+		CREW
+		{
+			name = Jorster Kerman
+			brave = 0.8412614
+			dumb = 0.8434421
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 0
+		}
+		CREW
+		{
+			name = Hannard Kerman
+			brave = 0.299241
+			dumb = 0.1756159
+			badS = False
+			state = 1
+			ToD = 0
+			idx = 1
+		}
+		CREW
+		{
+			name = Bobrey Kerman
+			brave = 0.327529
+			dumb = 0.9890978
 			badS = False
 			state = 1
 			ToD = 0
@@ -402,10 +432,10 @@ GAME
 				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 153.04343848467
-				LAN = 194.319875876477
+				LPE = 127.516239337532
+				LAN = 37.7661217264831
 				MNA = -8.40714670366795
-				EPH = 8840659.19255259
+				EPH = 8874465.96730359
 				REF = 2
 				OBJ = 1
 			}
@@ -456,13 +486,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 10735871.9950878
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 152.057205691098
-				LAN = 194.319875876477
-				MNA = 3.14159265358979
-				EPH = 8840659.19255259
+				LPE = 116.296964431655
+				LAN = 37.7661217264831
+				MNA = -8.40714670366795
+				EPH = 8874465.96730359
 				REF = 2
 				OBJ = 0
 			}
@@ -622,13 +652,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 707870.664716674
 				ECC = 1
 				INC = NaN
-				LPE = 152.057205391429
-				LAN = 194.319875876477
-				MNA = -8.40714670366795
-				EPH = 8840659.19255259
+				LPE = 116.296908141146
+				LAN = 37.7661217264831
+				MNA = 0.570796326794897
+				EPH = 8874465.96730359
 				REF = 2
 				OBJ = 1
 			}
@@ -679,13 +709,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 10735876.2366824
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 152.057219960692
-				LAN = 194.319875876477
-				MNA = 3.14159265358979
-				EPH = 8840659.19255259
+				LPE = 116.297340556274
+				LAN = 37.7661217264831
+				MNA = -8.40714670366795
+				EPH = 8874465.96730359
 				REF = 2
 				OBJ = 1
 			}
@@ -736,13 +766,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 10735857.7543284
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 152.057155356736
-				LAN = 194.319875876477
-				MNA = 3.14159265358979
-				EPH = 8840659.19255259
+				LPE = 116.295670704976
+				LAN = 37.7661217264831
+				MNA = -8.40714670366795
+				EPH = 8874465.96730359
 				REF = 2
 				OBJ = 1
 			}
@@ -793,13 +823,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 4796249508.85923
 				ECC = 1
 				INC = NaN
-				LPE = 94.6366867608976
-				LAN = 194.319875876477
-				MNA = -8.40714670366795
-				EPH = 8840659.19255259
+				LPE = 64.6549733919735
+				LAN = 37.7661217264831
+				MNA = 0.570796326794897
+				EPH = 8874465.96730359
 				REF = 6
 				OBJ = 0
 			}
@@ -1055,13 +1085,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 10583222.1107392
+				SMA = 552031.611827701
 				ECC = 1
 				INC = NaN
-				LPE = 152.367626041607
-				LAN = 194.319875876477
+				LPE = 111.853059432519
+				LAN = 37.7661217264831
 				MNA = 3.14159265358979
-				EPH = 8840659.19255259
+				EPH = 8874465.96730359
 				REF = 2
 				OBJ = 0
 			}
@@ -1511,13 +1541,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 522078.096876843
 				ECC = 1
 				INC = NaN
-				LPE = 152.94748495983
-				LAN = 194.319875876477
-				MNA = -8.40714670366795
-				EPH = 8840659.19255259
+				LPE = 123.616372226523
+				LAN = 37.7661217264831
+				MNA = 3.14159265358979
+				EPH = 8874465.96730359
 				REF = 2
 				OBJ = 0
 			}
@@ -1780,13 +1810,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 521859.04109875
 				ECC = 1
 				INC = NaN
-				LPE = 152.945526654305
-				LAN = 194.319875876477
-				MNA = 0
-				EPH = 8840659.19255259
+				LPE = 123.556705599331
+				LAN = 37.7661217264831
+				MNA = 3.14159265358979
+				EPH = 8874465.96730359
 				REF = 2
 				OBJ = 0
 			}
@@ -2155,13 +2185,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 541125.99712513
 				ECC = 1
 				INC = NaN
-				LPE = 153.023343136423
-				LAN = 194.319875876477
-				MNA = -8.40714670366795
-				EPH = 8840659.19255259
+				LPE = 126.424072668231
+				LAN = 37.7661217264831
+				MNA = 0.288150375758712
+				EPH = 8874465.96730359
 				REF = 2
 				OBJ = 1
 			}
@@ -2212,13 +2242,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 10650704.369412
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 153.023196079586
-				LAN = 194.319875876477
-				MNA = 3.14159265358979
-				EPH = 8840659.19255259
+				LPE = 126.415209446871
+				LAN = 37.7661217264831
+				MNA = -8.40714670366795
+				EPH = 8874465.96730359
 				REF = 2
 				OBJ = 1
 			}
@@ -2254,35 +2284,35 @@ GAME
 			landed = True
 			landedAt = 
 			splashed = False
-			met = 31721.9720385503
+			met = 65228.6667962614
 			lct = 8808937.20051404
 			root = 0
-			lat = 3.91957048460287
-			lon = -144.346107950433
-			alt = 911.772001934878
-			hgt = 1.649571
-			nrm = -0.0003433675,1,-0.0002353564
-			rot = 0.07736458,-0.467554,0.677462,0.5625419
-			CoM = 3.308157E-05,-0.02874993,-5.556061E-05
+			lat = 3.52218680528385
+			lon = -144.644147765259
+			alt = 991.606525000185
+			hgt = 1.655888
+			nrm = -0.002050996,0.9999979,-0.0002811849
+			rot = 0.05434665,-0.4878995,0.6503791,0.5796616
+			CoM = 2.139062E-05,-0.02877078,3.800448E-05
 			stg = 1
 			prst = False
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 152.024307013726
-				LAN = 194.319875876477
+				LPE = 110.524966557492
+				LAN = 37.7661217264831
 				MNA = -8.40714670366795
-				EPH = 8840659.19255259
+				EPH = 8874465.96730359
 				REF = 2
 				OBJ = 0
 			}
 			PART
 			{
 				name = Mark1-2Pod
-				uid = 4294831300
+				uid = 4294602188
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
@@ -2296,7 +2326,7 @@ GAME
 				attN = bottom, 1
 				attN = None, -1
 				mass = 4
-				temp = -0.8984611
+				temp = 0
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2308,7 +2338,7 @@ GAME
 			PART
 			{
 				name = hstwCart
-				uid = 4294831220
+				uid = 4294602084
 				parent = 0
 				position = 0,-0.604240417480469,0
 				rotation = 0,0,0,-1
@@ -2322,7 +2352,7 @@ GAME
 				attN = top, 0
 				attN = None, -1
 				mass = 0.2
-				temp = -0.8953699
+				temp = 0
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2331,14 +2361,71 @@ GAME
 		}
 		VESSEL
 		{
-			pid = 8e4e58d93d634b80ab48b2822eb8255a
-			name = Rover 1
+			pid = baed261ae69f4ffcb0bb5dbd3c4ffaf6
+			name = Rover 1 Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 492.159988991916
+			lct = 8873673.70732131
+			root = 0
+			lat = 3.51044854072627
+			lon = -144.65808323003
+			alt = 994.45819698603
+			hgt = 1.078456
+			nrm = -0.00182265,0.9999976,0.001348733
+			rot = -0.2669861,0.6472833,-0.5904105,-0.4014454
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = NaN
+				ECC = 1
+				INC = NaN
+				LPE = 110.524198999783
+				LAN = 37.7661217264831
+				MNA = -8.40714670366795
+				EPH = 8874465.96730359
+				REF = 2
+				OBJ = 1
+			}
+			PART
+			{
+				name = hstwCart
+				uid = 4294602178
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = None, -1
+				mass = 0.2
+				temp = 0
+				expt = 0.5
+				state = 0
+				connected = False
+				attached = False
+			}
+		}
+		VESSEL
+		{
+			pid = 13ecf9adbd4e4941aff23936fedc8ad0
+			name = Rover 2
 			sit = PRELAUNCH
 			landed = True
 			landedAt = LaunchPad
 			splashed = False
 			met = 0
-			lct = 8840661.19255254
+			lct = 8874468.00730354
 			root = 0
 			lat = -0.10266468698309
 			lon = -74.5754384117462
@@ -2346,26 +2433,26 @@ GAME
 			hgt = 8.403134
 			nrm = -2.980232E-08,1,-2.553861E-08
 			rot = -0.7009887,-0.09221787,-0.0972654,0.7004643
-			CoM = -7.450581E-08,0.6115234,-4.854519E-08
+			CoM = -1.639128E-07,0.9275531,-6.005575E-08
 			stg = 5
 			prst = False
 			eva = False
 			ORBIT
 			{
-				SMA = 300817.373842392
-				ECC = 0.994822727771651
-				INC = 0.102664681122187
-				LPE = 90
-				LAN = 209.777770771888
+				SMA = 300817.533500733
+				ECC = 0.994822719591847
+				INC = 0.102664678097543
+				LPE = 90.0000000000002
+				LAN = 53.2246832753772
 				MNA = 3.14159265358979
-				EPH = 8840661.19255254
+				EPH = 8874468.00730354
 				REF = 1
 				OBJ = 0
 			}
 			PART
 			{
 				name = Mark1-2Pod
-				uid = 4294732856
+				uid = 4294865470
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
@@ -2384,14 +2471,14 @@ GAME
 				state = 0
 				connected = True
 				attached = True
-				crew = 12
-				crew = 13
-				crew = 14
+				crew = 21
+				crew = 22
+				crew = 23
 			}
 			PART
 			{
 				name = hstwCart
-				uid = 4294732776
+				uid = 4294865390
 				parent = 0
 				position = 0,-0.604240417480469,0
 				rotation = 0,0,0,-1
@@ -2414,7 +2501,7 @@ GAME
 			PART
 			{
 				name = decoupler1-2
-				uid = 4294732656
+				uid = 4294865270
 				parent = 1
 				position = 0,-1.30509757995605,0
 				rotation = 0,0,0,1
@@ -2437,7 +2524,7 @@ GAME
 			PART
 			{
 				name = fuelTank1-2b
-				uid = 4294732622
+				uid = 4294865236
 				parent = 2
 				position = 0,-3.54556751251221,0
 				rotation = 0,0,0,1
@@ -2462,7 +2549,7 @@ GAME
 			PART
 			{
 				name = liquidEngine1-2b
-				uid = 4294732598
+				uid = 4294865212
 				parent = 3
 				position = 0,-6.48587512969971,0
 				rotation = 0,0,0,1
@@ -2486,7 +2573,7 @@ GAME
 			PART
 			{
 				name = mumech.mechjeb1m
-				uid = 4294732536
+				uid = 4294865150
 				parent = 0
 				position = 0,1.19318771362305,0
 				rotation = 0,0,0,1
@@ -2520,10 +2607,10 @@ GAME
 			PART
 			{
 				name = decoupler1-2
-				uid = 4294732456
+				uid = 4294865070
 				parent = 5
-				position = 0,2.0586576461792,0
-				rotation = 0,0,0,1
+				position = 0,2.14404773712158,0
+				rotation = 0,0,1,0
 				mirror = 1,1,1
 				istg = 1
 				dstg = 1
@@ -2531,10 +2618,10 @@ GAME
 				sidx = 0
 				attm = 0
 				srfN = None, -1
-				attN = bottom, 5
-				attN = top, 7
+				attN = bottom, 7
+				attN = top, 5
 				mass = 0.5
-				temp = 19.42246
+				temp = 19.422
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2543,7 +2630,7 @@ GAME
 			PART
 			{
 				name = fuelTank2-2
-				uid = 4294732422
+				uid = 4294865036
 				parent = 6
 				position = 0,3.44701766967773,0
 				rotation = 0,0,0,1
@@ -2554,7 +2641,7 @@ GAME
 				sidx = 0
 				attm = 0
 				srfN = None, -1
-				attN = None, -1
+				attN = top, 12
 				attN = bottom, 6
 				mass = 9
 				temp = 19.41233
@@ -2568,7 +2655,7 @@ GAME
 			PART
 			{
 				name = radialLiquidEngine1-2
-				uid = 4294732398
+				uid = 4294865012
 				parent = 7
 				position = -1.79312348365784,3.14504718780518,-0.00514839962124825
 				rotation = 7.797168E-07,0.7071068,7.797168E-07,-0.7071068
@@ -2593,7 +2680,7 @@ GAME
 			PART
 			{
 				name = radialLiquidEngine1-2
-				uid = 4294732354
+				uid = 4294864968
 				parent = 7
 				position = -0.00514811277389526,3.14504718780518,1.79312336444855
 				rotation = 1.102686E-06,-4.371139E-08,-4.819994E-14,-1
@@ -2618,7 +2705,7 @@ GAME
 			PART
 			{
 				name = radialLiquidEngine1-2
-				uid = 4294732310
+				uid = 4294864924
 				parent = 7
 				position = 1.79312348365784,3.14504718780518,0.00514817982912064
 				rotation = 7.797168E-07,-0.7071068,-7.797168E-07,-0.7071068
@@ -2643,7 +2730,7 @@ GAME
 			PART
 			{
 				name = radialLiquidEngine1-2
-				uid = 4294732266
+				uid = 4294864880
 				parent = 7
 				position = 0.00514829158782959,3.14504718780518,-1.79312372207642
 				rotation = 0,1,1.102686E-06,0
@@ -2664,6 +2751,29 @@ GAME
 				connected = True
 				attached = True
 				hasShroud = False, BOOL
+			}
+			PART
+			{
+				name = asasmodule1-2
+				uid = 4294864836
+				parent = 7
+				position = 0,4.63451766967773,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 2
+				dstg = 2
+				sqor = 2
+				sidx = 5
+				attm = 0
+				srfN = None, -1
+				attN = None, -1
+				attN = bottom, 7
+				mass = 0.8
+				temp = 19.40312
+				expt = 0.5
+				state = 0
+				connected = True
+				attached = True
 			}
 		}
 	}
