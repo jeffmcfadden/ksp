@@ -1,0 +1,190 @@
+ship = Untitled Space Craft
+version = 0.17.0
+type = VAB
+PART
+{
+	part = mk1pod_4294850510
+	pos = -0.3194938,9.197258,0.2210589
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = mumech.mechjebrad_4294836020
+	link = parachuteSingle_4294830014
+	link = hstwRover_4294846058
+	attN = bottom, hstwRover_4294846058
+}
+PART
+{
+	part = mumech.mechjebrad_4294836020
+	pos = -0.1583221,9.164602,0.7225199
+	rot = -0.04711076,0.9497895,-0.1758197,-0.2544954
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 6
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, mk1pod_4294850510
+}
+PART
+{
+	part = parachuteSingle_4294830014
+	pos = -0.3329538,9.837254,0.1791836
+	rot = 1.685874E-07,2.690483E-08,-2.690483E-08,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 7
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, mk1pod_4294850510
+}
+PART
+{
+	part = hstwRover_4294846058
+	pos = -0.3194938,8.51722,0.2210589
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = hstwRoverTank_4294845668
+	link = hstwRoverTank_4294845188
+	link = decoupler1-2_4294814762
+	link = hstwRoverTank_4294803100
+	attN = top, mk1pod_4294850510
+	attN = bottom, decoupler1-2_4294814762
+	MODULE
+	{
+		name = CartModule
+		isEnabled = False
+	}
+}
+PART
+{
+	part = hstwRoverTank_4294845668
+	pos = -1.140641,8.701241,0.2032185
+	rot = 6.133174E-19,3.371748E-07,1.449693E-12,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = -1
+	attm = 1
+	link = hstwRoverThruster_4294845512
+	srfN = srfAttach, hstwRover_4294846058
+}
+PART
+{
+	part = hstwRoverThruster_4294845512
+	pos = -1.306159,8.687774,0.2311573
+	rot = 1.916617E-18,-5.057622E-07,1.449693E-12,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 3
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, hstwRoverTank_4294845668
+}
+PART
+{
+	part = hstwRoverTank_4294845188
+	pos = 0.5016531,8.647486,0.2473552
+	rot = -1.791557E-06,1,1.28622E-12,-7.586432E-07
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 4
+	sqor = -1
+	attm = 1
+	link = hstwRoverThruster_4294845074
+	srfN = srfAttach, hstwRover_4294846058
+}
+PART
+{
+	part = hstwRoverThruster_4294845074
+	pos = 0.6671712,8.62269,0.2107237
+	rot = -1.791557E-06,1,2.813606E-12,1.685874E-07
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 5
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, hstwRoverTank_4294845188
+}
+PART
+{
+	part = decoupler1-2_4294814762
+	pos = -0.3194938,7.766364,0.2210589
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = fuelTank1-2b_4294812876
+	attN = bottom, fuelTank1-2b_4294812876
+	attN = top, hstwRover_4294846058
+}
+PART
+{
+	part = fuelTank1-2b_4294812876
+	pos = -0.3194938,5.525894,0.2210589
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = liquidEngine1-2b_4294809404
+	attN = top, decoupler1-2_4294814762
+	attN = bottom, liquidEngine1-2b_4294809404
+}
+PART
+{
+	part = liquidEngine1-2b_4294809404
+	pos = -0.3194938,2.585586,0.2210589
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 1
+	sqor = -1
+	attm = 0
+	attN = top, fuelTank1-2b_4294812876
+}
+PART
+{
+	part = hstwRoverTank_4294803100
+	pos = -0.2604486,8.640295,1.233559
+	rot = 0,0.7071072,0,0.7071065
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 8
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, hstwRover_4294846058
+}
