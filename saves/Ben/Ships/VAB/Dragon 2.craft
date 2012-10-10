@@ -1,0 +1,182 @@
+ship = Dragon 2
+version = 0.17.0
+type = VAB
+PART
+{
+	part = Dragon.Rider_4294779476
+	pos = -0.4938665,15.52894,0.2478627
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = 0
+	attm = 0
+	link = decoupler1-2_4294779324
+	link = Dragon.EscapeLanding.Engine_4294779204
+	link = Dragon.RCS.Tank_4294779124
+	link = Dragon.EscapeLanding.Engine_4294776448
+	link = Dragon.EscapeLanding.Engine_4294776364
+	link = Dragon.EscapeLanding.Engine_4294776280
+	link = Dragon.EscapeLanding.Engine_4294776562
+	attN = bottom00, decoupler1-2_4294779324
+	attN = top00, Dragon.RCS.Tank_4294779124
+	MODULE
+	{
+		name = ModuleKrAnimation
+		isEnabled = True
+		extendAnim = Leg_Extend
+		retractAnim = |reversed
+		extendGUI = Extend Struts
+		retractGUI = Retract Struts
+		controllableInside = always
+		stage = 0
+		state = 0
+		landingGear = 1
+		animPlayStart = 0
+		EVA_Range = 5
+	}
+}
+PART
+{
+	part = decoupler1-2_4294779324
+	pos = -0.4938665,14.01572,0.2478627
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 1
+	dstg = 1
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = fuelTank1-2b_4294779290
+	attN = bottom, fuelTank1-2b_4294779290
+	attN = top, Dragon.Rider_4294779476
+}
+PART
+{
+	part = fuelTank1-2b_4294779290
+	pos = -0.4938665,11.77525,0.2478627
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 0
+	sqor = -1
+	attm = 0
+	link = liquidEngine1-2b_4294779266
+	attN = top, decoupler1-2_4294779324
+	attN = bottom, liquidEngine1-2b_4294779266
+}
+PART
+{
+	part = liquidEngine1-2b_4294779266
+	pos = -0.4938665,8.834948,0.2478627
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 2
+	dstg = 2
+	sidx = 1
+	sqor = -1
+	attm = 0
+	attN = top, fuelTank1-2b_4294779290
+}
+PART
+{
+	part = Dragon.EscapeLanding.Engine_4294779204
+	pos = 0.3178976,15.74298,-0.6369681
+	rot = -0.09484231,0.8950562,0.2289684,0.3707464
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = 0
+	attm = 1
+	srfN = srfAttach, Dragon.Rider_4294779476
+}
+PART
+{
+	part = Dragon.RCS.Tank_4294779124
+	pos = -0.4938665,16.90687,0.2478627
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = 0
+	attm = 0
+	attN = top, Dragon.Rider_4294779476
+}
+PART
+{
+	part = Dragon.EscapeLanding.Engine_4294776448
+	pos = -1.351931,15.77961,1.072836
+	rot = 0.2289682,0.3707466,0.09484228,-0.8950561
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 4
+	sqor = -1
+	attm = 1
+	sym = Dragon.EscapeLanding.Engine_4294776562
+	sym = Dragon.EscapeLanding.Engine_4294776364
+	sym = Dragon.EscapeLanding.Engine_4294776280
+	srfN = srfAttach, Dragon.Rider_4294779476
+}
+PART
+{
+	part = Dragon.EscapeLanding.Engine_4294776364
+	pos = 0.331107,15.77961,1.105927
+	rot = 0.2289686,-0.3707429,-0.09484133,-0.8950577
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 5
+	sqor = -1
+	attm = 1
+	sym = Dragon.EscapeLanding.Engine_4294776562
+	sym = Dragon.EscapeLanding.Engine_4294776448
+	sym = Dragon.EscapeLanding.Engine_4294776280
+	srfN = srfAttach, Dragon.Rider_4294779476
+}
+PART
+{
+	part = Dragon.EscapeLanding.Engine_4294776280
+	pos = 0.3641974,15.77961,-0.5771107
+	rot = 0.09484228,-0.8950561,-0.2289682,-0.3707466
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 6
+	sqor = -1
+	attm = 1
+	sym = Dragon.EscapeLanding.Engine_4294776562
+	sym = Dragon.EscapeLanding.Engine_4294776448
+	sym = Dragon.EscapeLanding.Engine_4294776364
+	srfN = srfAttach, Dragon.Rider_4294779476
+}
+PART
+{
+	part = Dragon.EscapeLanding.Engine_4294776562
+	pos = -1.31884,15.77961,-0.6102014
+	rot = 0.09484132,0.8950577,0.2289686,-0.3707428
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 3
+	sqor = -1
+	attm = 1
+	sym = Dragon.EscapeLanding.Engine_4294776448
+	sym = Dragon.EscapeLanding.Engine_4294776364
+	sym = Dragon.EscapeLanding.Engine_4294776280
+	srfN = srfAttach, Dragon.Rider_4294779476
+}

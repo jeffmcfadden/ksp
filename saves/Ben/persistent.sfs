@@ -58,8 +58,8 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 0.17.0
-		UT = 52127905.0119727
-		activeVessel = 20
+		UT = 52128376.9720501
+		activeVessel = 22
 		CREW
 		{
 			name = Jebediah Kerman
@@ -218,7 +218,7 @@ GAME
 			badS = False
 			state = 0
 			ToD = 8874585.94730359
-			idx = 0
+			idx = -1
 		}
 		CREW
 		{
@@ -228,7 +228,7 @@ GAME
 			badS = True
 			state = 0
 			ToD = 8874585.94730359
-			idx = 1
+			idx = -1
 		}
 		CREW
 		{
@@ -238,7 +238,7 @@ GAME
 			badS = False
 			state = 0
 			ToD = 8874585.94730359
-			idx = 2
+			idx = -1
 		}
 		CREW
 		{
@@ -278,7 +278,7 @@ GAME
 			badS = False
 			state = 0
 			ToD = 8913224.49079208
-			idx = 0
+			idx = -1
 		}
 		CREW
 		{
@@ -288,7 +288,7 @@ GAME
 			badS = False
 			state = 0
 			ToD = 8913224.49079208
-			idx = 1
+			idx = -1
 		}
 		CREW
 		{
@@ -298,7 +298,17 @@ GAME
 			badS = False
 			state = 0
 			ToD = 8913224.49079208
-			idx = 2
+			idx = -1
+		}
+		CREW
+		{
+			name = Aldming Kerman
+			brave = 0.7177645
+			dumb = 0.5336518
+			badS = False
+			state = 0
+			ToD = 0
+			idx = -1
 		}
 		VESSEL
 		{
@@ -429,13 +439,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 11730113.3175773
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 165.009908385018
-				LAN = 292.343015738297
-				MNA = 3.14159265358979
-				EPH = 30986540.5809443
+				LPE = 134.494244074333
+				LAN = 208.417199545074
+				MNA = -8.40714670366795
+				EPH = 52127905.0319727
 				REF = 2
 				OBJ = 1
 			}
@@ -486,13 +496,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 11759295.8238754
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 164.061038305238
-				LAN = 292.343015738297
-				MNA = 3.14159265358979
-				EPH = 30986540.5809443
+				LPE = 135.294804140631
+				LAN = 208.417199545074
+				MNA = -8.40714670366795
+				EPH = 52127905.0319727
 				REF = 2
 				OBJ = 0
 			}
@@ -655,10 +665,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 164.061039149607
-				LAN = 292.343015738297
-				MNA = 0
-				EPH = 30986540.5809443
+				LPE = 135.29479721199
+				LAN = 208.417199545074
+				MNA = -8.40714670366795
+				EPH = 52127905.0319727
 				REF = 2
 				OBJ = 1
 			}
@@ -709,13 +719,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 8581428.50686385
 				ECC = 1
 				INC = NaN
-				LPE = 164.061046748558
-				LAN = 292.343015738297
-				MNA = 0
-				EPH = 30986540.5809443
+				LPE = 135.294825843114
+				LAN = 208.417199545074
+				MNA = 3.14159265358979
+				EPH = 52127905.0319727
 				REF = 2
 				OBJ = 1
 			}
@@ -766,13 +776,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 8581411.44299552
 				ECC = 1
 				INC = NaN
-				LPE = 164.061007780457
-				LAN = 292.343015738297
-				MNA = 0
-				EPH = 30986540.5809443
+				LPE = 135.294732144285
+				LAN = 208.417199545074
+				MNA = 3.14159265358979
+				EPH = 52127905.0319727
 				REF = 2
 				OBJ = 1
 			}
@@ -823,13 +833,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 13797115012.7889
 				ECC = 1
 				INC = NaN
-				LPE = 86.2807789716169
-				LAN = 292.343015738297
-				MNA = -8.40714670366795
-				EPH = 30986540.5809443
+				LPE = 81.8331842905599
+				LAN = 208.417199545074
+				MNA = 3.14159265358979
+				EPH = 52127905.0319727
 				REF = 6
 				OBJ = 0
 			}
@@ -1085,13 +1095,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 11622089.1571442
+				SMA = 8592126.74170617
 				ECC = 1
 				INC = NaN
-				LPE = 164.494203183422
-				LAN = 292.343015738297
+				LPE = 134.208105213893
+				LAN = 208.417199545074
 				MNA = 3.14159265358979
-				EPH = 30986540.5809443
+				EPH = 52127905.0319727
 				REF = 2
 				OBJ = 0
 			}
@@ -1544,10 +1554,10 @@ GAME
 				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 164.970467117275
-				LAN = 292.343015738297
-				MNA = -8.40714670366796
-				EPH = 30986540.5809443
+				LPE = 134.246225445985
+				LAN = 208.417199545074
+				MNA = -8.40714670366795
+				EPH = 52127905.0319727
 				REF = 2
 				OBJ = 0
 			}
@@ -1813,10 +1823,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 164.969193672878
-				LAN = 292.343015738297
-				MNA = -8.40714670366795
-				EPH = 30986540.5809443
+				LPE = 134.244042001498
+				LAN = 208.417199545074
+				MNA = 0
+				EPH = 52127905.0319727
 				REF = 2
 				OBJ = 0
 			}
@@ -2185,13 +2195,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 11713589.4902769
+				SMA = 8728090.96855879
 				ECC = 1
 				INC = NaN
-				LPE = 165.008358337157
-				LAN = 292.343015738297
+				LPE = 134.400854118144
+				LAN = 208.417199545074
 				MNA = 3.14159265358979
-				EPH = 30986540.5809443
+				EPH = 52127905.0319727
 				REF = 2
 				OBJ = 1
 			}
@@ -2242,13 +2252,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 165.008360806977
-				LAN = 292.343015738297
+				LPE = 134.40008430556
+				LAN = 208.417199545074
 				MNA = -8.40714670366795
-				EPH = 30986540.5809443
+				EPH = 52127905.0319727
 				REF = 2
 				OBJ = 1
 			}
@@ -2299,13 +2309,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 11659630.7994569
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 164.135287373636
-				LAN = 292.343015738297
-				MNA = 3.14159265358979
-				EPH = 30986540.5809443
+				LPE = 134.66265740155
+				LAN = 208.417199545074
+				MNA = -8.40714670366795
+				EPH = 52127905.0319727
 				REF = 2
 				OBJ = 0
 			}
@@ -2382,13 +2392,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 164.135352775409
-				LAN = 292.343015738297
+				LPE = 134.662494758204
+				LAN = 208.417199545074
 				MNA = -8.40714670366795
-				EPH = 30986540.5809443
+				EPH = 52127905.0319727
 				REF = 2
 				OBJ = 1
 			}
@@ -2442,10 +2452,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 164.973860756695
-				LAN = 292.343015738297
+				LPE = 134.253642084819
+				LAN = 208.417199545074
 				MNA = -8.40714670366795
-				EPH = 30986540.5809443
+				EPH = 52127905.0319727
 				REF = 2
 				OBJ = 1
 			}
@@ -2496,13 +2506,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 161.051654897129
-				LAN = 292.343015738297
+				LPE = 126.536017312486
+				LAN = 208.417199545074
 				MNA = -8.40714670366795
-				EPH = 30986540.5809443
+				EPH = 52127905.0319727
 				REF = 3
 				OBJ = 0
 			}
@@ -3187,6 +3197,226 @@ GAME
 				state = 0
 				connected = True
 				attached = True
+			}
+		}
+		VESSEL
+		{
+			pid = 29f2df214ba04a5dbb57570f0426c107
+			name = Ben Dragon 1 Debris
+			sit = SUB_ORBITAL
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 6.02000098675489
+			lct = 52128354.6120464
+			root = 0
+			lat = 0.0707593970991309
+			lon = -70.1624936193461
+			alt = 59015.8904175683
+			hgt = -1
+			nrm = 0.1111536,0.5931232,0.7974021
+			rot = 0.7550772,0.6499724,-0.07864161,-0.03477979
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 337072.153448953
+				ECC = 0.961051863269129
+				INC = 11.1962322693375
+				LPE = 181.263067563019
+				LAN = 145.490554379958
+				MNA = 2.92378224041037
+				EPH = 52128360.5920474
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = Dragon.EscapeLanding.Engine
+				uid = 4294669114
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 1
+				attm = 1
+				srfN = None, -1
+				mass = 0.1
+				temp = 1342.179
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+		}
+		VESSEL
+		{
+			pid = 26c934812fc545cfbd8e2359babbab86
+			name = Ben Dragon 1 Debris
+			sit = SUB_ORBITAL
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 5.28000086545944
+			lct = 52128354.6120464
+			root = 0
+			lat = 0.0741081854649984
+			lon = -70.1878838346787
+			alt = 58179.9277075216
+			hgt = -1
+			nrm = -0.9894015,-0.08115745,0.1204099
+			rot = -0.4978527,-0.4140976,-0.7437257,0.165946
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 335305.16450662
+				ECC = 0.963386294076843
+				INC = 14.1393479125384
+				LPE = 180.544716956812
+				LAN = 145.516134473336
+				MNA = 3.08104027646862
+				EPH = 52128359.8520473
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = Dragon.EscapeLanding.Engine
+				uid = 4294669034
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 2
+				attm = 1
+				srfN = None, -1
+				mass = 0.1
+				temp = 1473.98
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+		}
+		VESSEL
+		{
+			pid = d1e634afa98942a88a861acccf8b790d
+			name = Ben Dragon 1 Debris
+			sit = SUB_ORBITAL
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 6.22000101953745
+			lct = 52128354.6120464
+			root = 0
+			lat = 0.0724756648797952
+			lon = -70.1162641471017
+			alt = 58079.270823186
+			hgt = -1
+			nrm = -0.1429492,0.2457118,-0.9587446
+			rot = -0.04523877,0.1104645,0.7740094,-0.6218203
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 338022.783582376
+				ECC = 0.94691961883039
+				INC = 9.60471934801729
+				LPE = 180.550037552523
+				LAN = 145.469312596314
+				MNA = 3.1177916831289
+				EPH = 52128360.7920474
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = Dragon.EscapeLanding.Engine
+				uid = 4294668954
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,1
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 3
+				attm = 1
+				srfN = None, -1
+				mass = 0.1
+				temp = 1306.127
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
+			}
+		}
+		VESSEL
+		{
+			pid = a7b2d224b6aa4d2f8e3a53a3692bbe4c
+			name = Ben Dragon 1 Debris
+			sit = SUB_ORBITAL
+			landed = False
+			landedAt = 
+			splashed = False
+			met = 5.28000086545944
+			lct = 52128354.6120464
+			root = 0
+			lat = 0.073869855734251
+			lon = -70.1882223688313
+			alt = 58185.8416526511
+			hgt = -1
+			nrm = 0.9894158,0.05746508,-0.133244
+			rot = -0.4535295,-0.3845907,0.3568964,-0.7204346
+			CoM = 0,0,0
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
+			{
+				SMA = 335294.313114927
+				ECC = 0.963489535698007
+				INC = 14.1512185605205
+				LPE = 180.548871364175
+				LAN = 145.516998302836
+				MNA = 3.07959892623211
+				EPH = 52128359.8520473
+				REF = 1
+				OBJ = 1
+			}
+			PART
+			{
+				name = Dragon.EscapeLanding.Engine
+				uid = 4294668874
+				parent = 0
+				position = 0,0,0
+				rotation = 0,0,0,0.9999999
+				mirror = 1,1,1
+				istg = 0
+				dstg = 0
+				sqor = 0
+				sidx = 4
+				attm = 1
+				srfN = None, -1
+				mass = 0.1
+				temp = 1471.64
+				expt = 0.5
+				state = 2
+				connected = False
+				attached = False
 			}
 		}
 	}
