@@ -58,7 +58,7 @@ GAME
 	FLIGHTSTATE
 	{
 		version = 0.17.0
-		UT = 52160335.1520733
+		UT = 52192307.0244574
 		activeVessel = 23
 		CREW
 		{
@@ -226,9 +226,9 @@ GAME
 			brave = 0.8740444
 			dumb = 0.8983725
 			badS = True
-			state = 0
-			ToD = 8874585.94730359
-			idx = 0
+			state = 3
+			ToD = 52168117.503277
+			idx = -1
 		}
 		CREW
 		{
@@ -238,7 +238,7 @@ GAME
 			badS = False
 			state = 0
 			ToD = 8874585.94730359
-			idx = 2
+			idx = 0
 		}
 		CREW
 		{
@@ -439,13 +439,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 12078502.2515137
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 167.158992040125
+				LPE = 165.98085494826
 				LAN = 0
-				MNA = 3.14159265358979
-				EPH = 52160333.1520729
+				MNA = -8.40714670366795
+				EPH = 52161266.8532351
 				REF = 2
 				OBJ = 1
 			}
@@ -496,13 +496,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 0
+				SMA = 11957458.6692939
 				ECC = 1
 				INC = NaN
-				LPE = 168.041740634414
+				LPE = 166.860989475344
 				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 52160333.1520729
+				MNA = 3.14159265358979
+				EPH = 52161266.8532351
 				REF = 2
 				OBJ = 0
 			}
@@ -662,13 +662,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 0
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 168.041736947265
+				LPE = 166.860986182606
 				LAN = 0
 				MNA = -8.40714670366795
-				EPH = 52160333.1520729
+				EPH = 52161266.8532351
 				REF = 2
 				OBJ = 1
 			}
@@ -722,10 +722,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 168.041743326879
+				LPE = 166.860993167208
 				LAN = 0
 				MNA = -8.40714670366795
-				EPH = 52160333.1520729
+				EPH = 52161266.8532351
 				REF = 2
 				OBJ = 1
 			}
@@ -776,13 +776,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 168.041731044436
+				LPE = 166.860978664984
 				LAN = 0
 				MNA = -8.40714670366795
-				EPH = 52160333.1520729
+				EPH = 52161266.8532351
 				REF = 2
 				OBJ = 1
 			}
@@ -833,13 +833,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 13838629234.4141
 				ECC = 1
 				INC = NaN
-				LPE = 69.7376592463032
+				LPE = 69.7141034608601
 				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 52160333.1520729
+				MNA = 3.14159265358979
+				EPH = 52161266.8532351
 				REF = 6
 				OBJ = 0
 			}
@@ -1098,10 +1098,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 167.359924071525
+				LPE = 166.168284640666
 				LAN = 0
 				MNA = -8.40714670366795
-				EPH = 52160333.1520729
+				EPH = 52161266.8532351
 				REF = 2
 				OBJ = 0
 			}
@@ -1551,13 +1551,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 11980637.2373846
 				ECC = 1
 				INC = NaN
-				LPE = 167.086472426007
+				LPE = 165.903507239357
 				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 52160333.1520729
+				MNA = 3.14159265358979
+				EPH = 52161266.8532351
 				REF = 2
 				OBJ = 0
 			}
@@ -1823,10 +1823,10 @@ GAME
 				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 167.08638821524
+				LPE = 165.903365177634
 				LAN = 0
 				MNA = -8.40714670366795
-				EPH = 52160333.1520729
+				EPH = 52161266.8532351
 				REF = 2
 				OBJ = 0
 			}
@@ -2198,10 +2198,10 @@ GAME
 				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 167.123669799924
+				LPE = 165.943940402648
 				LAN = 0
 				MNA = -8.40714670366795
-				EPH = 52160333.1520729
+				EPH = 52161266.8532351
 				REF = 2
 				OBJ = 1
 			}
@@ -2252,13 +2252,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 0
 				ECC = 1
 				INC = NaN
-				LPE = 167.123368661299
+				LPE = 165.943626447822
 				LAN = 0
 				MNA = -8.40714670366795
-				EPH = 52160333.1520729
+				EPH = 52161266.8532351
 				REF = 2
 				OBJ = 1
 			}
@@ -2294,35 +2294,35 @@ GAME
 			landed = True
 			landedAt = 
 			splashed = False
-			met = 65228.6667962614
+			met = 43383369.8239434
 			lct = 8808937.20051404
 			root = 0
-			lat = 3.52218680528385
-			lon = -144.644147765259
-			alt = 991.606525000185
-			hgt = 1.655888
-			nrm = -0.002050996,0.9999979,-0.0002811849
-			rot = 0.05434665,-0.4878995,0.6503791,0.5796616
-			CoM = 2.139062E-05,-0.02877078,3.800448E-05
+			lat = 3.91998882249511
+			lon = -144.251934896817
+			alt = 919.59100115273
+			hgt = 1.472335
+			nrm = -0.001500666,0.9999987,-0.0007738173
+			rot = 0.06936884,-0.4595928,0.6752768,0.5726813
+			CoM = -5.605537E-05,-0.02874223,-0.0001432998
 			stg = 1
 			prst = False
 			eva = False
 			ORBIT
 			{
-				SMA = 0
-				ECC = 1
-				INC = NaN
-				LPE = 167.753625039375
-				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 52160333.1520729
+				SMA = 100469.344419566
+				ECC = 0.999809636641921
+				INC = 9.91548963280994
+				LPE = 336.60852044642
+				LAN = 118.342374073985
+				MNA = 3.14184682476552
+				EPH = 52192307.0244574
 				REF = 2
 				OBJ = 0
 			}
 			PART
 			{
 				name = Mark1-2Pod
-				uid = 4294602188
+				uid = 4294852694
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
@@ -2336,7 +2336,7 @@ GAME
 				attN = bottom, 1
 				attN = None, -1
 				mass = 4
-				temp = 0
+				temp = -4.759731E-16
 				expt = 0.5
 				state = 0
 				connected = True
@@ -2348,7 +2348,7 @@ GAME
 			PART
 			{
 				name = hstwCart
-				uid = 4294602084
+				uid = 4294783764
 				parent = 0
 				position = 0,-0.604240417480469,0
 				rotation = 0,0,0,-1
@@ -2362,11 +2362,25 @@ GAME
 				attN = top, 0
 				attN = None, -1
 				mass = 0.2
-				temp = 0
+				temp = -4.742764E-16
 				expt = 0.5
 				state = 0
 				connected = True
 				attached = True
+				lightsOn = False, BOOL
+				brake = False, BOOL
+				handBrake = False, BOOL
+				cruiseControl = False, BOOL
+				cruiseSpeed = 0, FLOAT
+				wheelsDeployed = True, BOOL
+				enableMotor = True, BOOL
+				enableSteering = True, BOOL
+				firstTimeDeploying = False, BOOL
+				MODULE
+				{
+					name = CartModule
+					isEnabled = False
+				}
 			}
 		}
 		VESSEL
@@ -2377,35 +2391,35 @@ GAME
 			landed = True
 			landedAt = 
 			splashed = False
-			met = 492.159988991916
+			met = 43318633.3171361
 			lct = 8873673.70732131
 			root = 0
-			lat = 3.51044854072627
-			lon = -144.65808323003
-			alt = 994.45819698603
-			hgt = 1.078456
-			nrm = -0.00182265,0.9999976,0.001348733
-			rot = -0.2669861,0.6472833,-0.5904105,-0.4014454
+			lat = 3.62329909751042
+			lon = -144.64280234288
+			alt = 961.676330111368
+			hgt = 0.9833061
+			nrm = 0.000215441,0.9999999,0.0002991892
+			rot = -0.2565732,0.6595924,-0.5803968,-0.4027999
 			CoM = 0,0,0
 			stg = 0
 			prst = False
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
-				ECC = 1
-				INC = NaN
-				LPE = 167.75352290119
-				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 52160333.1520729
+				SMA = 100493.582035304
+				ECC = 0.999746374737724
+				INC = 3.62329909827678
+				LPE = 269.999999999997
+				LAN = 184.872680613903
+				MNA = 3.14159265358979
+				EPH = 52192307.0244574
 				REF = 2
 				OBJ = 1
 			}
 			PART
 			{
 				name = hstwCart
-				uid = 4294602178
+				uid = 4294852684
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
@@ -2424,6 +2438,20 @@ GAME
 				state = 0
 				connected = False
 				attached = False
+				lightsOn = False, BOOL
+				brake = False, BOOL
+				handBrake = False, BOOL
+				cruiseControl = False, BOOL
+				cruiseSpeed = 0, FLOAT
+				wheelsDeployed = True, BOOL
+				enableMotor = True, BOOL
+				enableSteering = True, BOOL
+				firstTimeDeploying = False, BOOL
+				MODULE
+				{
+					name = CartModule
+					isEnabled = False
+				}
 			}
 		}
 		VESSEL
@@ -2449,13 +2477,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 12034248.2817157
+				SMA = NaN
 				ECC = 1
 				INC = NaN
-				LPE = 167.087310053455
+				LPE = 165.90452591878
 				LAN = 0
-				MNA = 3.14159265358979
-				EPH = 52160333.1520729
+				MNA = 0
+				EPH = 52161266.8532351
 				REF = 2
 				OBJ = 1
 			}
@@ -2506,13 +2534,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = 16421238.1858066
+				SMA = 16348887.437847
 				ECC = 1
 				INC = NaN
-				LPE = 77.5457598504395
+				LPE = 77.1828485023372
 				LAN = 0
 				MNA = 3.14159265358979
-				EPH = 52160333.1520729
+				EPH = 52161266.8532351
 				REF = 3
 				OBJ = 0
 			}
@@ -3222,13 +3250,13 @@ GAME
 			eva = False
 			ORBIT
 			{
-				SMA = NaN
+				SMA = 11880077.677076
 				ECC = 1
 				INC = NaN
-				LPE = 167.781936282879
+				LPE = 166.592227825503
 				LAN = 0
-				MNA = -8.40714670366795
-				EPH = 52160333.1520729
+				MNA = 3.14159265358979
+				EPH = 52161266.8532351
 				REF = 2
 				OBJ = 1
 			}
@@ -3272,41 +3300,41 @@ GAME
 		}
 		VESSEL
 		{
-			pid = fc7220dea50d4947b5036c65c188fede
+			pid = 3cda2e28e08d41bfb7f6550f211a6733
 			name = Mun Rover 1
-			sit = PRELAUNCH
+			sit = LANDED
 			landed = True
-			landedAt = LaunchPad
+			landedAt = 
 			splashed = False
-			met = 0
-			lct = 52160335.1520733
+			met = 31000.2512157485
+			lct = 52161306.7732417
 			root = 0
-			lat = -0.102645783236479
-			lon = -74.5754124408868
-			alt = 76.6989619804081
-			hgt = 8.379271
-			nrm = -2.980232E-08,1,-2.553861E-08
-			rot = -0.7009887,-0.09221787,-0.0972654,0.7004643
-			CoM = 0.01214792,-0.2877185,0.08698822
-			stg = 5
+			lat = 3.90746508827863
+			lon = -144.265688868268
+			alt = 917.955073271092
+			hgt = 1.553169
+			nrm = 0.005249679,0.9999816,-0.003029361
+			rot = -0.4199814,0.6997902,-0.5297667,-0.2307737
+			CoM = 0.0612458,-0.07567921,0.05945178
+			stg = 1
 			prst = False
 			eva = False
 			ORBIT
 			{
-				SMA = 300816.907538818
-				ECC = 0.994822751653076
-				INC = 0.102637488570456
-				LPE = 90.0000000000001
-				LAN = 44.3437900100773
-				MNA = 3.14159182714438
-				EPH = 52160335.1520733
-				REF = 1
+				SMA = 100471.680875356
+				ECC = 0.99974637220436
+				INC = 3.90745473838641
+				LPE = 269.858219912007
+				LAN = 185.391897131157
+				MNA = 3.14159265358979
+				EPH = 52192307.0244574
+				REF = 2
 				OBJ = 0
 			}
 			PART
 			{
 				name = mk1pod
-				uid = 4294713512
+				uid = 4294852604
 				parent = 0
 				position = 0,0,0
 				rotation = 0,0,0,1
@@ -3317,52 +3345,20 @@ GAME
 				sidx = 0
 				attm = 0
 				srfN = None, -1
-				attN = bottom, 3
-				attN = top, 13
+				attN = bottom, 2
+				attN = None, -1
 				mass = 0.8
-				temp = 19.43765
+				temp = -2.124956
 				expt = 0.5
-				state = 0
+				state = 1
 				connected = True
 				attached = True
-				crew = 16
-			}
-			PART
-			{
-				name = mumech.mechjebrad
-				uid = 4294713430
-				parent = 0
-				position = 0.161171704530716,-0.0326557159423828,0.50146096944809
-				rotation = -0.04711076,0.9497895,-0.1758197,-0.2544954
-				mirror = 1,1,1
-				istg = 1
-				dstg = 0
-				sqor = 1
-				sidx = 1
-				attm = 1
-				srfN = srfAttach, 0
-				mass = 1E-05
-				temp = 19.44087
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				tmode = 0, INT
-				trans_spd_act = 0, FLOAT
-				trans_kill_h = False, BOOL
-				trans_land = False, BOOL
-				sass_mode = 0, INT
-				srf_hdg = 90, STRING
-				srf_pit = 90, STRING
-				srf_act = False, BOOL
-				srf_act_hdg = 90, FLOAT
-				srf_act_pit = 90, FLOAT
-				trans_spd = 0, STRING
+				crew = 17
 			}
 			PART
 			{
 				name = parachuteSingle
-				uid = 4294713378
+				uid = 4294852470
 				parent = 0
 				position = -0.0134600102901459,0.639995574951172,-0.0418753027915955
 				rotation = 1.685874E-07,2.690483E-08,-2.690483E-08,1
@@ -3375,7 +3371,7 @@ GAME
 				srfN = srfAttach, 0
 				attN = None, -1
 				mass = 0.1
-				temp = 19.43765
+				temp = -2.115654
 				expt = 0.5
 				state = 0
 				connected = True
@@ -3384,7 +3380,7 @@ GAME
 			PART
 			{
 				name = hstwRover
-				uid = 4294713334
+				uid = 4294852426
 				parent = 0
 				position = 0,-0.680038452148438,0
 				rotation = 0,0,0,1
@@ -3396,11 +3392,11 @@ GAME
 				attm = 0
 				srfN = None, -1
 				attN = top, 0
-				attN = bottom, 9
+				attN = None, -1
 				mass = 0.1
-				temp = 19.43765
+				temp = -2.120697
 				expt = 0.5
-				state = 0
+				state = 1
 				connected = True
 				attached = True
 				lightsOn = False, BOOL
@@ -3408,10 +3404,10 @@ GAME
 				handBrake = False, BOOL
 				cruiseControl = False, BOOL
 				cruiseSpeed = 0, FLOAT
-				wheelsDeployed = False, BOOL
+				wheelsDeployed = True, BOOL
 				enableMotor = True, BOOL
 				enableSteering = True, BOOL
-				firstTimeDeploying = True, BOOL
+				firstTimeDeploying = False, BOOL
 				MODULE
 				{
 					name = CartModule
@@ -3421,51 +3417,8 @@ GAME
 			PART
 			{
 				name = hstwRoverTank
-				uid = 4294713204
-				parent = 3
-				position = -0.821147203445435,-0.496017456054688,-0.0178404003381729
-				rotation = 6.133174E-19,3.371748E-07,1.449693E-12,1
-				mirror = 1,1,1
-				istg = 1
-				dstg = 0
-				sqor = 1
-				sidx = 3
-				attm = 1
-				srfN = srfAttach, 3
-				mass = 0.07
-				temp = 19.43903
-				expt = 0.35
-				state = 0
-				connected = True
-				attached = True
-				qty = 25, FLOAT
-			}
-			PART
-			{
-				name = hstwRoverThruster
-				uid = 4294713188
-				parent = 4
-				position = -0.98666524887085,-0.50948429107666,0.010098397731781
-				rotation = 1.916617E-18,-5.057622E-07,1.449693E-12,1
-				mirror = 1,1,1
-				istg = 1
-				dstg = 0
-				sqor = 1
-				sidx = 4
-				attm = 1
-				srfN = srfAttach, 4
-				mass = 0.01
-				temp = 19.43995
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-			}
-			PART
-			{
-				name = hstwRoverTank
-				uid = 4294713162
-				parent = 3
+				uid = 4294852254
+				parent = 2
 				position = 0.821146845817566,-0.549772262573242,0.0262962877750397
 				rotation = -1.791557E-06,1,1.28622E-12,-7.586432E-07
 				mirror = 1,1,1
@@ -3474,9 +3427,9 @@ GAME
 				sqor = 1
 				sidx = 5
 				attm = 1
-				srfN = srfAttach, 3
+				srfN = srfAttach, 2
 				mass = 0.07
-				temp = 19.43627
+				temp = -2.117496
 				expt = 0.35
 				state = 0
 				connected = True
@@ -3486,29 +3439,29 @@ GAME
 			PART
 			{
 				name = hstwRoverThruster
-				uid = 4294713146
-				parent = 6
+				uid = 4294852238
+				parent = 3
 				position = 0.986665010452271,-0.574567794799805,-0.0103352069854736
-				rotation = -1.791557E-06,1,2.813607E-12,1.685874E-07
+				rotation = -1.791557E-06,1,2.813608E-12,1.685874E-07
 				mirror = 1,1,1
 				istg = 1
 				dstg = 0
 				sqor = 1
 				sidx = 6
 				attm = 1
-				srfN = srfAttach, 6
+				srfN = srfAttach, 3
 				mass = 0.01
-				temp = 19.43581
+				temp = -2.11304
 				expt = 0.5
-				state = 0
+				state = 1
 				connected = True
 				attached = True
 			}
 			PART
 			{
 				name = hstwRoverTank
-				uid = 4294713120
-				parent = 3
+				uid = 4294852212
+				parent = 2
 				position = 0.0590451955795288,-0.556962966918945,1.01250004768372
 				rotation = 0,0.7071072,0,0.7071065
 				mirror = 1,1,1
@@ -3517,257 +3470,91 @@ GAME
 				sqor = 1
 				sidx = 7
 				attm = 1
-				srfN = srfAttach, 3
+				srfN = srfAttach, 2
 				mass = 0.07
-				temp = 19.44501
+				temp = -2.112006
 				expt = 0.35
 				state = 0
 				connected = True
 				attached = True
 				qty = 25, FLOAT
 			}
-			PART
+		}
+		VESSEL
+		{
+			pid = 13c9e61b6fbc44319c1968213fe8c5da
+			name = Mun Rover 1 Debris
+			sit = LANDED
+			landed = True
+			landedAt = 
+			splashed = False
+			met = 55.1000090315938
+			lct = 52192251.9244484
+			root = 0
+			lat = 3.89461995671789
+			lon = -144.269592734673
+			alt = 916.699810697173
+			hgt = 0.0880738
+			nrm = -0.8090194,-0.5877818,-5.960464E-08
+			rot = 0.4519925,0.3651864,0.4320879,-0.6896678
+			CoM = -0.02068415,-0.001693056,0.003507132
+			stg = 0
+			prst = False
+			eva = False
+			ORBIT
 			{
-				name = DSM25mShortDecoupler
-				uid = 4294713104
-				parent = 3
-				position = 0,-1.0633716583252,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 3
-				dstg = 1
-				sqor = 3
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 10
-				attN = top, 3
-				mass = 0.8
-				temp = 19.43765
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
+				SMA = 100471.086709566
+				ECC = 0.999746637082496
+				INC = 3.89462197453823
+				LPE = 270.002731212623
+				LAN = 185.24315406208
+				MNA = 3.14160059611845
+				EPH = 52192307.0244574
+				REF = 2
+				OBJ = 1
 			}
 			PART
 			{
-				name = asasmodule1-2
-				uid = 4294713066
-				parent = 9
-				position = 0,-1.39670515060425,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 4
-				dstg = 2
-				sqor = 4
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				attN = top, 9
-				attN = bottom, 11
-				mass = 0.8
-				temp = 19.43765
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-			}
-			PART
-			{
-				name = fuelTank1-2b
-				uid = 4294713042
-				parent = 10
-				position = 0,-3.52170515060425,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 4
-				dstg = 2
-				sqor = 4
-				sidx = 1
-				attm = 0
-				srfN = None, -1
-				attN = top, 10
-				attN = bottom, 12
-				mass = 18
-				temp = 19.43765
-				expt = 0.9
-				state = 0
-				connected = True
-				attached = True
-				fuel = 50000, FLOAT
-				allowFlow = True, BOOL
-			}
-			PART
-			{
-				name = liquidEngine1-2b
-				uid = 4294713018
-				parent = 11
-				position = 0,-6.46201324462891,0
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 4
-				dstg = 2
-				sqor = 4
-				sidx = 2
-				attm = 0
-				srfN = None, -1
-				attN = top, 11
-				attN = None, -1
-				mass = 6
-				temp = 19.43765
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				hasShroud = False, BOOL
-			}
-			PART
-			{
-				name = decoupler1-2
-				uid = 4294712956
+				name = hstwRoverTank
+				uid = 4294852296
 				parent = 0
-				position = 0,1.09323215484619,0
-				rotation = 0,0,1,0
+				position = 0,0,0
+				rotation = 0,0,0,1
 				mirror = 1,1,1
 				istg = 1
-				dstg = 1
+				dstg = 0
 				sqor = 1
-				sidx = 8
-				attm = 0
-				srfN = None, -1
-				attN = bottom, 14
-				attN = top, 0
-				mass = 0.5
-				temp = 19.43765
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-			}
-			PART
-			{
-				name = fuelTank2-2
-				uid = 4294712922
-				parent = 13
-				position = 0,2.39620208740234,0
-				rotation = 1,0,0,0
-				mirror = 1,1,1
-				istg = 2
-				dstg = 2
-				sqor = 2
-				sidx = 0
-				attm = 0
-				srfN = None, -1
-				attN = top, 13
-				attN = None, -1
-				mass = 9
-				temp = 19.43765
-				expt = 0.9
-				state = 0
-				connected = True
-				attached = True
-				fuel = 1600, FLOAT
-				allowFlow = True, BOOL
-			}
-			PART
-			{
-				name = radialLiquidEngine1-2
-				uid = 4294712898
-				parent = 14
-				position = -0.101203292608261,1.43592166900635,1.79312205314636
-				rotation = 0,0,0,1
-				mirror = 1,1,1
-				istg = 2
-				dstg = 2
-				sqor = 2
-				sidx = 1
-				attm = 1
-				sym = 16
-				sym = 17
-				sym = 18
-				srfN = srfAttach, 14
-				mass = 1.5
-				temp = 19.45053
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				hasShroud = False, BOOL
-			}
-			PART
-			{
-				name = radialLiquidEngine1-2
-				uid = 4294712854
-				parent = 14
-				position = 1.7931227684021,1.43592166900635,0.101202994585037
-				rotation = 0,0.7071068,0,0.7071068
-				mirror = 1,1,1
-				istg = 2
-				dstg = 2
-				sqor = 2
-				sidx = 2
-				attm = 1
-				sym = 15
-				sym = 17
-				sym = 18
-				srfN = srfAttach, 14
-				mass = 1.5
-				temp = 19.43489
-				expt = 0.5
-				state = 0
-				connected = True
-				attached = True
-				hasShroud = False, BOOL
-			}
-			PART
-			{
-				name = radialLiquidEngine1-2
-				uid = 4294712810
-				parent = 14
-				position = 0.101203098893166,1.43592166900635,-1.79312181472778
-				rotation = 0,1,0,0
-				mirror = 1,1,1
-				istg = 2
-				dstg = 2
-				sqor = 2
 				sidx = 3
 				attm = 1
-				sym = 15
-				sym = 16
-				sym = 18
-				srfN = srfAttach, 14
-				mass = 1.5
-				temp = 19.42476
-				expt = 0.5
+				srfN = None, -1
+				mass = 0.07
+				temp = -0.4860035
+				expt = 0.35
 				state = 0
-				connected = True
-				attached = True
-				hasShroud = False, BOOL
+				connected = False
+				attached = False
+				qty = 25, FLOAT
 			}
 			PART
 			{
-				name = radialLiquidEngine1-2
-				uid = 4294712766
-				parent = 14
-				position = -1.79312229156494,1.43592166900635,-0.101203203201294
-				rotation = 0,-0.7071068,0,0.7071068
+				name = hstwRoverThruster
+				uid = 4294852280
+				parent = 0
+				position = -0.165518060326576,-0.0134668350219727,0.027938686311245
+				rotation = 8.129965E-20,-8.42937E-07,9.564278E-25,1
 				mirror = 1,1,1
-				istg = 2
-				dstg = 2
-				sqor = 2
+				istg = 1
+				dstg = 0
+				sqor = 1
 				sidx = 4
 				attm = 1
-				sym = 15
-				sym = 16
-				sym = 17
-				srfN = srfAttach, 14
-				mass = 1.5
-				temp = 19.44087
+				srfN = srfAttach, 0
+				mass = 0.01
+				temp = -0.4842603
 				expt = 0.5
-				state = 0
-				connected = True
+				state = 1
+				connected = False
 				attached = True
-				hasShroud = False, BOOL
 			}
 		}
 	}
