@@ -1,0 +1,6 @@
+isa_RAM_Dish, , , 0,0,0, 0,0,0,1, 1,1,1
+node_collider, 0, mesh1.msh, 0,0,0, 0,0,0,1, 1,1,1
+isaRAMDish, 0, mesh2.msh, 0,0,0, 0,0,0,1, 1,1,1
+isaRAMBase, 0, mesh3.msh, 0,0,0, 0,0,0,1, 1,1,1
+isaRAMMount, 0, mesh4.msh, 0,0,0, 0,0,0,1, 1,1,1
+EOF

@@ -1,0 +1,2504 @@
+ship = Mun base 2
+version = 0.17.0
+type = VAB
+PART
+{
+	part = mumech.mechjebpod2_4294422150
+	pos = -0.6353481,32.30024,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 0
+	sqor = 0
+	attm = 0
+	link = DSMStrutHub_4294422086
+	attN = bottom, DSMStrutHub_4294422086
+}
+PART
+{
+	part = DSMStrutHub_4294422086
+	pos = -0.6353481,31.29911,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 1
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294422058
+	attN = top, mumech.mechjebpod2_4294422150
+	attN = bottom, DSMStrutHub_4294422058
+}
+PART
+{
+	part = DSMStrutHub_4294422058
+	pos = -0.6353481,30.04911,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 2
+	sqor = -1
+	attm = 0
+	link = DSMStrut_4294422030
+	attN = top, DSMStrutHub_4294422086
+	attN = bottom, DSMStrut_4294422030
+}
+PART
+{
+	part = DSMStrut_4294422030
+	pos = -0.6353481,27.63246,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 3
+	sqor = 0
+	attm = 0
+	link = DSMStrutHub_4294421994
+	attN = top, DSMStrutHub_4294422058
+	attN = bottom, DSMStrutHub_4294421994
+}
+PART
+{
+	part = DSMStrutHub_4294421994
+	pos = -0.6353481,25.2158,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 4
+	sqor = 0
+	attm = 0
+	link = DSMStrut_4294421966
+	link = DSMStrut_4294421558
+	link = DSMStrut_4294421274
+	link = DSMStrut_4294420670
+	link = advSasModule_4294403688
+	attN = sideX1, DSMStrut_4294421558
+	attN = sideX2, DSMStrut_4294421966
+	attN = sideZ1, DSMStrut_4294421274
+	attN = sideZ2, DSMStrut_4294420670
+	attN = top, DSMStrut_4294422030
+	attN = bottom, advSasModule_4294403688
+}
+PART
+{
+	part = DSMStrut_4294421966
+	pos = -3.052005,25.2158,-0.1796545
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 5
+	sqor = 0
+	attm = 0
+	link = DSMStrutHub_4294421930
+	attN = top, DSMStrutHub_4294421994
+	attN = bottom, DSMStrutHub_4294421930
+}
+PART
+{
+	part = DSMStrutHub_4294421930
+	pos = -5.46867,25.2158,-0.1796545
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 6
+	sqor = 0
+	attm = 0
+	link = DSMStrut_4294421902
+	link = fuelTank1-2b_4294421582
+	link = advSasModule_4294386776
+	attN = sideX1, advSasModule_4294386776
+	attN = sideX2, fuelTank1-2b_4294421582
+	attN = sideZ1, DSMStrut_4294421902
+	attN = top, DSMStrut_4294421966
+}
+PART
+{
+	part = DSMStrut_4294421902
+	pos = -5.46867,25.2158,2.237003
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 7
+	sqor = 0
+	attm = 0
+	link = DSMStrutHub_4294421866
+	link = launchClamp1_4294421686
+	attN = top, DSMStrutHub_4294421866
+	attN = bottom, DSMStrutHub_4294421930
+}
+PART
+{
+	part = DSMStrutHub_4294421866
+	pos = -5.468671,25.2158,4.653658
+	rot = -0.5000001,0.5000001,0.5000001,-0.5000001
+	attRot = -0.4999999,0.4999999,0.4999999,-0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 8
+	sqor = 0
+	attm = 0
+	link = fuelTank1-2b_4294421838
+	link = liquidEngine1-2b_4294421748
+	attN = sideX1, liquidEngine1-2b_4294421748
+	attN = sideX2, fuelTank1-2b_4294421838
+	attN = bottom, DSMStrut_4294421902
+}
+PART
+{
+	part = fuelTank1-2b_4294421838
+	pos = -5.468671,27.7158,4.653658
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 9
+	sqor = -1
+	attm = 0
+	link = DSMAsas_4294421814
+	link = strutConnector_4294419514
+	link = lightnav.white_4294418658
+	link = lightnav.white_4294418634
+	attN = top, DSMAsas_4294421814
+	attN = bottom, DSMStrutHub_4294421866
+}
+PART
+{
+	part = DSMAsas_4294421814
+	pos = -5.468671,29.84081,4.653658
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 10
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294421776
+	attN = top, DSMStrutHub_4294421776
+	attN = bottom, fuelTank1-2b_4294421838
+}
+PART
+{
+	part = DSMStrutHub_4294421776
+	pos = -5.468671,30.71579,4.653658
+	rot = 0,0,-1,0
+	attRot = 0,0,-0.9999999,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 11
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294419066
+	link = Panel1x1_4294418466
+	attN = sideZ1, DSMStrutHub_4294419066
+	attN = top, DSMAsas_4294421814
+	attN = bottom, Panel1x1_4294418466
+}
+PART
+{
+	part = liquidEngine1-2b_4294421748
+	pos = -5.468671,23.5255,4.653658
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 12
+	sqor = -1
+	attm = 0
+	attN = top, DSMStrutHub_4294421866
+}
+PART
+{
+	part = launchClamp1_4294421686
+	pos = -4.043003,25.13239,0.5885314
+	rot = -0.5000001,0.5000001,0.5000001,-0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 13
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrut_4294421902
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 9.722243
+		height = 24.53113
+		towerRot = 2.980232E-08,-1.043081E-07,0.707107,0.7071066
+	}
+}
+PART
+{
+	part = fuelTank1-2b_4294421582
+	pos = -5.46867,27.7158,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 14
+	sqor = -1
+	attm = 0
+	link = lightnav.white_4294418682
+	link = DSMAsas_4294418162
+	attN = top, DSMAsas_4294418162
+	attN = bottom, DSMStrutHub_4294421930
+}
+PART
+{
+	part = DSMStrut_4294421558
+	pos = 1.781308,25.2158,-0.1796545
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 15
+	sqor = 0
+	attm = 0
+	link = DSMStrutHub_4294421522
+	attN = top, DSMStrutHub_4294421522
+	attN = bottom, DSMStrutHub_4294421994
+}
+PART
+{
+	part = DSMStrutHub_4294421522
+	pos = 4.198006,25.2158,-0.1796545
+	rot = 0,0,0.7071068,-0.7071068
+	attRot = 0,0,0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 16
+	sqor = 0
+	attm = 0
+	link = DSMStrut_4294421494
+	link = fuelTank1-2b_4294421298
+	link = advSasModule_4294390162
+	attN = sideX1, advSasModule_4294390162
+	attN = sideX2, fuelTank1-2b_4294421298
+	attN = sideZ1, DSMStrut_4294421494
+	attN = bottom, DSMStrut_4294421558
+}
+PART
+{
+	part = DSMStrut_4294421494
+	pos = 4.198008,25.2158,2.237003
+	rot = 0,0.7071068,-0.7071068,0
+	attRot = 0,0.7071067,-0.7071067,0
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 17
+	sqor = -1
+	attm = 0
+	link = launchClamp1_4294421458
+	link = strutConnector_4294421354
+	link = strutConnector_4294419346
+	attN = top, DSMStrutHub_4294421522
+}
+PART
+{
+	part = launchClamp1_4294421458
+	pos = 2.772304,25.17258,3.260524
+	rot = 0.5000001,-0.5000001,0.5000001,-0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 18
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrut_4294421494
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 9.738172
+		height = 24.57133
+		towerRot = 2.980231E-08,1.490116E-08,0.7071069,0.7071066
+	}
+}
+PART
+{
+	part = strutConnector_4294421354
+	pos = 3.579247,25.25622,3.470558
+	rot = 0.7071068,0,0,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 19
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrut_4294421494
+}
+PART
+{
+	part = fuelTank1-2b_4294421298
+	pos = 4.198008,27.71579,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 20
+	sqor = -1
+	attm = 0
+	link = lightnav.white_4294418538
+	link = asasmodule1-2_4294417856
+	attN = top, asasmodule1-2_4294417856
+	attN = bottom, DSMStrutHub_4294421522
+}
+PART
+{
+	part = DSMStrut_4294421274
+	pos = -0.6353481,25.2158,2.237003
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0.7071067,0,0,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 21
+	sqor = 0
+	attm = 0
+	link = DSMStrutHub_4294421238
+	attN = top, DSMStrutHub_4294421238
+	attN = bottom, DSMStrutHub_4294421994
+}
+PART
+{
+	part = DSMStrutHub_4294421238
+	pos = -0.6353481,25.2158,4.653686
+	rot = -0.7071068,0,0,-0.7071068
+	attRot = -0.7071067,0,0,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 22
+	sqor = 0
+	attm = 0
+	link = fuelTank1-2b_4294421210
+	link = DSMStrut_4294421186
+	link = DSMStrut_4294420990
+	link = advSasModule_4294397004
+	attN = sideX1, DSMStrut_4294420990
+	attN = sideX2, DSMStrut_4294421186
+	attN = sideZ1, advSasModule_4294397004
+	attN = sideZ2, fuelTank1-2b_4294421210
+	attN = bottom, DSMStrut_4294421274
+}
+PART
+{
+	part = fuelTank1-2b_4294421210
+	pos = -0.6353481,27.7158,4.653688
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 23
+	sqor = -1
+	attm = 0
+	link = lightnav.white_4294418610
+	link = DSMAsas_4294416594
+	attN = top, DSMAsas_4294416594
+	attN = bottom, DSMStrutHub_4294421238
+}
+PART
+{
+	part = DSMStrut_4294421186
+	pos = -3.052005,25.2158,4.653689
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 24
+	sqor = 0
+	attm = 0
+	link = launchClamp1_4294421150
+	link = strutConnector_4294421046
+	link = strutConnector_4294419402
+	attN = top, DSMStrutHub_4294421238
+}
+PART
+{
+	part = launchClamp1_4294421150
+	pos = -4.653337,25.15375,3.228022
+	rot = 8.940697E-08,-2.384186E-07,0.707107,-0.7071067
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 25
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrut_4294421186
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 9.730707
+		height = 24.55249
+		towerRot = -1.490045E-07,2.983667E-12,0.7070849,0.7071286
+	}
+}
+PART
+{
+	part = strutConnector_4294421046
+	pos = -4.326615,25.00446,4.034943
+	rot = 0.5000001,0.5,0.5,-0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 26
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrut_7; pos: -0.6505374,-0.5233065,0.1373178; dir: -0.7688555,-0.618484,0.1622924
+	srfN = srfAttach, DSMStrut_4294421186
+}
+PART
+{
+	part = DSMStrut_4294420990
+	pos = 1.781309,25.2158,4.653689
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 27
+	sqor = 0
+	attm = 0
+	link = DSMStrutHub_4294420954
+	link = launchClamp1_4294420774
+	link = strutConnector_4294419458
+	attN = top, DSMStrutHub_4294420954
+	attN = bottom, DSMStrutHub_4294421238
+}
+PART
+{
+	part = DSMStrutHub_4294420954
+	pos = 4.197968,25.2158,4.653689
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 28
+	sqor = -1
+	attm = 0
+	link = fuelTank1-2b_4294420926
+	link = liquidEngine1-2b_4294420836
+	attN = sideX1, liquidEngine1-2b_4294420836
+	attN = sideX2, fuelTank1-2b_4294420926
+	attN = bottom, DSMStrut_4294420990
+}
+PART
+{
+	part = fuelTank1-2b_4294420926
+	pos = 4.197968,27.7158,4.653691
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 29
+	sqor = -1
+	attm = 0
+	link = DSMAsas_4294420902
+	link = strutConnector_4294419570
+	link = lightnav.white_4294418586
+	link = lightnav.white_4294418562
+	attN = top, DSMAsas_4294420902
+	attN = bottom, DSMStrutHub_4294420954
+}
+PART
+{
+	part = DSMAsas_4294420902
+	pos = 4.197968,29.84081,4.653694
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 30
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294420864
+	attN = top, DSMStrutHub_4294420864
+	attN = bottom, fuelTank1-2b_4294420926
+}
+PART
+{
+	part = DSMStrutHub_4294420864
+	pos = 4.197968,30.71579,4.653695
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 31
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294419038
+	link = DSMStrutRCS_4294418912
+	link = DSMStrut_4294418820
+	attN = sideX2, DSMStrutRCS_4294418912
+	attN = sideZ1, DSMStrutHub_4294419038
+	attN = sideZ2, DSMStrut_4294418820
+	attN = bottom, DSMAsas_4294420902
+}
+PART
+{
+	part = liquidEngine1-2b_4294420836
+	pos = 4.197968,23.5255,4.653691
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 32
+	sqor = -1
+	attm = 0
+	attN = top, DSMStrutHub_4294420954
+}
+PART
+{
+	part = launchClamp1_4294420774
+	pos = 0.4667516,25.203,3.228021
+	rot = 8.940697E-08,-2.384186E-07,0.707107,-0.7071067
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 33
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrut_4294420990
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 9.750227
+		height = 24.60174
+		towerRot = -1.490045E-07,2.983667E-12,0.7070849,0.7071286
+	}
+}
+PART
+{
+	part = DSMStrut_4294420670
+	pos = -0.6353481,25.2158,-2.59631
+	rot = -0.5,-0.5,0.5,0.5
+	attRot = -0.4999999,-0.4999999,0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 34
+	sqor = 0
+	attm = 0
+	link = DSMStrutHub_4294420634
+	attN = top, DSMStrutHub_4294420634
+	attN = bottom, DSMStrutHub_4294421994
+}
+PART
+{
+	part = DSMStrutHub_4294420634
+	pos = -0.6353481,25.2158,-5.012968
+	rot = -0.5,0.5,0.5,-0.5
+	attRot = -0.4999999,0.4999999,0.4999999,-0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 35
+	sqor = 0
+	attm = 0
+	link = DSMStrut_4294420606
+	link = DSMStrut_4294420156
+	link = fuelTank1-2b_4294419650
+	link = advSasModule_4294400342
+	attN = sideX1, advSasModule_4294400342
+	attN = sideX2, fuelTank1-2b_4294419650
+	attN = sideZ1, DSMStrut_4294420606
+	attN = sideZ2, DSMStrut_4294420156
+	attN = top, DSMStrut_4294420670
+}
+PART
+{
+	part = DSMStrut_4294420606
+	pos = -3.052005,25.2158,-5.012968
+	rot = 0,0,0.7071068,0.7071068
+	attRot = 0,0,0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 36
+	sqor = 0
+	attm = 0
+	link = DSMStrutHub_4294420570
+	link = launchClamp1_4294420260
+	link = strutConnector_4294419178
+	attN = top, DSMStrutHub_4294420570
+	attN = bottom, DSMStrutHub_4294420634
+}
+PART
+{
+	part = DSMStrutHub_4294420570
+	pos = -5.46867,25.2158,-5.012994
+	rot = 0,0,-0.7071068,-0.7071068
+	attRot = 0,0,-0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 37
+	sqor = 0
+	attm = 0
+	link = DSMStrut_4294420542
+	link = fuelTank1-2b_4294420346
+	link = liquidEngine1-2b_4294420322
+	attN = sideX1, fuelTank1-2b_4294420346
+	attN = sideX2, liquidEngine1-2b_4294420322
+	attN = sideZ1, DSMStrut_4294420542
+	attN = bottom, DSMStrut_4294420606
+}
+PART
+{
+	part = DSMStrut_4294420542
+	pos = -5.468662,25.2158,-2.596321
+	rot = 0.5000001,-0.5000001,0.5000001,-0.5000001
+	attRot = 0.4999999,-0.4999999,0.4999999,-0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 38
+	sqor = 0
+	attm = 0
+	link = launchClamp1_4294420506
+	link = strutConnector_4294420402
+	link = strutConnector_4294419122
+	attN = top, DSMStrutHub_4294420570
+}
+PART
+{
+	part = launchClamp1_4294420506
+	pos = -4.042994,25.1706,-0.8635925
+	rot = -0.5,-0.5,0.5000002,0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 39
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrut_4294420542
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 9.737389
+		height = 24.56935
+		towerRot = -1.788139E-07,-3.552712E-14,-0.707107,0.7071066
+	}
+}
+PART
+{
+	part = strutConnector_4294420402
+	pos = -4.849916,25.08233,-3.907311
+	rot = 1.788139E-07,-0.7071069,0.7071069,4.470348E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 40
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrut_88; pos: -0.570617,0.4869111,-0.02356717; dir: -0.7603217,0.6487871,-0.03140312
+	srfN = srfAttach, DSMStrut_4294420542
+}
+PART
+{
+	part = fuelTank1-2b_4294420346
+	pos = -5.46867,27.71583,-5.012994
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 41
+	sqor = -1
+	attm = 0
+	link = lightnav.white_4294418730
+	link = lightnav.white_4294418706
+	link = DSMAsas_4294416852
+	attN = top, DSMAsas_4294416852
+	attN = bottom, DSMStrutHub_4294420570
+}
+PART
+{
+	part = liquidEngine1-2b_4294420322
+	pos = -5.46867,23.5255,-5.012994
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 42
+	sqor = -1
+	attm = 0
+	attN = top, DSMStrutHub_4294420570
+}
+PART
+{
+	part = launchClamp1_4294420260
+	pos = -1.688385,24.77936,-3.587276
+	rot = -0.7071068,0.7071068,-2.880891E-07,8.940697E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 43
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrut_4294420606
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 9.582328
+		height = 24.1781
+		towerRot = -2.037954E-07,5.113312E-09,0.7071069,0.7071068
+	}
+}
+PART
+{
+	part = DSMStrut_4294420156
+	pos = 1.781308,25.2158,-5.012968
+	rot = 0,0,-0.7071068,0.7071068
+	attRot = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 44
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294420120
+	link = launchClamp1_4294419810
+	link = strutConnector_4294419706
+	link = strutConnector_4294419234
+	attN = top, DSMStrutHub_4294420120
+	attN = bottom, DSMStrutHub_4294420634
+}
+PART
+{
+	part = DSMStrutHub_4294420120
+	pos = 4.198006,25.2158,-5.012969
+	rot = 0,0,0.7071068,-0.7071068
+	attRot = 0,0,0.7071067,-0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 45
+	sqor = -1
+	attm = 0
+	link = DSMStrut_4294420092
+	link = fuelTank1-2b_4294419952
+	link = liquidEngine1-2b_4294419872
+	attN = sideX1, liquidEngine1-2b_4294419872
+	attN = sideX2, fuelTank1-2b_4294419952
+	attN = sideZ1, DSMStrut_4294420092
+	attN = bottom, DSMStrut_4294420156
+}
+PART
+{
+	part = DSMStrut_4294420092
+	pos = 4.198008,25.2158,-2.596302
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 46
+	sqor = -1
+	attm = 0
+	link = launchClamp1_4294420056
+	link = strutConnector_4294419290
+	attN = bottom, DSMStrutHub_4294420120
+}
+PART
+{
+	part = launchClamp1_4294420056
+	pos = 2.772326,25.11316,-3.776012
+	rot = 0.5000001,0.5000001,0.5000001,0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 47
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrut_4294420092
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 9.714622
+		height = 24.5119
+		towerRot = 0,0,-0.7071069,0.7071066
+	}
+}
+PART
+{
+	part = fuelTank1-2b_4294419952
+	pos = 4.198008,27.7158,-5.012969
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 48
+	sqor = -1
+	attm = 0
+	link = strutConnector_4294419928
+	link = strutConnector_4294419626
+	link = lightnav.white_4294418514
+	link = lightnav.white_4294418490
+	link = DSMAsas_4294417832
+	attN = top, DSMAsas_4294417832
+	attN = bottom, DSMStrutHub_4294420120
+}
+PART
+{
+	part = strutConnector_4294419928
+	pos = 4.094169,27.7522,-3.805561
+	rot = 7.450581E-07,0.7071069,7.450581E-07,0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 49
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank1-2b_37; pos: -2.4185,-0.1242911,0.09939715; dir: -0.9978419,-0.05128095,0.04100921
+	srfN = srfAttach, fuelTank1-2b_4294419952
+}
+PART
+{
+	part = liquidEngine1-2b_4294419872
+	pos = 4.198008,23.5255,-5.012969
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 50
+	sqor = -1
+	attm = 0
+	attN = top, DSMStrutHub_4294420120
+}
+PART
+{
+	part = launchClamp1_4294419810
+	pos = 0.5941873,24.96338,-3.587299
+	rot = 0.7071068,0.7071068,-2.980232E-07,-5.960464E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 51
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrut_4294420156
+	MODULE
+	{
+		name = LaunchClamp
+		isEnabled = True
+		releaseFxGroupName = activate
+		trf_towerPivot_name = obj_girdercap
+		trf_towerStretch_name = obj_girder
+		trf_anchor_name = obj_ground
+		trf_animationRoot_name = launchclamp
+		anim_decouple_name = launchclamp
+		scaleFactor = 9.655259
+		height = 24.36213
+		towerRot = -2.137295E-07,2.468901E-08,-0.7071069,0.7071068
+	}
+}
+PART
+{
+	part = strutConnector_4294419706
+	pos = 2.865362,25.19052,-4.394221
+	rot = 0.4999999,0.5,-0.5000004,0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 52
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrut_110; pos: -0.6880541,0.7138982,0.05258951; dir: -0.6929801,0.7190084,0.05296617
+	srfN = srfAttach, DSMStrut_4294420156
+}
+PART
+{
+	part = fuelTank1-2b_4294419650
+	pos = -0.6353481,27.7158,-5.012968
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 53
+	sqor = -1
+	attm = 0
+	link = lightnav.white_4294418754
+	link = DSMAsas_4294417574
+	attN = top, DSMAsas_4294417574
+	attN = bottom, DSMStrutHub_4294420634
+}
+PART
+{
+	part = strutConnector_4294419626
+	pos = 4.191581,29.02064,-3.805559
+	rot = 7.450581E-07,0.7071069,7.450581E-07,0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 54
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrut_124; pos: -1.192717,1.076394,-0.01927664; dir: -0.7423272,0.6699301,-0.0119991
+	srfN = srfAttach, fuelTank1-2b_4294419952
+}
+PART
+{
+	part = strutConnector_4294419570
+	pos = 2.99056,28.84709,4.530192
+	rot = 0,0,8.42937E-08,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 55
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrutRCS_71; pos: -1.201453,1.249951,0.05893517; dir: -0.6925817,0.7205389,0.03397308
+	srfN = srfAttach, fuelTank1-2b_4294420926
+}
+PART
+{
+	part = strutConnector_4294419514
+	pos = -5.449656,27.08906,3.446251
+	rot = -4.172325E-07,0.7071069,3.576279E-07,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 56
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrut_7; pos: -1.195309,-1.254514,0.02530942; dir: -0.689743,-0.723907,0.01460504
+	srfN = srfAttach, fuelTank1-2b_4294421838
+}
+PART
+{
+	part = strutConnector_4294419458
+	pos = 1.816646,25.83455,4.631001
+	rot = 0,0,0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 57
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank1-2b_64; pos: -1.003495,1.173914,-0.1961038; dir: -0.6446005,0.7540703,-0.125969
+	srfN = srfAttach, DSMStrut_4294420990
+}
+PART
+{
+	part = strutConnector_4294419402
+	pos = -2.989577,25.83455,4.563826
+	rot = 0,0,0.7071068,-0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 58
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank1-2b_9; pos: -0.9890369,-1.33399,0.5212672; dir: -0.5682398,-0.7664275,0.299487
+	srfN = srfAttach, DSMStrut_4294421186
+}
+PART
+{
+	part = strutConnector_4294419346
+	pos = 4.184156,25.83455,2.237615
+	rot = -0.5000001,0.5000002,-0.4999999,0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 59
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank1-2b_64; pos: -0.9177596,-1.208666,0.05460586; dir: -0.6043472,-0.7959093,0.03595683
+	srfN = srfAttach, DSMStrut_4294421494
+}
+PART
+{
+	part = strutConnector_4294419290
+	pos = 4.177284,25.83455,-2.614421
+	rot = -0.5,0.5000001,0.5,-0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 60
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank1-2b_113; pos: -1.125481,-1.206233,-0.3703889; dir: -0.6656398,-0.7133987,-0.219057
+	srfN = srfAttach, DSMStrut_4294420092
+}
+PART
+{
+	part = strutConnector_4294419234
+	pos = 1.815077,25.83455,-4.972598
+	rot = 8.940697E-08,8.940697E-08,0.7071069,-0.7071067
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 61
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank1-2b_113; pos: -1.44423,1.175523,-0.2117786; dir: -0.7705981,0.627224,-0.1129987
+	srfN = srfAttach, DSMStrut_4294420156
+}
+PART
+{
+	part = strutConnector_4294419178
+	pos = -3.075962,25.83455,-5.031179
+	rot = 0.7071069,-0.7071067,8.841762E-08,8.940697E-08
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 62
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank1-2b_94; pos: -1.094067,1.1853,-0.04071726; dir: -0.6780458,0.7345864,-0.02523468
+	srfN = srfAttach, DSMStrut_4294420606
+}
+PART
+{
+	part = strutConnector_4294419122
+	pos = -5.423717,25.83455,-2.587027
+	rot = -0.5000001,0.5,-0.5000002,0.4999999
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 63
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank1-2b_94; pos: -0.9679441,1.227221,-0.3834745; dir: -0.601447,0.7625519,-0.2382775
+	srfN = srfAttach, DSMStrut_4294420542
+}
+PART
+{
+	part = DSMStrutHub_4294419066
+	pos = -5.468671,30.71579,5.903656
+	rot = 0.7071069,0,0,0.7071069
+	attRot = 0.7071067,0,0,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 64
+	sqor = -1
+	attm = 0
+	attN = bottom, DSMStrutHub_4294421776
+}
+PART
+{
+	part = DSMStrutHub_4294419038
+	pos = 4.197968,30.71579,5.903706
+	rot = 0.7071069,0,0,0.7071069
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 65
+	sqor = -1
+	attm = 0
+	link = Panel1x1_4294419010
+	attN = top, Panel1x1_4294419010
+	attN = bottom, DSMStrutHub_4294420864
+}
+PART
+{
+	part = Panel1x1_4294419010
+	pos = 4.197968,30.71579,6.653696
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 66
+	sqor = -1
+	attm = 0
+	link = RCSBlock_4294418984
+	link = DSMSolarPanel_4294418784
+	attN = nz, DSMStrutHub_4294419038
+}
+PART
+{
+	part = RCSBlock_4294418984
+	pos = 4.277369,30.80033,6.810212
+	rot = 0,0.707107,0,0.707107
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 67
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Panel1x1_4294419010
+}
+PART
+{
+	part = DSMStrutRCS_4294418912
+	pos = 1.781312,30.71579,4.653695
+	rot = 0,0,-0.7071069,0.7071069
+	attRot = 0,0,-0.7071067,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 68
+	sqor = -1
+	attm = 0
+	link = strutConnector_4294418876
+	attN = top, DSMStrutHub_4294420864
+}
+PART
+{
+	part = strutConnector_4294418876
+	pos = 0.6458949,30.73348,4.034948
+	rot = 0.5000008,0.5000001,0.4999998,-0.4999998
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 69
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrut_47; pos: -0.7951195,-0.6624964,0.07073645; dir: -0.7664828,-0.6386349,0.06818776
+	srfN = srfAttach, DSMStrutRCS_4294418912
+}
+PART
+{
+	part = DSMStrut_4294418820
+	pos = 4.197968,30.71579,2.237026
+	rot = 0.7071069,0,0,0.7071069
+	attRot = 0.7071067,0,0,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 70
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294418368
+	attN = top, DSMStrutHub_4294420864
+}
+PART
+{
+	part = DSMSolarPanel_4294418784
+	pos = 4.196527,31.3408,4.416009
+	rot = 0.5000001,0.5000001,0.5000001,-0.5000001
+	attRot = 0.4999999,0.4999999,0.4999999,-0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 71
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Panel1x1_4294419010
+	MODULE
+	{
+		name = ModuleKRSolarPanel
+		isEnabled = True
+		energyGain = 3
+		lerp = 0
+		currentGain = 0
+	}
+}
+PART
+{
+	part = lightnav.white_4294418754
+	pos = -0.5724813,26.71741,-6.239128
+	rot = 7.152557E-07,0.7071068,7.152557E-07,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 72
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, fuelTank1-2b_4294419650
+}
+PART
+{
+	part = lightnav.white_4294418730
+	pos = -5.735091,26.97559,-6.239161
+	rot = 7.450581E-07,0.7071069,7.450581E-07,0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 73
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, fuelTank1-2b_4294420346
+}
+PART
+{
+	part = lightnav.white_4294418706
+	pos = -6.694856,26.73928,-5.280199
+	rot = -1.192093E-07,-1,0,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 74
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, fuelTank1-2b_4294420346
+}
+PART
+{
+	part = lightnav.white_4294418682
+	pos = -6.694856,26.93787,-0.235474
+	rot = 0,-1,0,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 75
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, fuelTank1-2b_4294421582
+}
+PART
+{
+	part = lightnav.white_4294418658
+	pos = -6.694858,26.82917,4.799202
+	rot = -1.192093E-07,-1,0,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 76
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, fuelTank1-2b_4294421838
+}
+PART
+{
+	part = lightnav.white_4294418634
+	pos = -5.850767,26.79004,5.8489
+	rot = 3.278255E-07,-0.866025,-2.682209E-07,0.500001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 77
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, fuelTank1-2b_4294421838
+}
+PART
+{
+	part = lightnav.white_4294418610
+	pos = -0.7789819,26.87595,5.879858
+	rot = 7.450581E-07,-0.7071069,-7.450581E-07,0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 78
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, fuelTank1-2b_4294421210
+}
+PART
+{
+	part = lightnav.white_4294418586
+	pos = 4.328347,26.88133,5.879861
+	rot = 8.940697E-07,-0.7071067,-9.23872E-07,0.7071071
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 79
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, fuelTank1-2b_4294420926
+}
+PART
+{
+	part = lightnav.white_4294418562
+	pos = 5.410058,26.88489,5.006635
+	rot = 1.192093E-07,-0.2588197,-5.215406E-07,0.9659258
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 80
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, fuelTank1-2b_4294420926
+}
+PART
+{
+	part = lightnav.white_4294418538
+	pos = 5.424167,26.91676,-0.165256
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 81
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, fuelTank1-2b_4294421298
+}
+PART
+{
+	part = lightnav.white_4294418514
+	pos = 5.424167,26.86015,-5.197677
+	rot = 0,0,1.192093E-07,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 82
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, fuelTank1-2b_4294419952
+}
+PART
+{
+	part = lightnav.white_4294418490
+	pos = 4.663829,26.82541,-6.159874
+	rot = 4.768372E-07,0.4999987,9.536743E-07,0.8660263
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 83
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, fuelTank1-2b_4294419952
+}
+PART
+{
+	part = Panel1x1_4294418466
+	pos = -5.468671,30.71579,6.653678
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 84
+	sqor = -1
+	attm = 0
+	link = RCSBlock_4294418440
+	link = DSMSolarPanel_4294418192
+}
+PART
+{
+	part = RCSBlock_4294418440
+	pos = -5.557455,30.74944,6.810193
+	rot = 0,0.7071069,0,0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 85
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Panel1x1_4294418466
+}
+PART
+{
+	part = DSMStrutHub_4294418368
+	pos = 4.197968,30.71579,-0.1796433
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 86
+	sqor = -1
+	attm = 0
+	link = DSMStrut_4294418340
+	link = advSasModule_4294410224
+	attN = sideX2, DSMStrut_4294418340
+	attN = top, advSasModule_4294410224
+	attN = bottom, DSMStrut_4294418820
+}
+PART
+{
+	part = DSMStrut_4294418340
+	pos = 1.781297,30.71578,-0.1796433
+	rot = -0.5000001,0.5000001,0.5000001,0.5000001
+	attRot = -0.5,0.5,0.5,0.5
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 87
+	sqor = -1
+	attm = 0
+	link = strutConnector_4294418304
+	link = strutConnector_4294418248
+	attN = bottom, DSMStrutHub_4294418368
+}
+PART
+{
+	part = strutConnector_4294418304
+	pos = 0.6175677,30.56454,-0.7984055
+	rot = 0.5000002,-0.5,0.5000001,0.5000003
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 88
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrut_136; pos: -0.6556408,0.6341679,-0.1652761; dir: -0.7072617,0.684101,-0.1782884
+	srfN = srfAttach, DSMStrut_4294418340
+}
+PART
+{
+	part = strutConnector_4294418248
+	pos = 0.6196648,31.33455,-0.1887518
+	rot = 0.7071072,-0.7071068,0,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 89
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrutHub_1; pos: -0.5732847,0.6362652,-0.03353671; dir: -0.6688661,0.7423523,-0.03913041
+	srfN = srfAttach, DSMStrut_4294418340
+}
+PART
+{
+	part = DSMSolarPanel_4294418192
+	pos = -5.468048,31.3408,4.450409
+	rot = 0.5000001,-0.5000001,0.5000001,0.5000001
+	attRot = 0.4999999,-0.4999999,-0.4999999,-0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 90
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Panel1x1_4294418466
+	MODULE
+	{
+		name = ModuleKRSolarPanel
+		isEnabled = True
+		energyGain = 3
+		lerp = 0
+		currentGain = 0
+	}
+}
+PART
+{
+	part = DSMAsas_4294418162
+	pos = -5.46867,29.8408,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 91
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294418124
+	attN = top, DSMStrutHub_4294418124
+	attN = bottom, fuelTank1-2b_4294421582
+}
+PART
+{
+	part = DSMStrutHub_4294418124
+	pos = -5.468671,30.71578,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 92
+	sqor = -1
+	attm = 0
+	link = DSMStrut_4294418096
+	link = DSMStrut_4294417892
+	attN = sideX1, DSMStrut_4294418096
+	attN = sideZ1, DSMStrut_4294417892
+	attN = top, advSasModule_4294407010
+	attN = bottom, DSMAsas_4294418162
+}
+PART
+{
+	part = DSMStrut_4294418096
+	pos = -3.052015,30.71578,-0.1796545
+	rot = 0.5000001,-0.5000001,-0.5000001,-0.5000001
+	attRot = 0.4999999,-0.4999999,-0.4999999,-0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 93
+	sqor = -1
+	attm = 0
+	link = strutConnector_4294418060
+	link = strutConnector_4294418004
+	link = strutConnector_4294417948
+	attN = top, DSMStrutHub_4294418124
+}
+PART
+{
+	part = strutConnector_4294418060
+	pos = -1.909267,30.72936,0.4390947
+	rot = -0.5000001,0.5000001,0.5,0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 94
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrut_47; pos: -0.6769324,-0.6551719,0.06379683; dir: -0.7169203,-0.6938733,0.06756487
+	srfN = srfAttach, DSMStrut_4294418096
+}
+PART
+{
+	part = strutConnector_4294418004
+	pos = -1.867047,31.33456,-0.1342112
+	rot = 0.707107,-0.7071068,1.192093E-07,1.192093E-07
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 95
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrutHub_1; pos: -0.5754409,-0.6129522,-0.01489091; dir: -0.6843373,-0.7289506,-0.01770893
+	srfN = srfAttach, DSMStrut_4294418096
+}
+PART
+{
+	part = strutConnector_4294417948
+	pos = -4.221644,30.73241,-0.7984037
+	rot = 0.5000001,-0.4999999,0.5000001,0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 96
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrut_103; pos: -0.6935474,0.6282776,0.01242773; dir: -0.7410541,0.671314,0.0132809
+	srfN = srfAttach, DSMStrut_4294418096
+}
+PART
+{
+	part = DSMStrut_4294417892
+	pos = -5.468671,30.71578,2.237002
+	rot = 0.7071069,0,0,0.7071069
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 97
+	sqor = -1
+	attm = 0
+	attN = bottom, DSMStrutHub_4294418124
+}
+PART
+{
+	part = asasmodule1-2_4294417856
+	pos = 4.198009,29.84079,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 98
+	sqor = -1
+	attm = 0
+	attN = bottom, fuelTank1-2b_4294421298
+}
+PART
+{
+	part = DSMAsas_4294417832
+	pos = 4.198009,29.8408,-5.012969
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 99
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294417794
+	attN = top, DSMStrutHub_4294417794
+	attN = bottom, fuelTank1-2b_4294419952
+}
+PART
+{
+	part = DSMStrutHub_4294417794
+	pos = 4.198014,30.71578,-5.012969
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 100
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294417766
+	link = DSMStrut_4294417610
+	attN = sideZ1, DSMStrut_4294417610
+	attN = sideZ2, DSMStrutHub_4294417766
+	attN = bottom, DSMAsas_4294417832
+}
+PART
+{
+	part = DSMStrutHub_4294417766
+	pos = 4.198014,30.71578,-6.262969
+	rot = 0.7071069,0,0,0.7071069
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 101
+	sqor = -1
+	attm = 0
+	link = Panel1x1_4294417738
+	attN = top, DSMStrutHub_4294417794
+	attN = bottom, Panel1x1_4294417738
+}
+PART
+{
+	part = Panel1x1_4294417738
+	pos = 4.198015,30.71578,-7.012962
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 102
+	sqor = -1
+	attm = 0
+	link = RCSBlock_4294417712
+	link = DSMSolarPanel_4294417640
+	attN = z, DSMStrutHub_4294417766
+}
+PART
+{
+	part = RCSBlock_4294417712
+	pos = 4.242694,30.75741,-7.169477
+	rot = 0,0.707107,0,-0.707107
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 103
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Panel1x1_4294417738
+}
+PART
+{
+	part = DSMSolarPanel_4294417640
+	pos = 4.207467,31.34078,-4.847785
+	rot = 0.5000001,0.5000001,-0.5000001,0.5000001
+	attRot = 0.5,0.5,-0.5,0.5
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 104
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Panel1x1_4294417738
+	MODULE
+	{
+		name = ModuleKRSolarPanel
+		isEnabled = True
+		energyGain = 3
+		lerp = 0
+		currentGain = 0
+	}
+}
+PART
+{
+	part = DSMStrut_4294417610
+	pos = 4.198014,30.71578,-2.59631
+	rot = 0.7071069,0,0,0.7071069
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 105
+	sqor = -1
+	attm = 0
+	attN = bottom, DSMStrutHub_4294417794
+}
+PART
+{
+	part = DSMAsas_4294417574
+	pos = -0.6353481,29.8408,-5.012968
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 106
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294417536
+	attN = top, DSMStrutHub_4294417536
+	attN = bottom, fuelTank1-2b_4294419650
+}
+PART
+{
+	part = DSMStrutHub_4294417536
+	pos = -0.6353481,30.7158,-5.012968
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 107
+	sqor = -1
+	attm = 0
+	link = DSMStrutRCS_4294417508
+	link = DSMStrut_4294417360
+	link = DSMStrutHub_4294417156
+	link = DSMStrutRCS_4294417000
+	attN = sideX1, DSMStrutRCS_4294417000
+	attN = sideX2, DSMStrutRCS_4294417508
+	attN = sideZ1, DSMStrut_4294417360
+	attN = sideZ2, DSMStrutHub_4294417156
+	attN = bottom, DSMAsas_4294417574
+}
+PART
+{
+	part = DSMStrutRCS_4294417508
+	pos = -3.052005,30.7158,-5.012968
+	rot = 0,0,0.7071068,0.7071068
+	attRot = 0,0,0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 108
+	sqor = -1
+	attm = 0
+	link = strutConnector_4294417472
+	link = strutConnector_4294417416
+	attN = bottom, DSMStrutHub_4294417536
+}
+PART
+{
+	part = strutConnector_4294417472
+	pos = -1.913631,30.65622,-4.394219
+	rot = -0.5000002,0.5000001,0.4999999,0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 109
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrut_136; pos: -0.8091797,-0.6595362,0.1442181; dir: -0.7678467,-0.6258461,0.1368507
+	srfN = srfAttach, DSMStrutRCS_4294417508
+}
+PART
+{
+	part = strutConnector_4294417416
+	pos = -3.052553,30.09705,-4.925561
+	rot = -3.72529E-08,8.940697E-08,0.7071069,0.7071067
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 110
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank1-2b_94; pos: -1.147352,1.20871,0.003942195; dir: -0.6884566,0.7252737,0.002365484
+	srfN = srfAttach, DSMStrutRCS_4294417508
+}
+PART
+{
+	part = DSMStrut_4294417360
+	pos = -0.6353481,30.7158,-2.596311
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 111
+	sqor = -1
+	attm = 0
+	link = strutConnector_4294417324
+	link = strutConnector_4294417268
+	link = strutConnector_4294417212
+	attN = bottom, DSMStrutHub_4294417536
+}
+PART
+{
+	part = strutConnector_4294417324
+	pos = -1.254096,30.66369,-1.409025
+	rot = 0.7071069,0,0,0.7071067
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 112
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrut_25; pos: -0.6172189,0.6106237,-0.06312595; dir: -0.7090243,0.7014458,-0.07251425
+	srfN = srfAttach, DSMStrut_4294417360
+}
+PART
+{
+	part = strutConnector_4294417268
+	pos = -0.6442809,31.33455,-1.423477
+	rot = -0.5000001,0.5,0.5000001,-0.5
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 113
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrutHub_1; pos: -0.5764431,0.6250746,-0.03308469; dir: -0.6774192,0.734569,-0.0388802
+	srfN = srfAttach, DSMStrut_4294417360
+}
+PART
+{
+	part = strutConnector_4294417212
+	pos = -0.01660061,30.71801,-3.728129
+	rot = 0,0.7071068,0.7071069,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 114
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrutRCS_144; pos: -0.7432289,-0.6660923,-0.02707124; dir: -0.744421,-0.6671597,-0.02711441
+	srfN = srfAttach, DSMStrut_4294417360
+}
+PART
+{
+	part = DSMStrutHub_4294417156
+	pos = -0.6353481,30.7158,-6.262963
+	rot = 0.7071068,0,0,0.7071068
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 115
+	sqor = -1
+	attm = 0
+	link = Panel1x1_4294417128
+	attN = top, DSMStrutHub_4294417536
+	attN = bottom, Panel1x1_4294417128
+}
+PART
+{
+	part = Panel1x1_4294417128
+	pos = -0.6353481,30.7158,-7.012961
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 116
+	sqor = -1
+	attm = 0
+	link = RCSBlock_4294417102
+	link = DSMSolarPanel_4294417030
+	attN = z, DSMStrutHub_4294417156
+}
+PART
+{
+	part = RCSBlock_4294417102
+	pos = -0.6455138,30.74535,-7.169476
+	rot = 0,0.7071069,0,-0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 117
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Panel1x1_4294417128
+}
+PART
+{
+	part = DSMSolarPanel_4294417030
+	pos = -0.6321704,31.3408,-4.782985
+	rot = 0.5000001,0.5000001,-0.5000001,0.5000001
+	attRot = 0.5,0.5,-0.5,0.5
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 118
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Panel1x1_4294417128
+	MODULE
+	{
+		name = ModuleKRSolarPanel
+		isEnabled = True
+		energyGain = 3
+		lerp = 0
+		currentGain = 0
+	}
+}
+PART
+{
+	part = DSMStrutRCS_4294417000
+	pos = 1.781309,30.7158,-5.012968
+	rot = 0,0,0.7071068,0.7071068
+	attRot = 0,0,0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 119
+	sqor = -1
+	attm = 0
+	link = strutConnector_4294416964
+	link = strutConnector_4294416908
+	attN = top, DSMStrutHub_4294417536
+}
+PART
+{
+	part = strutConnector_4294416964
+	pos = 2.91834,30.68383,-4.394218
+	rot = -0.5000002,0.5000002,0.5,0.4999999
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 120
+	sqor = -1
+	attm = 1
+	cData = tgt: DSMStrut_124; pos: -0.5824974,-0.6609271,-0.1016297; dir: -0.6568362,-0.7452738,-0.1146
+	srfN = srfAttach, DSMStrutRCS_4294417000
+}
+PART
+{
+	part = strutConnector_4294416908
+	pos = 1.799975,30.09705,-4.999751
+	rot = -1.825392E-07,1.341105E-07,0.7071072,0.7071065
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 121
+	sqor = -1
+	attm = 1
+	cData = tgt: fuelTank1-2b_113; pos: -1.293394,-1.190624,-0.1167943; dir: -0.7341141,-0.6757826,-0.06629064
+	srfN = srfAttach, DSMStrutRCS_4294417000
+}
+PART
+{
+	part = DSMAsas_4294416852
+	pos = -5.46867,29.84084,-5.012995
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 122
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294416814
+	attN = top, DSMStrutHub_4294416814
+	attN = bottom, fuelTank1-2b_4294420346
+}
+PART
+{
+	part = DSMStrutHub_4294416814
+	pos = -5.46867,30.71601,-5.012995
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 123
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294416786
+	link = DSMStrut_4294416630
+	attN = sideZ1, DSMStrut_4294416630
+	attN = sideZ2, DSMStrutHub_4294416786
+	attN = bottom, DSMAsas_4294416852
+}
+PART
+{
+	part = DSMStrutHub_4294416786
+	pos = -5.468705,30.71602,-6.263001
+	rot = 0.5000001,-0.5000001,-0.5000001,0.5000001
+	attRot = 0.4999999,-0.4999999,-0.4999999,0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 124
+	sqor = -1
+	attm = 0
+	link = Panel1x1_4294416758
+	attN = top, DSMStrutHub_4294416814
+	attN = bottom, Panel1x1_4294416758
+}
+PART
+{
+	part = Panel1x1_4294416758
+	pos = -5.468706,30.71602,-7.013007
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 125
+	sqor = -1
+	attm = 0
+	link = RCSBlock_4294416732
+	link = DSMSolarPanel_4294416660
+	attN = z, DSMStrutHub_4294416786
+}
+PART
+{
+	part = RCSBlock_4294416732
+	pos = -5.606091,30.77676,-7.169523
+	rot = 0,0.7071069,0,-0.7071069
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 126
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Panel1x1_4294416758
+}
+PART
+{
+	part = DSMSolarPanel_4294416660
+	pos = -5.482042,31.34098,-4.807199
+	rot = 0.5000001,-0.5000001,-0.5000001,-0.5000001
+	attRot = -0.4999999,0.4999999,-0.4999999,-0.4999999
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 127
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Panel1x1_4294416758
+	MODULE
+	{
+		name = ModuleKRSolarPanel
+		isEnabled = True
+		energyGain = 3
+		lerp = 0
+		currentGain = 0
+	}
+}
+PART
+{
+	part = DSMStrut_4294416630
+	pos = -5.46867,30.71601,-2.596326
+	rot = 0.7071069,0,0,0.7071069
+	attRot = 0.7071067,0,0,0.7071067
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 128
+	sqor = -1
+	attm = 0
+	link = advSasModule_4294407010
+	attN = bottom, DSMStrutHub_4294416814
+}
+PART
+{
+	part = DSMAsas_4294416594
+	pos = -0.6353481,29.8408,4.653689
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 129
+	sqor = -1
+	attm = 0
+	link = DSMStrutHub_4294416556
+	attN = top, DSMStrutHub_4294416556
+	attN = bottom, fuelTank1-2b_4294421210
+}
+PART
+{
+	part = DSMStrutHub_4294416556
+	pos = -0.6353481,30.71578,4.653689
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 130
+	sqor = -1
+	attm = 0
+	link = DSMStrut_4294416528
+	link = DSMStrutHub_4294416324
+	link = DSMStrutRCS_4294416168
+	attN = sideX2, DSMStrutRCS_4294416168
+	attN = sideZ1, DSMStrutHub_4294416324
+	attN = sideZ2, DSMStrut_4294416528
+	attN = bottom, DSMAsas_4294416594
+}
+PART
+{
+	part = DSMStrut_4294416528
+	pos = -0.6353481,30.71578,2.237016
+	rot = 0.7071069,0,0,0.7071069
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 131
+	sqor = -1
+	attm = 0
+	link = strutConnector_4294416492
+	link = strutConnector_4294416436
+	link = strutConnector_4294416380
+	attN = top, DSMStrutHub_4294416556
+}
+PART
+{
+	part = strutConnector_4294416492
+	pos = -0.01660055,30.62578,1.201838
+	rot = -4.214685E-08,0.7071068,0.7071069,0
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 132
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrut_4294416528
+}
+PART
+{
+	part = strutConnector_4294416436
+	pos = -0.6300647,31.33455,1.044941
+	rot = -0.5000001,0.5000001,0.5000001,-0.5000001
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 133
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrut_4294416528
+}
+PART
+{
+	part = strutConnector_4294416380
+	pos = -1.254096,30.73073,3.37203
+	rot = 0.7071069,0,-4.214685E-08,0.7071068
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 134
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrut_4294416528
+}
+PART
+{
+	part = DSMStrutHub_4294416324
+	pos = -0.6353481,30.71578,5.903702
+	rot = 0.7071069,0,0,0.7071069
+	attRot = 0.7071068,0,0,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 135
+	sqor = -1
+	attm = 0
+	link = Panel1x1_4294416296
+	attN = top, Panel1x1_4294416296
+	attN = bottom, DSMStrutHub_4294416556
+}
+PART
+{
+	part = Panel1x1_4294416296
+	pos = -0.6353481,30.71578,6.653692
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 136
+	sqor = -1
+	attm = 0
+	link = RCSBlock_4294416270
+	link = DSMSolarPanel_4294416198
+	attN = nz, DSMStrutHub_4294416324
+}
+PART
+{
+	part = RCSBlock_4294416270
+	pos = -0.6498471,30.7753,6.810208
+	rot = 0,0.707107,0,0.707107
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 137
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Panel1x1_4294416296
+}
+PART
+{
+	part = DSMSolarPanel_4294416198
+	pos = -0.6819551,31.34079,4.446614
+	rot = -0.5000001,0.5000001,-0.5000001,-0.5000001
+	attRot = -0.5,0.5,0.5,0.5
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 138
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, Panel1x1_4294416296
+	MODULE
+	{
+		name = ModuleKRSolarPanel
+		isEnabled = True
+		energyGain = 3
+		lerp = 0
+		currentGain = 0
+	}
+}
+PART
+{
+	part = DSMStrutRCS_4294416168
+	pos = -3.052005,30.71578,4.653691
+	rot = 0,0,-0.7071069,0.7071069
+	attRot = 0,0,-0.7071068,0.7071068
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 139
+	sqor = -1
+	attm = 0
+	link = strutConnector_4294416132
+	link = strutConnector_4294416076
+	attN = top, DSMStrutHub_4294416556
+}
+PART
+{
+	part = strutConnector_4294416132
+	pos = -4.228503,30.67079,4.034945
+	rot = 0.5000008,0.5000001,0.4999999,-0.4999998
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 140
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrutRCS_4294416168
+}
+PART
+{
+	part = strutConnector_4294416076
+	pos = -3.071491,30.09703,4.643858
+	rot = -0.7071072,-0.7071066,1.490116E-07,-1.788139E-07
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 141
+	sqor = -1
+	attm = 1
+	srfN = srfAttach, DSMStrutRCS_4294416168
+}
+PART
+{
+	part = advSasModule_4294410224
+	pos = 4.197968,31.3052,-0.1796442
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 142
+	sqor = -1
+	attm = 0
+	attN = bottom, DSMStrutHub_4294418368
+}
+PART
+{
+	part = advSasModule_4294407010
+	pos = -5.46867,31.30519,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 143
+	sqor = -1
+	attm = 0
+	attN = bottom, DSMStrut_4294416630
+}
+PART
+{
+	part = advSasModule_4294403688
+	pos = -0.6353481,23.63092,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 144
+	sqor = -1
+	attm = 0
+	attN = top, DSMStrutHub_4294421994
+}
+PART
+{
+	part = advSasModule_4294400342
+	pos = -0.6353481,23.63092,-5.012968
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 145
+	sqor = -1
+	attm = 0
+	attN = top, DSMStrutHub_4294420634
+}
+PART
+{
+	part = advSasModule_4294397004
+	pos = -0.6353481,23.63092,4.653687
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 146
+	sqor = -1
+	attm = 0
+	attN = top, DSMStrutHub_4294421238
+}
+PART
+{
+	part = advSasModule_4294390162
+	pos = 4.198007,23.63092,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 147
+	sqor = -1
+	attm = 0
+	attN = top, DSMStrutHub_4294421522
+}
+PART
+{
+	part = advSasModule_4294386776
+	pos = -5.46867,23.63092,-0.1796545
+	rot = 0,0,0,1
+	attRot = 0,0,0,1
+	mir = 1,1,1
+	istg = 0
+	dstg = 0
+	sidx = 148
+	sqor = -1
+	attm = 0
+	attN = top, DSMStrutHub_4294421930
+}

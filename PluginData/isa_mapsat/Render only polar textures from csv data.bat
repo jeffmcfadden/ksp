@@ -1,0 +1,1 @@
+ISA_MapGen.exe texture polar
